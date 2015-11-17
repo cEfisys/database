@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Sensor Actuator Infos</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Sensor</th>
+      <th>Value</th>
+      <th>Date</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @sensor_actuator_infos.each do |sensor_actuator_info| %>
+      <tr>
+        <td><%= sensor_actuator_info.sensor_id %></td>
+        <td><%= sensor_actuator_info.value %></td>
+        <td><%= sensor_actuator_info.date %></td>
+        <td><%= link_to 'Show', sensor_actuator_info %></td>
+        <td><%= link_to 'Edit', edit_sensor_actuator_info_path(sensor_actuator_info) %></td>
+        <td><%= link_to 'Destroy', sensor_actuator_info, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Sensor actuator info', new_sensor_actuator_info_path %>

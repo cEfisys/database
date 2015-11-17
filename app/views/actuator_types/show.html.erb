@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @actuator_type.name %>
+</p>
+
+<p>
+  <strong>Caracteristics:</strong>
+  <%= @actuator_type.caracteristics %>
+</p>
+
+<%= link_to 'Edit', edit_actuator_type_path(@actuator_type) %> |
+<%= link_to 'Back', actuator_types_path %>

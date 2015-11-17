@@ -1,0 +1,17 @@
+<%= form_for(@green_kub_box) do |f| %>
+  <% if @green_kub_box.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@green_kub_box.errors.count, "error") %> prohibited this green_kub_box from being saved:</h2>
+
+      <ul>
+      <% @green_kub_box.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
