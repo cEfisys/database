@@ -1,5 +1,5 @@
 class Sensor < ActiveRecord::Base
-  has_one :sensor_type
-  has_one :green_kub_box
+  belongs_to :sensor_type
+  belongs_to :green_kub_box
   has_many :sensor_actuator_infos
 end
