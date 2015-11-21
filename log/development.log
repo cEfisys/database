@@ -12412,3 +12412,1344 @@ Started GET "/" for 127.0.0.1 at 2015-11-20 19:45:28 +0000
 Processing by Rails::WelcomeController#index as HTML
   Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/railties-4.2.4/lib/rails/templates/rails/welcome/index.html.erb (2.3ms)
 Completed 200 OK in 24ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-20 20:15:06 +0000
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)):
+  mysql2 (0.3.20) lib/mysql2/client.rb:70:in `connect'
+  mysql2 (0.3.20) lib/mysql2/client.rb:70:in `initialize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `new'
+  activerecord (4.2.4) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `mysql2_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  activerecord (4.2.4) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.4) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.4) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.4) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.1ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (76.6ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (65.7ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (149.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-20 20:17:24 +0000
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)):
+  mysql2 (0.3.20) lib/mysql2/client.rb:70:in `connect'
+  mysql2 (0.3.20) lib/mysql2/client.rb:70:in `initialize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `new'
+  activerecord (4.2.4) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `mysql2_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  activerecord (4.2.4) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.4) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.4) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.4) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.9ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (74.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (56.5ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (136.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-20 20:20:01 +0000
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)):
+  mysql2 (0.3.20) lib/mysql2/client.rb:70:in `connect'
+  mysql2 (0.3.20) lib/mysql2/client.rb:70:in `initialize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `new'
+  activerecord (4.2.4) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `mysql2_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  activerecord (4.2.4) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.4) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.4) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.4) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.8ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (70.8ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (60.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (131.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-20 20:21:31 +0000
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)):
+  mysql2 (0.3.20) lib/mysql2/client.rb:70:in `connect'
+  mysql2 (0.3.20) lib/mysql2/client.rb:70:in `initialize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `new'
+  activerecord (4.2.4) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `mysql2_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  activerecord (4.2.4) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.4) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.4) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.4) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (69.2ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (62.6ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (135.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-20 20:43:14 +0000
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/tmp/mysqld.sock' (2)):
+  mysql2 (0.3.20) lib/mysql2/client.rb:70:in `connect'
+  mysql2 (0.3.20) lib/mysql2/client.rb:70:in `initialize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `new'
+  activerecord (4.2.4) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `mysql2_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  activerecord (4.2.4) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.4) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.4) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.4) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.9ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (73.7ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (62.9ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (137.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-20 20:43:38 +0000
+
+Mysql2::Error (Access denied for user 'root'@'localhost' (using password: YES)):
+  mysql2 (0.3.20) lib/mysql2/client.rb:70:in `connect'
+  mysql2 (0.3.20) lib/mysql2/client.rb:70:in `initialize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `new'
+  activerecord (4.2.4) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `mysql2_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  activerecord (4.2.4) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.4) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.4) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.4) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.9ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (74.6ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (61.7ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (142.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-21 11:50:43 +0000
+
+ActiveRecord::NoDatabaseError (Unknown database 'greenkub_development'):
+  activerecord (4.2.4) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `rescue in mysql2_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/mysql2_adapter.rb:10:in `mysql2_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  activerecord (4.2.4) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.4) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.4) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.4) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (92.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (87.5ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (196.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-21 11:52:00 +0000
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.4) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.4) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.0ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.8ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (75.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (59.5ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (137.0ms)
+  [1m[36m (13.1ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (16.4ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations`  ON `schema_migrations` (`version`) 
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to DeviseCreateUsers (20151106195721)
+  [1m[35m (10.9ms)[0m  CREATE TABLE `users` (`id` int(11) auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0 NOT NULL, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (11.2ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_email`  ON `users` (`email`) [0m
+  [1m[35m (12.3ms)[0m  CREATE UNIQUE INDEX `index_users_on_reset_password_token`  ON `users` (`reset_password_token`) 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20151106195721')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Migrating to CreateModels (20151112221721)
+  [1m[35m (9.2ms)[0m  CREATE TABLE `models` (`id` int(11) auto_increment PRIMARY KEY, `name` varchar(255), `caracteristics` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20151112221721')
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Migrating to CreateActuatorTypes (20151112224418)
+  [1m[35m (10.9ms)[0m  CREATE TABLE `actuator_types` (`id` int(11) auto_increment PRIMARY KEY, `name` varchar(255), `caracteristics` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20151112224418')
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Migrating to CreateSensorTypes (20151112224444)
+  [1m[35m (13.3ms)[0m  CREATE TABLE `sensor_types` (`id` int(11) auto_increment PRIMARY KEY, `name` varchar(255), `caracteristics` varchar(255), `unit` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20151112224444')
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Migrating to CreateActuators (20151112224651)
+  [1m[35m (11.0ms)[0m  CREATE TABLE `actuators` (`id` int(11) auto_increment PRIMARY KEY, `ref` varchar(255), `state` tinyint(1), `actuator_type_id` int(11) NOT NULL, `green_kub_box_id` int(11) NOT NULL, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL,  INDEX `index_actuators_on_actuator_type_id`  (`actuator_type_id`) ,  INDEX `index_actuators_on_green_kub_box_id`  (`green_kub_box_id`) ) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20151112224651')
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Migrating to CreateSensors (20151112224735)
+  [1m[35m (11.9ms)[0m  CREATE TABLE `sensors` (`id` int(11) auto_increment PRIMARY KEY, `ref` varchar(255), `state` tinyint(1), `sensor_type_id` int(11) NOT NULL, `green_kub_box_id` int(11) NOT NULL, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL,  INDEX `index_sensors_on_sensor_type_id`  (`sensor_type_id`) ,  INDEX `index_sensors_on_green_kub_box_id`  (`green_kub_box_id`) ) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20151112224735')
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Migrating to CreateSensorActuatorInfos (20151112224844)
+  [1m[35m (9.3ms)[0m  CREATE TABLE `sensor_actuator_infos` (`id` int(11) auto_increment PRIMARY KEY, `value` int(11), `date` date, `sensor_id` int(11) NOT NULL, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL,  INDEX `index_sensor_actuator_infos_on_sensor_id`  (`sensor_id`) ) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20151112224844')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Migrating to CreateGreenKubBoxes (20151115221138)
+  [1m[35m (8.7ms)[0m  CREATE TABLE `green_kub_boxes` (`id` int(11) auto_increment PRIMARY KEY, `Serial_Number` varchar(255), `model_id` int(11) NOT NULL, `user_id` int(11) NOT NULL, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL,  INDEX `index_green_kub_boxes_on_model_id`  (`model_id`) ,  INDEX `index_green_kub_boxes_on_user_id`  (`user_id`) ) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20151115221138')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Migrating to AddForeignKeys (20151119234840)
+  [1m[35m (17.5ms)[0m  ALTER TABLE `actuators` ADD CONSTRAINT `fk_rails_fb59cf1c22`
+FOREIGN KEY (`actuator_type_id`)
+  REFERENCES `actuator_types` (`id`)
+
+  [1m[36m (15.4ms)[0m  [1mALTER TABLE `actuators` ADD CONSTRAINT `fk_rails_791ec94d18`
+FOREIGN KEY (`green_kub_box_id`)
+  REFERENCES `green_kub_boxes` (`id`)
+[0m
+  [1m[35m (18.2ms)[0m  ALTER TABLE `sensors` ADD CONSTRAINT `fk_rails_c25b245ee7`
+FOREIGN KEY (`sensor_type_id`)
+  REFERENCES `sensor_types` (`id`)
+
+  [1m[36m (14.0ms)[0m  [1mALTER TABLE `sensors` ADD CONSTRAINT `fk_rails_ff3c25ec20`
+FOREIGN KEY (`green_kub_box_id`)
+  REFERENCES `green_kub_boxes` (`id`)
+[0m
+  [1m[35m (15.7ms)[0m  ALTER TABLE `sensor_actuator_infos` ADD CONSTRAINT `fk_rails_5b2354b3f4`
+FOREIGN KEY (`sensor_id`)
+  REFERENCES `sensors` (`id`)
+
+  [1m[36m (15.9ms)[0m  [1mALTER TABLE `green_kub_boxes` ADD CONSTRAINT `fk_rails_a97b877a16`
+FOREIGN KEY (`model_id`)
+  REFERENCES `models` (`id`)
+[0m
+  [1m[35m (14.9ms)[0m  ALTER TABLE `green_kub_boxes` ADD CONSTRAINT `fk_rails_7e24707560`
+FOREIGN KEY (`user_id`)
+  REFERENCES `users` (`id`)
+
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20151119234840')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (0.6ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'GreenKub_development'
+  AND fk.table_name = 'actuator_types'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `actuator_types`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'GreenKub_development'
+  AND fk.table_name = 'actuators'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `actuators`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'GreenKub_development'
+  AND fk.table_name = 'green_kub_boxes'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `green_kub_boxes`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'GreenKub_development'
+  AND fk.table_name = 'models'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `models`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'GreenKub_development'
+  AND fk.table_name = 'sensor_actuator_infos'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `sensor_actuator_infos`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'GreenKub_development'
+  AND fk.table_name = 'sensor_types'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `sensor_types`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'GreenKub_development'
+  AND fk.table_name = 'sensors'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `sensors`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'GreenKub_development'
+  AND fk.table_name = 'users'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `users`
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-21 11:52:41 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/railties-4.2.4/lib/rails/templates/rails/welcome/index.html.erb (1.7ms)
+Completed 200 OK in 20ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/greenkub" for 127.0.0.1 at 2015-11-21 11:52:53 +0000
+
+ActionController::RoutingError (No route matches [GET] "/greenkub"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.7ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.5ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (127.6ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (74.6ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (158.6ms)
+
+
+Started GET "/green_kub_boxes" for 127.0.0.1 at 2015-11-21 11:53:20 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by GreenKubBoxesController#index as HTML
+  [1m[35mGreenKubBox Load (0.5ms)[0m  SELECT `green_kub_boxes`.* FROM `green_kub_boxes`
+  Rendered green_kub_boxes/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 1166ms (Views: 1143.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/actuator_types.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 11:53:22 +0000
+
+
+Started GET "/assets/actuators.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 11:53:22 +0000
+
+
+Started GET "/assets/green_kub_boxes.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 11:53:22 +0000
+
+
+Started GET "/assets/models.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 11:53:22 +0000
+
+
+Started GET "/assets/scaffolds.self-c4f996578b3e5b0fae8e95fe39a2bec98b8530cf1f5e619961da7f8bd724ff4d.css?body=1" for 127.0.0.1 at 2015-11-21 11:53:22 +0000
+
+
+Started GET "/assets/sensor_actuator_infos.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 11:53:22 +0000
+
+
+Started GET "/assets/sensor_types.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 11:53:22 +0000
+
+
+Started GET "/assets/sensors.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-21 11:53:22 +0000
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-11-21 11:53:22 +0000
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-11-21 11:53:22 +0000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-11-21 11:53:22 +0000
+
+
+Started GET "/assets/actuator_types.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 11:53:22 +0000
+
+
+Started GET "/assets/actuators.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 11:53:22 +0000
+
+
+Started GET "/assets/green_kub_boxes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 11:53:22 +0000
+
+
+Started GET "/assets/models.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 11:53:22 +0000
+
+
+Started GET "/assets/sensor_actuator_infos.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 11:53:22 +0000
+
+
+Started GET "/assets/sensor_types.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 11:53:22 +0000
+
+
+Started GET "/assets/sensors.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-21 11:53:22 +0000
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-11-21 11:53:22 +0000
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-11-21 11:53:22 +0000
+
+
+Started GET "/green_kub_boxes/new" for 127.0.0.1 at 2015-11-21 11:53:30 +0000
+Processing by GreenKubBoxesController#new as HTML
+  Rendered green_kub_boxes/_form.html.erb (25.8ms)
+  Rendered green_kub_boxes/new.html.erb within layouts/application (31.6ms)
+Completed 200 OK in 195ms (Views: 188.0ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/green_kub_boxes" for 127.0.0.1 at 2015-11-21 11:53:31 +0000
+Processing by GreenKubBoxesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"W12VXWjU9LcwzvIWL80zIquQl4kQUT+EyQyQid7pyXJuvbjrrq40vEx/iXU3vJmS6k5dxoyGkL4CRhNNC9dKEA==", "commit"=>"Create Green kub box"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO `green_kub_boxes` (`created_at`, `updated_at`) VALUES ('2015-11-21 11:53:31', '2015-11-21 11:53:31')
+Mysql2::Error: Field 'model_id' doesn't have a default value: INSERT INTO `green_kub_boxes` (`created_at`, `updated_at`) VALUES ('2015-11-21 11:53:31', '2015-11-21 11:53:31')
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 1.2ms)
+
+ActiveRecord::StatementInvalid (Mysql2::Error: Field 'model_id' doesn't have a default value: INSERT INTO `green_kub_boxes` (`created_at`, `updated_at`) VALUES ('2015-11-21 11:53:31', '2015-11-21 11:53:31')):
+  app/controllers/green_kub_boxes_controller.rb:30:in `block in create'
+  app/controllers/green_kub_boxes_controller.rb:29:in `create'
+
+
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (79.0ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (63.2ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (139.5ms)
+
+
+Started GET "/green_kub_boxes" for 127.0.0.1 at 2015-11-21 11:56:50 +0000
+
+Mysql2::Error (Access denied for user 'greenkub'@'localhost' to database 'greenkub_development'):
+  mysql2 (0.3.20) lib/mysql2/client.rb:70:in `connect'
+  mysql2 (0.3.20) lib/mysql2/client.rb:70:in `initialize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `new'
+  activerecord (4.2.4) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `mysql2_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  activerecord (4.2.4) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.4) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.4) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.4) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.9ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (63.6ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (50.0ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (130.9ms)
+  [1m[36m (0.4ms)[0m  [1mCREATE DATABASE `GreenKub_development` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (0.3ms)[0m  CREATE DATABASE `GreenKub_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`
+  [1m[36m (10.3ms)[0m  [1mCREATE TABLE `actuator_types` (`id` int(11) auto_increment PRIMARY KEY, `name` varchar(255), `caracteristics` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (10.2ms)[0m  CREATE TABLE `actuators` (`id` int(11) auto_increment PRIMARY KEY, `ref` varchar(255), `state` tinyint(1), `actuator_type_id` int(11) NOT NULL, `green_kub_box_id` int(11) NOT NULL, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (8.2ms)[0m  [1mCREATE  INDEX `index_actuators_on_actuator_type_id` USING btree ON `actuators` (`actuator_type_id`) [0m
+  [1m[35m (9.4ms)[0m  CREATE  INDEX `index_actuators_on_green_kub_box_id` USING btree ON `actuators` (`green_kub_box_id`) 
+  [1m[36m (10.4ms)[0m  [1mCREATE TABLE `green_kub_boxes` (`id` int(11) auto_increment PRIMARY KEY, `Serial_Number` varchar(255), `model_id` int(11) NOT NULL, `user_id` int(11) NOT NULL, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (9.6ms)[0m  CREATE  INDEX `index_green_kub_boxes_on_model_id` USING btree ON `green_kub_boxes` (`model_id`) 
+  [1m[36m (8.5ms)[0m  [1mCREATE  INDEX `index_green_kub_boxes_on_user_id` USING btree ON `green_kub_boxes` (`user_id`) [0m
+  [1m[35m (10.6ms)[0m  CREATE TABLE `models` (`id` int(11) auto_increment PRIMARY KEY, `name` varchar(255), `caracteristics` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (8.3ms)[0m  [1mCREATE TABLE `sensor_actuator_infos` (`id` int(11) auto_increment PRIMARY KEY, `value` int(11), `date` date, `sensor_id` int(11) NOT NULL, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (8.0ms)[0m  CREATE  INDEX `index_sensor_actuator_infos_on_sensor_id` USING btree ON `sensor_actuator_infos` (`sensor_id`) 
+  [1m[36m (12.0ms)[0m  [1mCREATE TABLE `sensor_types` (`id` int(11) auto_increment PRIMARY KEY, `name` varchar(255), `caracteristics` varchar(255), `unit` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (10.5ms)[0m  CREATE TABLE `sensors` (`id` int(11) auto_increment PRIMARY KEY, `ref` varchar(255), `state` tinyint(1), `sensor_type_id` int(11) NOT NULL, `green_kub_box_id` int(11) NOT NULL, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (8.2ms)[0m  [1mCREATE  INDEX `index_sensors_on_green_kub_box_id` USING btree ON `sensors` (`green_kub_box_id`) [0m
+  [1m[35m (10.7ms)[0m  CREATE  INDEX `index_sensors_on_sensor_type_id` USING btree ON `sensors` (`sensor_type_id`) 
+  [1m[36m (10.1ms)[0m  [1mCREATE TABLE `users` (`id` int(11) auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0 NOT NULL, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (8.3ms)[0m  CREATE UNIQUE INDEX `index_users_on_email` USING btree ON `users` (`email`) 
+  [1m[36m (9.1ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_reset_password_token` USING btree ON `users` (`reset_password_token`) [0m
+  [1m[35m (16.1ms)[0m  ALTER TABLE `actuators` ADD CONSTRAINT `fk_rails_fb59cf1c22`
+FOREIGN KEY (`actuator_type_id`)
+  REFERENCES `actuator_types` (`id`)
+
+  [1m[36m (35.8ms)[0m  [1mALTER TABLE `actuators` ADD CONSTRAINT `fk_rails_791ec94d18`
+FOREIGN KEY (`green_kub_box_id`)
+  REFERENCES `green_kub_boxes` (`id`)
+[0m
+  [1m[35m (16.3ms)[0m  ALTER TABLE `green_kub_boxes` ADD CONSTRAINT `fk_rails_a97b877a16`
+FOREIGN KEY (`model_id`)
+  REFERENCES `models` (`id`)
+
+  [1m[36m (17.9ms)[0m  [1mALTER TABLE `green_kub_boxes` ADD CONSTRAINT `fk_rails_7e24707560`
+FOREIGN KEY (`user_id`)
+  REFERENCES `users` (`id`)
+[0m
+  [1m[35m (585.2ms)[0m  ALTER TABLE `sensor_actuator_infos` ADD CONSTRAINT `fk_rails_5b2354b3f4`
+FOREIGN KEY (`sensor_id`)
+  REFERENCES `sensors` (`id`)
+
+  [1m[36m (19.3ms)[0m  [1mALTER TABLE `sensors` ADD CONSTRAINT `fk_rails_ff3c25ec20`
+FOREIGN KEY (`green_kub_box_id`)
+  REFERENCES `green_kub_boxes` (`id`)
+[0m
+  [1m[35m (18.8ms)[0m  ALTER TABLE `sensors` ADD CONSTRAINT `fk_rails_c25b245ee7`
+FOREIGN KEY (`sensor_type_id`)
+  REFERENCES `sensor_types` (`id`)
+
+  [1m[36m (9.6ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (11.8ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations`  ON `schema_migrations` (`version`) 
+  [1m[36m (0.5ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (0.7ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20151119234840')
+  [1m[36m (0.5ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20151106195721')[0m
+  [1m[35m (0.3ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20151112221721')
+  [1m[36m (0.5ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20151112224418')[0m
+  [1m[35m (0.6ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20151112224444')
+  [1m[36m (0.5ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20151112224651')[0m
+  [1m[35m (0.7ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20151112224735')
+  [1m[36m (0.5ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20151112224844')[0m
+  [1m[35m (0.3ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20151115221138')
+  [1m[36m (12.5ms)[0m  [1mCREATE TABLE `actuator_types` (`id` int(11) auto_increment PRIMARY KEY, `name` varchar(255), `caracteristics` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (10.2ms)[0m  CREATE TABLE `actuators` (`id` int(11) auto_increment PRIMARY KEY, `ref` varchar(255), `state` tinyint(1), `actuator_type_id` int(11) NOT NULL, `green_kub_box_id` int(11) NOT NULL, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (11.6ms)[0m  [1mCREATE  INDEX `index_actuators_on_actuator_type_id` USING btree ON `actuators` (`actuator_type_id`) [0m
+  [1m[35m (10.9ms)[0m  CREATE  INDEX `index_actuators_on_green_kub_box_id` USING btree ON `actuators` (`green_kub_box_id`) 
+  [1m[36m (15.1ms)[0m  [1mCREATE TABLE `green_kub_boxes` (`id` int(11) auto_increment PRIMARY KEY, `Serial_Number` varchar(255), `model_id` int(11) NOT NULL, `user_id` int(11) NOT NULL, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (12.5ms)[0m  CREATE  INDEX `index_green_kub_boxes_on_model_id` USING btree ON `green_kub_boxes` (`model_id`) 
+  [1m[36m (16.0ms)[0m  [1mCREATE  INDEX `index_green_kub_boxes_on_user_id` USING btree ON `green_kub_boxes` (`user_id`) [0m
+  [1m[35m (15.0ms)[0m  CREATE TABLE `models` (`id` int(11) auto_increment PRIMARY KEY, `name` varchar(255), `caracteristics` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (15.5ms)[0m  [1mCREATE TABLE `sensor_actuator_infos` (`id` int(11) auto_increment PRIMARY KEY, `value` int(11), `date` date, `sensor_id` int(11) NOT NULL, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (17.7ms)[0m  CREATE  INDEX `index_sensor_actuator_infos_on_sensor_id` USING btree ON `sensor_actuator_infos` (`sensor_id`) 
+  [1m[36m (16.1ms)[0m  [1mCREATE TABLE `sensor_types` (`id` int(11) auto_increment PRIMARY KEY, `name` varchar(255), `caracteristics` varchar(255), `unit` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (13.1ms)[0m  CREATE TABLE `sensors` (`id` int(11) auto_increment PRIMARY KEY, `ref` varchar(255), `state` tinyint(1), `sensor_type_id` int(11) NOT NULL, `green_kub_box_id` int(11) NOT NULL, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (15.2ms)[0m  [1mCREATE  INDEX `index_sensors_on_green_kub_box_id` USING btree ON `sensors` (`green_kub_box_id`) [0m
+  [1m[35m (12.8ms)[0m  CREATE  INDEX `index_sensors_on_sensor_type_id` USING btree ON `sensors` (`sensor_type_id`) 
+  [1m[36m (15.3ms)[0m  [1mCREATE TABLE `users` (`id` int(11) auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0 NOT NULL, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (10.6ms)[0m  CREATE UNIQUE INDEX `index_users_on_email` USING btree ON `users` (`email`) 
+  [1m[36m (13.4ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_reset_password_token` USING btree ON `users` (`reset_password_token`) [0m
+  [1m[35m (23.8ms)[0m  ALTER TABLE `actuators` ADD CONSTRAINT `fk_rails_fb59cf1c22`
+FOREIGN KEY (`actuator_type_id`)
+  REFERENCES `actuator_types` (`id`)
+
+  [1m[36m (17.6ms)[0m  [1mALTER TABLE `actuators` ADD CONSTRAINT `fk_rails_791ec94d18`
+FOREIGN KEY (`green_kub_box_id`)
+  REFERENCES `green_kub_boxes` (`id`)
+[0m
+  [1m[35m (20.9ms)[0m  ALTER TABLE `green_kub_boxes` ADD CONSTRAINT `fk_rails_a97b877a16`
+FOREIGN KEY (`model_id`)
+  REFERENCES `models` (`id`)
+
+  [1m[36m (21.1ms)[0m  [1mALTER TABLE `green_kub_boxes` ADD CONSTRAINT `fk_rails_7e24707560`
+FOREIGN KEY (`user_id`)
+  REFERENCES `users` (`id`)
+[0m
+  [1m[35m (21.8ms)[0m  ALTER TABLE `sensor_actuator_infos` ADD CONSTRAINT `fk_rails_5b2354b3f4`
+FOREIGN KEY (`sensor_id`)
+  REFERENCES `sensors` (`id`)
+
+  [1m[36m (17.4ms)[0m  [1mALTER TABLE `sensors` ADD CONSTRAINT `fk_rails_ff3c25ec20`
+FOREIGN KEY (`green_kub_box_id`)
+  REFERENCES `green_kub_boxes` (`id`)
+[0m
+  [1m[35m (20.8ms)[0m  ALTER TABLE `sensors` ADD CONSTRAINT `fk_rails_c25b245ee7`
+FOREIGN KEY (`sensor_type_id`)
+  REFERENCES `sensor_types` (`id`)
+
+  [1m[36m (12.1ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (14.3ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations`  ON `schema_migrations` (`version`) 
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (0.6ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20151119234840')
+  [1m[36m (0.4ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20151106195721')[0m
+  [1m[35m (0.3ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20151112221721')
+  [1m[36m (0.6ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20151112224418')[0m
+  [1m[35m (0.6ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20151112224444')
+  [1m[36m (0.6ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20151112224651')[0m
+  [1m[35m (0.5ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20151112224735')
+  [1m[36m (0.5ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20151112224844')[0m
+  [1m[35m (0.6ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20151115221138')
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+
+Started GET "/green_kub_boxes" for 127.0.0.1 at 2015-11-21 12:03:03 +0000
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.4) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.4) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/hviana/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.1ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (76.7ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (66.8ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (150.0ms)
+  [1m[36m (16.3ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (11.2ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations`  ON `schema_migrations` (`version`) 
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to DeviseCreateUsers (20151106195721)
+  [1m[35m (9.4ms)[0m  CREATE TABLE `users` (`id` int(11) auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0 NOT NULL, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (12.4ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_email`  ON `users` (`email`) [0m
+  [1m[35m (12.3ms)[0m  CREATE UNIQUE INDEX `index_users_on_reset_password_token`  ON `users` (`reset_password_token`) 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20151106195721')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Migrating to CreateModels (20151112221721)
+  [1m[35m (9.5ms)[0m  CREATE TABLE `models` (`id` int(11) auto_increment PRIMARY KEY, `name` varchar(255), `caracteristics` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20151112221721')
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Migrating to CreateActuatorTypes (20151112224418)
+  [1m[35m (13.9ms)[0m  CREATE TABLE `actuator_types` (`id` int(11) auto_increment PRIMARY KEY, `name` varchar(255), `caracteristics` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20151112224418')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Migrating to CreateSensorTypes (20151112224444)
+  [1m[35m (10.1ms)[0m  CREATE TABLE `sensor_types` (`id` int(11) auto_increment PRIMARY KEY, `name` varchar(255), `caracteristics` varchar(255), `unit` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20151112224444')
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Migrating to CreateActuators (20151112224651)
+  [1m[35m (9.5ms)[0m  CREATE TABLE `actuators` (`id` int(11) auto_increment PRIMARY KEY, `ref` varchar(255), `state` tinyint(1), `actuator_type_id` int(11) NOT NULL, `green_kub_box_id` int(11) NOT NULL, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL,  INDEX `index_actuators_on_actuator_type_id`  (`actuator_type_id`) ,  INDEX `index_actuators_on_green_kub_box_id`  (`green_kub_box_id`) ) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20151112224651')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Migrating to CreateSensors (20151112224735)
+  [1m[35m (11.0ms)[0m  CREATE TABLE `sensors` (`id` int(11) auto_increment PRIMARY KEY, `ref` varchar(255), `state` tinyint(1), `sensor_type_id` int(11) NOT NULL, `green_kub_box_id` int(11) NOT NULL, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL,  INDEX `index_sensors_on_sensor_type_id`  (`sensor_type_id`) ,  INDEX `index_sensors_on_green_kub_box_id`  (`green_kub_box_id`) ) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20151112224735')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Migrating to CreateSensorActuatorInfos (20151112224844)
+  [1m[35m (8.9ms)[0m  CREATE TABLE `sensor_actuator_infos` (`id` int(11) auto_increment PRIMARY KEY, `value` int(11), `date` date, `sensor_id` int(11) NOT NULL, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL,  INDEX `index_sensor_actuator_infos_on_sensor_id`  (`sensor_id`) ) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20151112224844')
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Migrating to CreateGreenKubBoxes (20151115221138)
+  [1m[35m (11.1ms)[0m  CREATE TABLE `green_kub_boxes` (`id` int(11) auto_increment PRIMARY KEY, `Serial_Number` varchar(255), `model_id` int(11) NOT NULL, `user_id` int(11) NOT NULL, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL,  INDEX `index_green_kub_boxes_on_model_id`  (`model_id`) ,  INDEX `index_green_kub_boxes_on_user_id`  (`user_id`) ) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20151115221138')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Migrating to AddForeignKeys (20151119234840)
+  [1m[35m (1.2ms)[0m  ALTER TABLE `actuators` ADD CONSTRAINT `fk_rails_fb59cf1c22`
+FOREIGN KEY (`actuator_type_id`)
+  REFERENCES `actuator_types` (`id`)
+
+Mysql2::Error: REFERENCES command denied to user 'greenkub'@'localhost' for table 'actuator_types': ALTER TABLE `actuators` ADD CONSTRAINT `fk_rails_fb59cf1c22`
+FOREIGN KEY (`actuator_type_id`)
+  REFERENCES `actuator_types` (`id`)
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to AddForeignKeys (20151119234840)
+  [1m[35m (1.3ms)[0m  ALTER TABLE `actuators` ADD CONSTRAINT `fk_rails_fb59cf1c22`
+FOREIGN KEY (`actuator_type_id`)
+  REFERENCES `actuator_types` (`id`)
+
+Mysql2::Error: REFERENCES command denied to user 'greenkub'@'localhost' for table 'actuator_types': ALTER TABLE `actuators` ADD CONSTRAINT `fk_rails_fb59cf1c22`
+FOREIGN KEY (`actuator_type_id`)
+  REFERENCES `actuator_types` (`id`)
+
+  [1m[36m (12.1ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (11.5ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations`  ON `schema_migrations` (`version`) 
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to DeviseCreateUsers (20151106195721)
+  [1m[35m (10.9ms)[0m  CREATE TABLE `users` (`id` int(11) auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0 NOT NULL, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (8.4ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_email`  ON `users` (`email`) [0m
+  [1m[35m (8.9ms)[0m  CREATE UNIQUE INDEX `index_users_on_reset_password_token`  ON `users` (`reset_password_token`) 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20151106195721')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Migrating to CreateModels (20151112221721)
+  [1m[35m (11.5ms)[0m  CREATE TABLE `models` (`id` int(11) auto_increment PRIMARY KEY, `name` varchar(255), `caracteristics` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20151112221721')
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Migrating to CreateActuatorTypes (20151112224418)
+  [1m[35m (12.1ms)[0m  CREATE TABLE `actuator_types` (`id` int(11) auto_increment PRIMARY KEY, `name` varchar(255), `caracteristics` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20151112224418')
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Migrating to CreateSensorTypes (20151112224444)
+  [1m[35m (8.8ms)[0m  CREATE TABLE `sensor_types` (`id` int(11) auto_increment PRIMARY KEY, `name` varchar(255), `caracteristics` varchar(255), `unit` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20151112224444')
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Migrating to CreateActuators (20151112224651)
+  [1m[35m (11.0ms)[0m  CREATE TABLE `actuators` (`id` int(11) auto_increment PRIMARY KEY, `ref` varchar(255), `state` tinyint(1), `actuator_type_id` int(11) NOT NULL, `green_kub_box_id` int(11) NOT NULL, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL,  INDEX `index_actuators_on_actuator_type_id`  (`actuator_type_id`) ,  INDEX `index_actuators_on_green_kub_box_id`  (`green_kub_box_id`) ) ENGINE=InnoDB
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20151112224651')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Migrating to CreateSensors (20151112224735)
+  [1m[35m (9.9ms)[0m  CREATE TABLE `sensors` (`id` int(11) auto_increment PRIMARY KEY, `ref` varchar(255), `state` tinyint(1), `sensor_type_id` int(11) NOT NULL, `green_kub_box_id` int(11) NOT NULL, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL,  INDEX `index_sensors_on_sensor_type_id`  (`sensor_type_id`) ,  INDEX `index_sensors_on_green_kub_box_id`  (`green_kub_box_id`) ) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20151112224735')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Migrating to CreateSensorActuatorInfos (20151112224844)
+  [1m[35m (9.5ms)[0m  CREATE TABLE `sensor_actuator_infos` (`id` int(11) auto_increment PRIMARY KEY, `value` int(11), `date` date, `sensor_id` int(11) NOT NULL, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL,  INDEX `index_sensor_actuator_infos_on_sensor_id`  (`sensor_id`) ) ENGINE=InnoDB
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20151112224844')
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+Migrating to CreateGreenKubBoxes (20151115221138)
+  [1m[35m (11.4ms)[0m  CREATE TABLE `green_kub_boxes` (`id` int(11) auto_increment PRIMARY KEY, `Serial_Number` varchar(255), `model_id` int(11) NOT NULL, `user_id` int(11) NOT NULL, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL,  INDEX `index_green_kub_boxes_on_model_id`  (`model_id`) ,  INDEX `index_green_kub_boxes_on_user_id`  (`user_id`) ) ENGINE=InnoDB
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20151115221138')
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Migrating to AddForeignKeys (20151119234840)
+  [1m[35m (1.2ms)[0m  ALTER TABLE `actuators` ADD CONSTRAINT `fk_rails_fb59cf1c22`
+FOREIGN KEY (`actuator_type_id`)
+  REFERENCES `actuator_types` (`id`)
+
+Mysql2::Error: REFERENCES command denied to user 'greenkub'@'localhost' for table 'actuator_types': ALTER TABLE `actuators` ADD CONSTRAINT `fk_rails_fb59cf1c22`
+FOREIGN KEY (`actuator_type_id`)
+  REFERENCES `actuator_types` (`id`)
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to AddForeignKeys (20151119234840)
+  [1m[35m (17.6ms)[0m  ALTER TABLE `actuators` ADD CONSTRAINT `fk_rails_fb59cf1c22`
+FOREIGN KEY (`actuator_type_id`)
+  REFERENCES `actuator_types` (`id`)
+
+  [1m[36m (22.2ms)[0m  [1mALTER TABLE `actuators` ADD CONSTRAINT `fk_rails_791ec94d18`
+FOREIGN KEY (`green_kub_box_id`)
+  REFERENCES `green_kub_boxes` (`id`)
+[0m
+  [1m[35m (15.2ms)[0m  ALTER TABLE `sensors` ADD CONSTRAINT `fk_rails_c25b245ee7`
+FOREIGN KEY (`sensor_type_id`)
+  REFERENCES `sensor_types` (`id`)
+
+  [1m[36m (15.5ms)[0m  [1mALTER TABLE `sensors` ADD CONSTRAINT `fk_rails_ff3c25ec20`
+FOREIGN KEY (`green_kub_box_id`)
+  REFERENCES `green_kub_boxes` (`id`)
+[0m
+  [1m[35m (15.5ms)[0m  ALTER TABLE `sensor_actuator_infos` ADD CONSTRAINT `fk_rails_5b2354b3f4`
+FOREIGN KEY (`sensor_id`)
+  REFERENCES `sensors` (`id`)
+
+  [1m[36m (19.1ms)[0m  [1mALTER TABLE `green_kub_boxes` ADD CONSTRAINT `fk_rails_a97b877a16`
+FOREIGN KEY (`model_id`)
+  REFERENCES `models` (`id`)
+[0m
+  [1m[35m (16.5ms)[0m  ALTER TABLE `green_kub_boxes` ADD CONSTRAINT `fk_rails_7e24707560`
+FOREIGN KEY (`user_id`)
+  REFERENCES `users` (`id`)
+
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20151119234840')
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'GreenKub_development'
+  AND fk.table_name = 'actuator_types'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `actuator_types`
+  [1m[36m (0.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'GreenKub_development'
+  AND fk.table_name = 'actuators'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `actuators`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'GreenKub_development'
+  AND fk.table_name = 'green_kub_boxes'
+[0m
+  [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `green_kub_boxes`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'GreenKub_development'
+  AND fk.table_name = 'models'
+[0m
+  [1m[35m (1.8ms)[0m  SHOW CREATE TABLE `models`
+  [1m[36m (1.1ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'GreenKub_development'
+  AND fk.table_name = 'sensor_actuator_infos'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `sensor_actuator_infos`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'GreenKub_development'
+  AND fk.table_name = 'sensor_types'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `sensor_types`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'GreenKub_development'
+  AND fk.table_name = 'sensors'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `sensors`
+  [1m[36m (0.3ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'GreenKub_development'
+  AND fk.table_name = 'users'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `users`
+
+
+Started GET "/green_kub_boxes" for 127.0.0.1 at 2015-11-21 12:07:38 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by GreenKubBoxesController#index as HTML
+  [1m[35mGreenKubBox Load (0.4ms)[0m  SELECT `green_kub_boxes`.* FROM `green_kub_boxes`
+  Rendered green_kub_boxes/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 377ms (Views: 360.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-21 12:18:53 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/railties-4.2.4/lib/rails/templates/rails/welcome/index.html.erb (1.8ms)
+Completed 200 OK in 21ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/green_kub_boxes" for 127.0.0.1 at 2015-11-21 12:18:58 +0000
+Processing by GreenKubBoxesController#index as HTML
+  [1m[35mGreenKubBox Load (0.4ms)[0m  SELECT `green_kub_boxes`.* FROM `green_kub_boxes`
+  Rendered green_kub_boxes/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 370ms (Views: 354.8ms | ActiveRecord: 1.0ms)
