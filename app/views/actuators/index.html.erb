@@ -16,10 +16,11 @@
   <tbody>
     <% @actuators.each do |actuator| %>
       <tr>
+
         <td><%= actuator.ref %></td>
         <td><%= actuator.state %></td>
-        <td><%= actuator.actuators_type_id %></td>
-        <td><%= actuator.greenkub_box_id %></td>
+        <td><%= actuator.actuator_type.name%></td>
+        <td><%= actuator.green_kub_box.name %></td>
         <td><%= link_to 'Show', actuator %></td>
         <td><%= link_to 'Edit', edit_actuator_path(actuator) %></td>
         <td><%= link_to 'Destroy', actuator, method: :delete, data: { confirm: 'Are you sure?' } %></td>
