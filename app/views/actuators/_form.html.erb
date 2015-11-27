@@ -19,14 +19,17 @@
     <%= f.label :state %><br>
     <%= f.check_box :state %>
   </div>
-  <div class="field">
-    <%= f.label :actuators_type_id %><br>
-    <%= f.number_field :actuators_type_id %>
-  </div>
-  <div class="field">
-    <%= f.label :greenkub_box_id %><br>
-    <%= f.number_field :greenkub_box_id %>
-  </div>
+
+    <div class="field">
+      <%= f.label :actuators_type_id %><br>
+     <%= f.select("actuator_type_id", ActuatorType.all.collect {|p| [ p.name,p.id ] }, {prompt: 'Select Type'}) %>
+    </div>
+
+    <div class="field">
+      <%= f.label :greenkub_box_id %><br>
+      <%= f.select("green_kub_box_id", GreenKubBox.all.collect {|p| [ p.name,p.id ] }, {prompt: 'Select Type'}) %>
+    </div>
+
   <div class="actions">
     <%= f.submit %>
   </div>
