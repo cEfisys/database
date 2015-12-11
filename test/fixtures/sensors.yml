@@ -4,10 +4,10 @@ one:
   ref: MyString
   state: false
   sensor_type_id: 1
-  greenkub_box_id: 1
+  green_kub_box_id: 1
 
 two:
   ref: MyString
   state: false
   sensor_type_id: 1
-  greenkub_box_id: 1
+  green_kub_box_id: 1

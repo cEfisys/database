@@ -1,4 +1,4 @@
-class GreenKubBoxesController < ApplicationController
+  class GreenKubBoxesController < ApplicationController
   before_action :set_green_kub_box, only: [:show, :edit, :update, :destroy]
 
   # GET /green_kub_boxes

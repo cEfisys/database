@@ -3,7 +3,9 @@
 one:
   name: MyString
   caracteristics: MyString
+  #actuator_type_id: 1
 
 two:
   name: MyString
   caracteristics: MyString
+  #actuator_type_id: 2
