@@ -1,24 +1,25 @@
-<p id="notice"><%= notice %></p>
+<%- model_class = Actuator -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => model_class.model_name.human.titleize %></h1>
+</div>
 
-<p>
-  <strong>Ref:</strong>
-  <%= @actuator.ref %>
-</p>
+<dl class="dl-horizontal">
+  <dt><strong><%= model_class.human_attribute_name(:ref) %>:</strong></dt>
+  <dd><%= @actuator.ref %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:state) %>:</strong></dt>
+  <dd><%= @actuator.state %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:actuator_type_id) %>:</strong></dt>
+  <dd><%= @actuator.actuator_type_id %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:green_kub_box_id) %>:</strong></dt>
+  <dd><%= @actuator.green_kub_box_id %></dd>
+</dl>
 
-<p>
-  <strong>State:</strong>
-  <%= @actuator.state %>
-</p>
-
-<p>
-  <strong>Actuators type:</strong>
-  <%= @actuator.actuators_type_id %>
-</p>
-
-<p>
-  <strong>Greenkub box:</strong>
-  <%= @actuator.greenkub_box_id %>
-</p>
-
-<%= link_to 'Edit', edit_actuator_path(@actuator) %> |
-<%= link_to 'Back', actuators_path %>
+<%= link_to t('.back', :default => t("helpers.links.back")),
+              actuators_path, :class => 'btn btn-default'  %>
+<%= link_to t('.edit', :default => t("helpers.links.edit")),
+              edit_actuator_path(@actuator), :class => 'btn btn-default' %>
+<%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+              actuator_path(@actuator),
+              :method => 'delete',
+              :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+              :class => 'btn btn-danger' %>

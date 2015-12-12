@@ -16921,3 +16921,247 @@ WHERE fk.referenced_column_name is not null
   AND fk.table_name = 'users'
 [0m
   [1m[35m (0.1ms)[0m  SHOW CREATE TABLE `users`
+  [1m[36mActiveRecord::SchemaMigration Load (1.5ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/railties-4.2.4/lib/rails/templates/rails/welcome/index.html.erb (2.2ms)
+Completed 200 OK in 26ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (8.1ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.7ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (123.2ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (67.8ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (134.8ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.6ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (116.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (51.0ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (120.2ms)
+Processing by GreenKubBoxesController#index as HTML
+  [1m[35mGreenKubBox Load (1.7ms)[0m  SELECT `green_kub_boxes`.* FROM `green_kub_boxes`
+  Rendered green_kub_boxes/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 5061ms (Views: 5051.0ms | ActiveRecord: 2.2ms)
+Processing by GreenKubBoxesController#new as HTML
+  Rendered green_kub_boxes/_form.html.erb (13.0ms)
+  Rendered green_kub_boxes/new.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 241ms (Views: 233.8ms | ActiveRecord: 0.6ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by GreenKubBoxesController#index as HTML
+  [1m[35mGreenKubBox Load (0.7ms)[0m  SELECT `green_kub_boxes`.* FROM `green_kub_boxes`
+  Rendered green_kub_boxes/index.html.erb within layouts/application (4.2ms)
+Completed 500 Internal Server Error in 364ms (ActiveRecord: 1.1ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.8ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (81.6ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (55.0ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (131.4ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by GreenKubBoxesController#index as HTML
+  [1m[35mGreenKubBox Load (0.4ms)[0m  SELECT `green_kub_boxes`.* FROM `green_kub_boxes`
+  Rendered green_kub_boxes/index.html.erb within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 278ms (ActiveRecord: 0.8ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.6ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (104.9ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (50.8ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (120.8ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by GreenKubBoxesController#index as HTML
+  [1m[35mGreenKubBox Load (0.5ms)[0m  SELECT `green_kub_boxes`.* FROM `green_kub_boxes`
+  Rendered green_kub_boxes/index.html.erb within layouts/application (5.6ms)
+Completed 500 Internal Server Error in 293ms (ActiveRecord: 1.1ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.7ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (95.6ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (61.0ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (131.5ms)
+Processing by GreenKubBoxesController#index as HTML
+  [1m[36mGreenKubBox Load (0.4ms)[0m  [1mSELECT `green_kub_boxes`.* FROM `green_kub_boxes`[0m
+  Rendered green_kub_boxes/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 72ms (ActiveRecord: 0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.9ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (82.2ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (57.2ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (129.3ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by GreenKubBoxesController#index as HTML
+  [1m[35mGreenKubBox Load (0.7ms)[0m  SELECT `green_kub_boxes`.* FROM `green_kub_boxes`
+  Rendered green_kub_boxes/index.html.erb within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 268ms (ActiveRecord: 1.5ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.0ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.8ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (86.1ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (79.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (157.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.2ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.5ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (122.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (64.2ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (130.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.1ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (118.2ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (63.9ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (131.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SensorTypesController#index as HTML
+  [1m[35mSensorType Load (0.5ms)[0m  SELECT `sensor_types`.* FROM `sensor_types`
+  Rendered sensor_types/index.html.erb within layouts/application (22.5ms)
+Completed 500 Internal Server Error in 195ms (ActiveRecord: 0.9ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.8ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (81.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (56.1ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (134.9ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SensorTypesController#index as HTML
+  [1m[35mSensorType Load (0.5ms)[0m  SELECT `sensor_types`.* FROM `sensor_types`
+  Rendered sensor_types/index.html.erb within layouts/application (15.0ms)
+Completed 500 Internal Server Error in 2051ms (ActiveRecord: 1.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.5ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (83.5ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (63.8ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (144.2ms)
+Processing by SensorTypesController#index as HTML
+  [1m[36mSensorType Load (0.4ms)[0m  [1mSELECT `sensor_types`.* FROM `sensor_types`[0m
+  Rendered sensor_types/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 756ms (Views: 754.8ms | ActiveRecord: 0.4ms)
+Processing by GreenKubBoxesController#index as HTML
+  [1m[35mGreenKubBox Load (0.4ms)[0m  SELECT `green_kub_boxes`.* FROM `green_kub_boxes`
+  Rendered green_kub_boxes/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 273ms (Views: 263.6ms | ActiveRecord: 0.8ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by GreenKubBoxesController#index as HTML
+  [1m[35mGreenKubBox Load (0.4ms)[0m  SELECT `green_kub_boxes`.* FROM `green_kub_boxes`
+  Rendered green_kub_boxes/index.html.erb within layouts/application (17.1ms)
+Completed 200 OK in 649ms (Views: 633.1ms | ActiveRecord: 0.8ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.2ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (14.7ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (136.9ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (54.9ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (132.1ms)
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/devise-3.5.3/app/views/devise/shared/_links.html.erb (1.5ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/devise-3.5.3/app/views/devise/sessions/new.html.erb within layouts/application (32.3ms)
+Completed 200 OK in 751ms (Views: 732.1ms | ActiveRecord: 1.4ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/devise-3.5.3/app/views/devise/shared/_links.html.erb (1.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/devise-3.5.3/app/views/devise/sessions/new.html.erb within layouts/application (35.7ms)
+Completed 200 OK in 713ms (Views: 682.5ms | ActiveRecord: 1.7ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/devise-3.5.3/app/views/devise/shared/_links.html.erb (1.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/devise-3.5.3/app/views/devise/sessions/new.html.erb within layouts/application (30.3ms)
+Completed 200 OK in 2529ms (Views: 2498.7ms | ActiveRecord: 1.6ms)
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/devise-3.5.3/app/views/devise/shared/_links.html.erb (0.6ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/devise-3.5.3/app/views/devise/sessions/new.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 216ms (Views: 214.3ms | ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/devise-3.5.3/app/views/devise/shared/_links.html.erb (1.4ms)
+  Rendered /Users/hviana/.rvm/gems/ruby-2.2.3@hviana/gems/devise-3.5.3/app/views/devise/sessions/new.html.erb within layouts/application (32.5ms)
+Completed 200 OK in 703ms (Views: 671.6ms | ActiveRecord: 1.6ms)
+Processing by GreenKubBoxesController#index as HTML
+  [1m[35mGreenKubBox Load (0.4ms)[0m  SELECT `green_kub_boxes`.* FROM `green_kub_boxes`
+  Rendered green_kub_boxes/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 297ms (Views: 288.5ms | ActiveRecord: 1.0ms)
+Processing by GreenKubBoxesController#index as HTML
+  [1m[36mGreenKubBox Load (0.4ms)[0m  [1mSELECT `green_kub_boxes`.* FROM `green_kub_boxes`[0m
+  Rendered green_kub_boxes/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 200ms (Views: 198.7ms | ActiveRecord: 0.4ms)
+Processing by GreenKubBoxesController#new as HTML
+  Rendered green_kub_boxes/_form.html.erb (7.0ms)
+  Rendered green_kub_boxes/new.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 212ms (Views: 205.4ms | ActiveRecord: 0.4ms)

@@ -1,29 +1,48 @@
-<%= form_for(@sensor_actuator_info) do |f| %>
-  <% if @sensor_actuator_info.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@sensor_actuator_info.errors.count, "error") %> prohibited this sensor_actuator_info from being saved:</h2>
+<%= form_for @sensor_actuator_info, :html => { :class => "form-horizontal sensor_actuator_info" } do |f| %>
 
-      <ul>
-      <% @sensor_actuator_info.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
-      <% end %>
-      </ul>
+  <% if @sensor_actuator_info.errors.any? %>
+    <div id="error_expl" class="panel panel-danger">
+      <div class="panel-heading">
+        <h3 class="panel-title"><%= pluralize(@sensor_actuator_info.errors.count, "error") %> prohibited this sensor_actuator_info from being saved:</h3>
+      </div>
+      <div class="panel-body">
+        <ul>
+        <% @sensor_actuator_info.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+        </ul>
+      </div>
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :sensor_id %><br>
-    <%= f.number_field :sensor_id %>
+  <div class="form-group">
+    <%= f.label :value, :class => 'control-label col-lg-2' %>
+    <div class="col-lg-10">
+      <%= f.text_field :value, :class => 'form-control' %>
+    </div>
+    <%=f.error_span(:value) %>
   </div>
-  <div class="field">
-    <%= f.label :value %><br>
-    <%= f.number_field :value %>
+  <div class="form-group">
+    <%= f.label :date, :class => 'control-label col-lg-2' %>
+    <div class="col-lg-10">
+      <%= f.text_field :date, :class => 'form-control' %>
+    </div>
+    <%=f.error_span(:date) %>
   </div>
-  <div class="field">
-    <%= f.label :date %><br>
-    <%= f.date_select :date %>
+  <div class="form-group">
+    <%= f.label :sensor_id, :class => 'control-label col-lg-2' %>
+    <div class="col-lg-10">
+      <%= f.text_field :sensor_id, :class => 'form-control' %>
+    </div>
+    <%=f.error_span(:sensor_id) %>
   </div>
-  <div class="actions">
-    <%= f.submit %>
+
+  <div class="form-group">
+    <div class="col-lg-offset-2 col-lg-10">
+      <%= f.submit nil, :class => 'btn btn-primary' %>
+      <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                sensor_actuator_infos_path, :class => 'btn btn-default' %>
+    </div>
   </div>
+
 <% end %>
