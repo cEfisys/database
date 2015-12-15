@@ -7,9 +7,9 @@
   <dt><strong><%= model_class.human_attribute_name(:Serial_Number) %>:</strong></dt>
   <dd><%= @green_kub_box.Serial_Number %></dd>
   <dt><strong><%= model_class.human_attribute_name(:model_id) %>:</strong></dt>
-  <dd><%= @green_kub_box.model_id %></dd>
+  <dd><%= @green_kub_box.model.name %></dd>
   <dt><strong><%= model_class.human_attribute_name(:user_id) %>:</strong></dt>
-  <dd><%= @green_kub_box.user_id %></dd>
+  <dd><%= @green_kub_box.user.email %></dd>
 </dl>
 
 <%= link_to t('.back', :default => t("helpers.links.back")),
