@@ -32,14 +32,16 @@
   <div class="form-group">
     <%= f.label :actuator_type_id, :class => 'control-label col-lg-2' %>
     <div class="col-lg-10">
-      <%= f.text_field :actuator_type_id, :class => 'form-control' %>
+      <!--<%= f.text_field :actuator_type_id, :class => 'form-control' %>-->
+      <%= f.select("actuator_type_id", ActuatorType.all.collect {|p| [ p.name, p.id ]}, :class => 'form-control' ) %>
     </div>
     <%=f.error_span(:actuator_type_id) %>
   </div>
   <div class="form-group">
     <%= f.label :green_kub_box_id, :class => 'control-label col-lg-2' %>
     <div class="col-lg-10">
-      <%= f.text_field :green_kub_box_id, :class => 'form-control' %>
+      <!--<%= f.text_field :green_kub_box_id, :class => 'form-control' %>-->
+      <%= f.select("green_kub_box_id", GreenKubBox.all.collect {|p| [ p.model_id, p.id ]}, :class => 'form-control' ) %>
     </div>
     <%=f.error_span(:green_kub_box_id) %>
   </div>

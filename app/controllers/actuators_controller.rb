@@ -69,6 +69,6 @@ class ActuatorsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def actuator_params
-      params.require(:actuator).permit(:ref, :state, :actuators_type_id, :greenkub_box_id)
+      params.require(:actuator).permit(:ref, :state, :actuator_type_id, :green_kub_box_id)
     end
 end
