@@ -17778,6 +17778,7 @@ Processing by GreenKubBoxesController#index as HTML
   [1m[35mGreenKubBox Load (0.5ms)[0m  SELECT `green_kub_boxes`.* FROM `green_kub_boxes`
   Rendered green_kub_boxes/index.html.erb within layouts/application (12.1ms)
 Completed 200 OK in 240ms (Views: 234.1ms | ActiveRecord: 1.4ms)
+<<<<<<< HEAD
   [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
 Processing by GreenKubBoxesController#index as HTML
   [1m[35mGreenKubBox Load (0.7ms)[0m  SELECT `green_kub_boxes`.* FROM `green_kub_boxes`
@@ -18307,3 +18308,145 @@ Processing by GreenKubBoxesController#index as HTML
   Rendered layouts/_header.html.erb (0.3ms)
   Rendered layouts/_footer.html.erb (0.1ms)
 Completed 200 OK in 271ms (Views: 269.5ms | ActiveRecord: 1.0ms)
+=======
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (62.9ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (27.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (65.3ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by GreenKubBoxesController#index as HTML
+  [1m[35mGreenKubBox Load (0.6ms)[0m  SELECT `green_kub_boxes`.* FROM `green_kub_boxes`
+  Rendered green_kub_boxes/index.html.erb within layouts/application (88.2ms)
+Completed 200 OK in 2960ms (Views: 2926.1ms | ActiveRecord: 2.5ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by GreenKubBoxesController#index as HTML
+  [1m[35mGreenKubBox Load (0.2ms)[0m  SELECT `green_kub_boxes`.* FROM `green_kub_boxes`
+  Rendered green_kub_boxes/index.html.erb within layouts/application (36.7ms)
+Completed 200 OK in 842ms (Views: 817.0ms | ActiveRecord: 1.5ms)
+Processing by GreenKubBoxesController#index as HTML
+  [1m[36mGreenKubBox Load (0.2ms)[0m  [1mSELECT `green_kub_boxes`.* FROM `green_kub_boxes`[0m
+  Rendered green_kub_boxes/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 288ms (Views: 287.4ms | ActiveRecord: 0.2ms)
+Processing by GreenKubBoxesController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mGreenKubBox Load (0.4ms)[0m  SELECT  `green_kub_boxes`.* FROM `green_kub_boxes` WHERE `green_kub_boxes`.`id` = 3 LIMIT 1
+  [1m[36mModel Load (0.5ms)[0m  [1mSELECT `models`.* FROM `models`[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users`
+  Rendered green_kub_boxes/_form.html.erb (174.9ms)
+  Rendered green_kub_boxes/edit.html.erb within layouts/application (182.9ms)
+Completed 200 OK in 482ms (Views: 422.5ms | ActiveRecord: 4.3ms)
+Processing by GreenKubBoxesController#index as HTML
+  [1m[36mGreenKubBox Load (0.2ms)[0m  [1mSELECT `green_kub_boxes`.* FROM `green_kub_boxes`[0m
+  Rendered green_kub_boxes/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 293ms (Views: 292.5ms | ActiveRecord: 0.2ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by GreenKubBoxesController#index as HTML
+  [1m[35mGreenKubBox Load (0.1ms)[0m  SELECT `green_kub_boxes`.* FROM `green_kub_boxes`
+  Rendered green_kub_boxes/index.html.erb within layouts/application (24.1ms)
+Completed 200 OK in 477ms (Views: 456.4ms | ActiveRecord: 1.8ms)
+Processing by GreenKubBoxesController#index as HTML
+  [1m[36mGreenKubBox Load (0.2ms)[0m  [1mSELECT `green_kub_boxes`.* FROM `green_kub_boxes`[0m
+  Rendered green_kub_boxes/index.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 251ms (Views: 247.6ms | ActiveRecord: 0.2ms)
+Processing by GreenKubBoxesController#index as HTML
+  [1m[35mGreenKubBox Load (0.4ms)[0m  SELECT `green_kub_boxes`.* FROM `green_kub_boxes`
+  Rendered green_kub_boxes/index.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 241ms (Views: 237.1ms | ActiveRecord: 0.4ms)
+Processing by GreenKubBoxesController#index as HTML
+  [1m[36mGreenKubBox Load (0.3ms)[0m  [1mSELECT `green_kub_boxes`.* FROM `green_kub_boxes`[0m
+  Rendered green_kub_boxes/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 224ms (Views: 222.0ms | ActiveRecord: 0.3ms)
+Processing by GreenKubBoxesController#index as HTML
+  [1m[35mGreenKubBox Load (0.2ms)[0m  SELECT `green_kub_boxes`.* FROM `green_kub_boxes`
+  Rendered green_kub_boxes/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 169ms (Views: 168.5ms | ActiveRecord: 0.2ms)
+Processing by GreenKubBoxesController#index as HTML
+  [1m[36mGreenKubBox Load (0.4ms)[0m  [1mSELECT `green_kub_boxes`.* FROM `green_kub_boxes`[0m
+  Rendered green_kub_boxes/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 216ms (Views: 214.5ms | ActiveRecord: 0.4ms)
+Processing by GreenKubBoxesController#index as HTML
+  [1m[35mGreenKubBox Load (0.3ms)[0m  SELECT `green_kub_boxes`.* FROM `green_kub_boxes`
+  Rendered green_kub_boxes/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 209ms (Views: 206.8ms | ActiveRecord: 0.3ms)
+Processing by GreenKubBoxesController#index as HTML
+  [1m[36mGreenKubBox Load (0.3ms)[0m  [1mSELECT `green_kub_boxes`.* FROM `green_kub_boxes`[0m
+  Rendered green_kub_boxes/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 214ms (Views: 212.7ms | ActiveRecord: 0.3ms)
+Processing by GreenKubBoxesController#index as HTML
+  [1m[35mGreenKubBox Load (0.2ms)[0m  SELECT `green_kub_boxes`.* FROM `green_kub_boxes`
+  Rendered green_kub_boxes/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 209ms (Views: 207.8ms | ActiveRecord: 0.2ms)
+Processing by GreenKubBoxesController#index as HTML
+  [1m[36mGreenKubBox Load (0.2ms)[0m  [1mSELECT `green_kub_boxes`.* FROM `green_kub_boxes`[0m
+  Rendered green_kub_boxes/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 197ms (Views: 196.2ms | ActiveRecord: 0.2ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by GreenKubBoxesController#index as HTML
+  [1m[35mGreenKubBox Load (0.2ms)[0m  SELECT `green_kub_boxes`.* FROM `green_kub_boxes`
+  Rendered green_kub_boxes/index.html.erb within layouts/application (24.4ms)
+Completed 200 OK in 481ms (Views: 461.5ms | ActiveRecord: 1.5ms)
+Processing by GreenKubBoxesController#index as HTML
+  [1m[36mGreenKubBox Load (0.1ms)[0m  [1mSELECT `green_kub_boxes`.* FROM `green_kub_boxes`[0m
+  Rendered green_kub_boxes/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 217ms (Views: 215.3ms | ActiveRecord: 0.1ms)
+Processing by GreenKubBoxesController#index as HTML
+  [1m[35mGreenKubBox Load (0.3ms)[0m  SELECT `green_kub_boxes`.* FROM `green_kub_boxes`
+  [1m[36mModel Load (0.5ms)[0m  [1mSELECT  `models`.* FROM `models` WHERE `models`.`id` = 1 LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered green_kub_boxes/index.html.erb within layouts/application (116.7ms)
+Completed 200 OK in 284ms (Views: 277.9ms | ActiveRecord: 4.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (10.1ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (36.9ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.6ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (350.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (28.6ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (57.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.1ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (59.7ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (18.7ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (36.1ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.7ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (14.8ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (75.0ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (16.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (33.2ms)
+Processing by GreenKubBoxesController#index as HTML
+  [1m[35mGreenKubBox Load (0.2ms)[0m  SELECT `green_kub_boxes`.* FROM `green_kub_boxes`
+  [1m[36mModel Load (0.1ms)[0m  [1mSELECT  `models`.* FROM `models` WHERE `models`.`id` = 1 LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered green_kub_boxes/index.html.erb within layouts/application (45.6ms)
+Completed 200 OK in 517ms (Views: 507.8ms | ActiveRecord: 3.4ms)
+>>>>>>> a67b8d78260e38570bbf5f4b89fffe464216909d

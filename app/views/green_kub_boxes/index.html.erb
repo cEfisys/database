@@ -5,22 +5,27 @@
 <table class="table table-striped">
   <thead>
     <tr>
-      <th><%= model_class.human_attribute_name(:id) %></th>
       <th><%= model_class.human_attribute_name(:Serial_Number) %></th>
       <th><%= model_class.human_attribute_name(:model_id) %></th>
+<<<<<<< HEAD
       <!--<th><%= model_class.human_attribute_name(:user_id) %></th>-->
       <!--<th><%= model_class.human_attribute_name(:created_at) %></th>-->
+=======
+      <th><%= model_class.human_attribute_name(:user_id) %></th>
+>>>>>>> a67b8d78260e38570bbf5f4b89fffe464216909d
       <th><%=t '.actions', :default => t("helpers.actions") %></th>
     </tr>
   </thead>
   <tbody>
     <% @green_kub_boxes.each do |green_kub_box| %>
       <tr>
-        <td><%= link_to green_kub_box.id, green_kub_box_path(green_kub_box) %></td>
         <td><%= green_kub_box.Serial_Number %></td>
         <td><%= green_kub_box.model.name %></td>
         <td><%= green_kub_box.user.email %></td>
+<<<<<<< HEAD
         <!--<td><%=l green_kub_box.created_at %></td>-->
+=======
+>>>>>>> a67b8d78260e38570bbf5f4b89fffe464216909d
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_green_kub_box_path(green_kub_box), :class => 'btn btn-default btn-xs' %>
