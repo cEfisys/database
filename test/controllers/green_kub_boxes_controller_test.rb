@@ -16,15 +16,15 @@ class GreenKubBoxesControllerTest < ActionController::TestCase
     assert_response :success
   end
 
-  test "should create green_kub_box" do
+  test "should create green_kub_box_toberemoved" do
     assert_difference('GreenKubBox.count') do
-      post :create, green_kub_box: {  }
+      post :create, green_kub_box_toberemoved: {  }
     end
 
-    assert_redirected_to green_kub_box_path(assigns(:green_kub_box))
+    assert_redirected_to green_kub_box_path(assigns(:green_kub_box_toberemoved))
   end
 
-  test "should show green_kub_box" do
+  test "should show green_kub_box_toberemoved" do
     get :show, id: @green_kub_box
     assert_response :success
   end
@@ -34,12 +34,12 @@ class GreenKubBoxesControllerTest < ActionController::TestCase
     assert_response :success
   end
 
-  test "should update green_kub_box" do
-    patch :update, id: @green_kub_box, green_kub_box: {  }
-    assert_redirected_to green_kub_box_path(assigns(:green_kub_box))
+  test "should update green_kub_box_toberemoved" do
+    patch :update, id: @green_kub_box, green_kub_box_toberemoved: {  }
+    assert_redirected_to green_kub_box_path(assigns(:green_kub_box_toberemoved))
   end
 
-  test "should destroy green_kub_box" do
+  test "should destroy green_kub_box_toberemoved" do
     assert_difference('GreenKubBox.count', -1) do
       delete :destroy, id: @green_kub_box
     end

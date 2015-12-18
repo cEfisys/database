@@ -1,4 +1,9 @@
-  [1m[36m (7.5ms)[0m  [1mDROP DATABASE IF EXISTS `GreenKub_test`[0m
+*******************************************************************  
+*******************************************************************  
+*******************************************************************  
+*******************************************************************  
+*******************************************************************  
+[1m[36m (7.5ms)[0m  [1mDROP DATABASE IF EXISTS `GreenKub_test`[0m
   [1m[35m (1.2ms)[0m  CREATE DATABASE `GreenKub_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`
   [1m[36m (24.3ms)[0m  [1mCREATE TABLE `actuator_types` (`id` int(11) auto_increment PRIMARY KEY, `name` varchar(255), `caracteristics` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
   [1m[35m (10.2ms)[0m  CREATE TABLE `actuators` (`id` int(11) auto_increment PRIMARY KEY, `ref` varchar(255), `state` tinyint(1), `actuator_type_id` int(11) NOT NULL, `green_kub_box_id` int(11) NOT NULL, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB

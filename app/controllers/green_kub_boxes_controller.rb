@@ -69,7 +69,7 @@
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def green_kub_box_params
-      params[:green_kub_box].permit(:user_id, :model_id, :Serial_Number)
+      params[:green_kub_box_toberemoved].permit(:user_id, :model_id, :Serial_Number)
     end
 
 end

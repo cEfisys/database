@@ -4,7 +4,7 @@ class CreateSensors < ActiveRecord::Migration
       t.string :ref
       t.boolean :state
       t.belongs_to :sensor_type, index: true, null: false
-      t.belongs_to :green_kub_box, index: true, null: false
+      t.belongs_to :green_kub_box_toberemoved, index: true, null: false
       t.timestamps null: false
     end
   end
