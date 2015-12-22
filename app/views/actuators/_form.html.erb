@@ -33,7 +33,7 @@
     <%= f.label :actuator_type_id, :class => 'control-label col-lg-2' %>
     <div class="col-lg-10">
       <!--<%= f.text_field :actuator_type_id, :class => 'form-control' %>-->
-      <%= f.select("actuator_type_id", ActuatorType.all.collect {|p| [ p.name, p.id ]}, :class => 'form-control' ) %>
+      <%= select_tag :actuator_type_id, options_from_collection_for_select(ActuatorType.all, :id, :name), { class: "form-control selectpicker", "data-live-search" => "true"  } %>
     </div>
     <%=f.error_span(:actuator_type_id) %>
   </div>
@@ -41,10 +41,14 @@
     <%= f.label :green_kub_box_id, :class => 'control-label col-lg-2' %>
     <div class="col-lg-10">
       <!--<%= f.text_field :green_kub_box_id, :class => 'form-control' %>-->
-      <%= f.select("green_kub_box_id", GreenKubBox.all.collect {|p| [ p.model_id, p.id ]}, :class => 'form-control' ) %>
+
+      <%= select_tag :green_kub_box_id, options_from_collection_for_select(GreenKubBox.all, :model_id, :id), { class: "form-control selectpicker", "data-live-search" => "true"  } %>
+
     </div>
     <%=f.error_span(:green_kub_box_id) %>
   </div>
+
+
 
   <div class="form-group">
     <div class="col-lg-offset-2 col-lg-10">

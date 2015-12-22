@@ -16,6 +16,7 @@ module Zurich
     config.logger = Log4r::Logger[Rails.env]
   end
 end
+#GreenKub::Application.assets = Sprockets::Railtie.build_environment(GreenKub::Application, true)
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)

@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'log4r', '1.1.9'  
+gem 'log4r', '1.1.9'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
 # Use mysql as the database for Active Record
@@ -24,9 +24,17 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 #group :assets do
-  gem 'twitter-bootstrap-rails'
-  gem "less-rails"
-  gem "therubyracer"
+gem 'twitter-bootstrap-rails'
+#gem "less-rails"
+gem "therubyracer"
+
+#gem "therubyracer"
+#gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+#gem "twitter-bootstrap-rails"
+gem 'bootstrap_form'
+gem 'bootstrap-sass', '~> 3.3.4'
+gem 'bootswatch-rails'
+gem 'bootstrap-select-rails', '1.6.3'
 #end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -43,6 +51,9 @@ group :development, :test do
   gem 'byebug'
 end
 
+gem "sprockets-rails", github: "rails/sprockets-rails", branch: "master"
+
+
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
@@ -50,4 +61,3 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-

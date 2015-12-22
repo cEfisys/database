@@ -26,7 +26,8 @@
     <%= f.label :model_id, :class => 'control-label col-lg-2' %>
     <div class="col-lg-10">
       <!--<%= f.text_field :model_id, :class => 'form-control' %>-->
-      <%= f.select("model_id", Model.all.collect {|p| [ p.name, p.id ]}, :class => 'form-control' ) %>
+      <%= select_tag "model_id", options_from_collection_for_select(Model.all, :id, :name), { class: "form-control selectpicker", "data-live-search" => "true"  } %>
+
     </div>
     <%=f.error_span(:model_id) %>
   </div>
@@ -35,7 +36,7 @@
 
     <div class="col-lg-10">
       <!--<%= f.text_field :user_id, :class => 'form-control' %>-->
-      <%= f.select("user_id", User.all.collect {|p| [ p.email, p.id ] },  :class => 'control-label col-lg-2') %>
+      <%= select_tag "user_id", options_from_collection_for_select(User.all, :id, :email), { class: "form-control selectpicker", "data-live-search" => "true"  } %>
     </div>
     <%=f.error_span(:user_id) %>
   </div>

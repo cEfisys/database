@@ -15,12 +15,8 @@ default: &default
   pool: 5
   username: greenkub
   password: cefisys
-<<<<<<< HEAD
   # Linux socket: /var/run/mysqld/mysql.sock
   socket: /tmp/mysql.sock
-=======
-  socket: /var/run/mysqld/mysqld.sock
->>>>>>> a67b8d78260e38570bbf5f4b89fffe464216909d
 
 development:
   <<: *default
