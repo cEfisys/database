@@ -35,6 +35,7 @@ gem 'bootstrap_form'
 gem 'bootstrap-sass', '~> 3.3.4'
 gem 'bootswatch-rails'
 gem 'bootstrap-select-rails', '1.6.3'
+gem 'devise-bootstrap-views'
 #end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
