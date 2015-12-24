@@ -16,30 +16,34 @@
   <% end %>
 
   <div class="form-group">
+    <div class="col-lg-2"></div>
     <%= f.label :ref, :class => 'control-label col-lg-2' %>
-    <div class="col-lg-10">
+    <div class="col-lg-5">
       <%= f.text_field :ref, :class => 'form-control' %>
     </div>
     <%=f.error_span(:ref) %>
   </div>
   <div class="form-group">
+    <div class="col-lg-2"></div>
     <%= f.label :state, :class => 'control-label col-lg-2' %>
-    <div class="col-lg-10">
+    <div class="col-lg-5">
       <%= f.text_field :state, :class => 'form-control' %>
     </div>
     <%=f.error_span(:state) %>
   </div>
   <div class="form-group">
+    <div class="col-lg-2"></div>
     <%= f.label :actuator_type_id, :class => 'control-label col-lg-2' %>
-    <div class="col-lg-10">
+    <div class="col-lg-5">
       <!--<%= f.text_field :actuator_type_id, :class => 'form-control' %>-->
       <%= select_tag :actuator_type_id, options_from_collection_for_select(ActuatorType.all, :id, :name), { class: "form-control selectpicker", "data-live-search" => "true"  } %>
     </div>
     <%=f.error_span(:actuator_type_id) %>
   </div>
   <div class="form-group">
+    <div class="col-lg-2"></div>
     <%= f.label :green_kub_box_id, :class => 'control-label col-lg-2' %>
-    <div class="col-lg-10">
+    <div class="col-lg-5">
       <!--<%= f.text_field :green_kub_box_id, :class => 'form-control' %>-->
 
       <%= select_tag :green_kub_box_id, options_from_collection_for_select(GreenKubBox.all, :model_id, :id), { class: "form-control selectpicker", "data-live-search" => "true"  } %>
@@ -51,7 +55,8 @@
 
 
   <div class="form-group">
-    <div class="col-lg-offset-2 col-lg-10">
+    <div class="col-lg-2"></div>
+    <div class="col-lg-offset-2 col-lg-5">
       <%= f.submit nil, :class => 'btn btn-primary' %>
       <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
                 actuators_path, :class => 'btn btn-default' %>
