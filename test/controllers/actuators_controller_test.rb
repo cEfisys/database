@@ -18,7 +18,7 @@ class ActuatorsControllerTest < ActionController::TestCase
 
   test "should create actuator" do
     assert_difference('Actuator.count') do
-      post :create, actuator: { actuators_type_id: @actuator.actuators_type_id, greenkub_box_id: @actuator.greenkub_box_id, ref: @actuator.ref, state: @actuator.state }
+      post :create, actuator: { actuators_type_id: @actuator.actuator_type_id, greenkub_box_id: @actuator.green_kub_box_id, ref: @actuator.ref, state: @actuator.state }
     end
 
     assert_redirected_to actuator_path(assigns(:actuator))
@@ -35,7 +35,7 @@ class ActuatorsControllerTest < ActionController::TestCase
   end
 
   test "should update actuator" do
-    patch :update, id: @actuator, actuator: { actuators_type_id: @actuator.actuators_type_id, greenkub_box_id: @actuator.greenkub_box_id, ref: @actuator.ref, state: @actuator.state }
+    patch :update, id: @actuator, actuator: { actuators_type_id: @actuator.actuator_type_id, greenkub_box_id: @actuator.green_kub_box_id, ref: @actuator.ref, state: @actuator.state }
     assert_redirected_to actuator_path(assigns(:actuator))
   end
 

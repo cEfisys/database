@@ -35,8 +35,8 @@
     <div class="col-lg-2"></div>
     <%= f.label :sensor_type_id, :class => 'control-label col-lg-2' %>
     <div class="col-lg-5">
-      <%= select_tag :sensor_type_id, options_from_collection_for_select(SensorType.all, :id, :name), { class: "form-control selectpicker", "data-live-search" => "true"  } %>
-
+      <!--<%= select_tag :sensor_type_id, options_from_collection_for_select(SensorType.all, :name, :id), { class: "form-control selectpicker", "data-live-search" => "true"  } %> -->
+<%= f.select("sensor_type_id", SensorType.all.collect {|p| [ p.id, p.id ] }, {}, {class: 'form-control selectpicker'})%>
 
     </div>
     <%=f.error_span(:sensor_type_id) %>
@@ -45,7 +45,9 @@
     <div class="col-lg-2"></div>
     <%= f.label :green_kub_box_id, :class => 'control-label col-lg-2' %>
     <div class="col-lg-5">
-      <%= select_tag :green_kub_box_id, options_from_collection_for_select(GreenKubBox.all, :id, :Serial_Number), { class: "form-control selectpicker", "data-live-search" => "true"  } %>
+    <!--  <%= select_tag :green_kub_box_id, options_from_collection_for_select(GreenKubBox.all, :id, :Serial_Number), { class: "form-control selectpicker", "data-live-search" => "true"  } %>-->
+    <%= f.select("green_kub_box_id", GreenKubBox.all.collect {|p| [ p.model_id, p.id ] }, {}, {class: 'form-control selectpicker'})%>
+
     </div>
     <%=f.error_span(:green_kub_box_id) %>
   </div>

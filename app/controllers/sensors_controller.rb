@@ -24,6 +24,7 @@ class SensorsController < ApplicationController
   # POST /sensors
   # POST /sensors.json
   def create
+    logger.debug("hello world!")
     @sensor = Sensor.new(sensor_params)
 
     respond_to do |format|
@@ -69,6 +70,6 @@ class SensorsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def sensor_params
-      params.require(:sensor).permit(:ref, :state, :sensor_type_id, :greenkub_box_id)
+      params.require(:sensor).permit(:ref, :state, :sensor_type_id, :green_kub_box_id)
     end
 end
