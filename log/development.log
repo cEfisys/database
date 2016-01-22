@@ -28011,3 +28011,887 @@ Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
   Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
   Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (38.6ms)
 >>>>>>> 3897ce20e70ce51f7887d526169b34260e352e09
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (26.2ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 709ms (Views: 688.9ms | ActiveRecord: 0.0ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 140ms (Views: 138.9ms | ActiveRecord: 0.0ms)
+(facebook) Request phase initiated.
+(facebook) Request phase initiated.
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQCJ1TU6YZ3iBp-VW2a7PmNuGPlcPBDxXVuu2MO8ivfq86GwfYVFdtwJZFKiWQs1aO05-aFUzWsf_tBlQvk8xjg7CuDrrE5RKx94h3BGjb5luGjUsGNZaqDRES0jkQE4SlGlgIWwKz_IB5LJsztCpX_rt1lGtJoGies3-ouh6ATx9Dd00UuSw1aAuBpPRPblIGV8-Hqrgxtu9KJ83VHX37D602-Z7CIXk_dRA1K0V2xzvxV3_8ZJN_SW0D8m7rfCuK76QnjTKBI7z8PTLZ0-02BdZOo7-ARA8sBLav06_SInPLFNeuQyuall2FcMC3FPvhiiFOtau1zHN_I4d-Luiumf", "state"=>"bc897f3f2b1ae90210b25024416d78d5ef1408e89ca01cc3", "provider"=>"facebook"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.7ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (29.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (18.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (41.9ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 167ms (Views: 166.5ms | ActiveRecord: 0.0ms)
+(facebook) Request phase initiated.
+(facebook) Request phase initiated.
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQDnVvu7gQ_iXWpzERJk87JnVERjtrzDJQ0fnklycX8A2vjzbAUY_nrZEhD1qz4rgWnHIdhcBg7kPgguSJJxuSJVDI49omAyAEW7_NQf1nROb-uoAGh7UiHtCpU8DkkcbghutdSiA9DGV7OOEr0r1KnUm-xxzJBpGZeD-yTgFGXUSPyiz5of7HoL36F09s1-xqEB4KyGO8hdVaPAAjGOVHNJrUYbJIJTbAiUTiYup1aay0w3bx5c4COVlGPuRHFcvpvVF07qQ-DMOq257tkcMfub_QfWl22IqXdHzAnNelm6-Rof2y2pjmjwj6F2_BsSFF60hxc4aSslHDtVuIBydiz5", "state"=>"e17c3b9d86e583819f33f08679ec57ca6a323947df96cf85", "provider"=>"facebook"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.1ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (29.1ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (29.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (55.7ms)
+(facebook) Request phase initiated.
+(facebook) Request phase initiated.
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQDLU4A2650TmirM4xLqyCZXjtYa0BiPowjytEc2Ww5yhTsb0CcksJRg_QN66eGWAA9tozC92r2PORvYWvKaK5YeH0cB5CwV47PGgOv4h0vaLnC-JncmI04tCHiW2Lf0lcw_fvKtwesiSLYadFEAYfq8t5KYbFd9_V6iSBo4th9LQJ2-9JakhcSt5VNH79AHDQudIHMOLpBDIiLAeC26DOn65ddafhgrwpdzplmROVM18mu3Vb38v1WZKIqI4TJOe7CcmRhtSYl31MfSjpu7MpGuc4FVhjG-tvdy2F-oC5weczLgwRa_NIESiQS9PIJHGwMsPY0LhEpBIF5YgWtY7dEe", "state"=>"1e57fb133c89bbd3ec471cd3e4668191e08ec023663825e3", "provider"=>"facebook"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.7ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (18.1ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (35.4ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 92ms (Views: 91.2ms | ActiveRecord: 0.0ms)
+(facebook) Request phase initiated.
+(facebook) Request phase initiated.
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQD6GWALWLStXgWiuxWghf5mtIHEPuvVgcPvxDBtADPQSl7cIcbq_kZlP6sEql1UWNZYDVHaDxfC-XhGRsMRotU61MuQUi0ibfHs9_Tj4GX_-NI6jKq4S0OPFRXDZcHO_kSeqQ0VDECV79WS0eCDjL-mL7ezoQnK2FqYHzxypmi_Hrm02XbVeLzR6AvFQ5EhhlC7AFX22Vwy1b1BVGOpu9A_RX6DP784NAuKsrD8Xg65K1SyZJsERurQ6zXGF8-Fy6_iu3oWMK4CK4nX8jx2XLByc2kIbY3vRMuD4Ks_u9_9m3o-u8JLKockWLoSu-e8KGwYaDpLqP0ZRpNTMlv_1wBz", "state"=>"39e140b0b7e873e3d88be514a357be5a13db048ed53bebac", "provider"=>"facebook"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.6ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (17.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (34.4ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 90ms (Views: 89.6ms | ActiveRecord: 0.0ms)
+(facebook) Request phase initiated.
+(facebook) Request phase initiated.
+(facebook) Request phase initiated.
+(facebook) Request phase initiated.
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQCVDxR0wfDpyXfGAG9pa2tzi_7zN6RBiH0Xt2ufbvHtB9AhcJBqsLgG_RVPYMaQ3xu9NEwYkUrHXoIG7VqFef3iG7J0wknI1QOxBHPvDhtckFTt1i6fsTf0_LYAdfF3ZcQi2sucYCJ1BdpDtqLnXlVxk1ThqrnLS1QlzXboKbDW6NPgYQgSLKw_McsdQ3cOS-pQLJpOuPm6nw_t9k0YtVw9pRjLC1OA0dNQlEceHdIiPgiA0JsiJC7BUGJXTuZ2ysS9ZCadWQHPWzRSQSjt-Vg41camU3wXQ71nO2ziuS78WgJ8WMACeuAd0slGCF2rKKPiNXxOgrtAjgzciHmqzkvx", "state"=>"747ba75017a52d69d1e68610d45aae3fb944b4ab62ab7e22", "provider"=>"facebook"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (17.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (35.2ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 94ms (Views: 93.2ms | ActiveRecord: 0.0ms)
+(facebook) Request phase initiated.
+(facebook) Request phase initiated.
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQDFzFikvS2dmH55VOxGgBEZzl7aZTY1mY-2V4__mK5EvHgIwLHSK3Zv1kjUxBRjb8u-Ab8DDK1m2DpFu0RKDKcy78x1WomFNnCYsjqBnvbJLAqqtd_XlDSHwTaI03B_nkE6u7hoOX9pY14XSJBbMYT900uPnpUralE9FLFoI6dMnfaZ2VeAR_PdSakkh4E9HpGthaUIqgU_oLkvIHhq23AF6whHVsZ4w-322zWAqDeyvONlnld8JZI6rBkxxI_qg9XIeezeu4W7sthnpPWFJ1RqVf5mIyC6w4j-C5TEsVGLEEV-rjW9XTKzmjloiYYyekCsHLfAOW9vpqKpNpnRs_s6", "state"=>"49db4a477a2401a4561f18e20b4f193a0500be117e53e045", "provider"=>"facebook"}
+  [1m[35mUser Load (0.7ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`provider` = 'facebook' AND `users`.`uid` = '946856608730136'  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Redirected to http://localhost:3000/
+Completed 302 Found in 1771ms (ActiveRecord: 43.6ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 116ms (Views: 114.9ms | ActiveRecord: 0.0ms)
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+(facebook) Request phase initiated.
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 102ms (Views: 101.8ms | ActiveRecord: 0.0ms)
+(facebook) Request phase initiated.
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQByTkQAAHZ-RZ2l078EpIAyLgVKz0Pd6vnLmGFAYxb5c3U0IuJc-ge_LBk7G2FD8N6M6TLGnq9mPw9H1AZEUHMP3Vg-HpBiOd_MsOYuxmT8mPDk4yLIzaO0hCcZneFjsiT3hrNGuocw3rnKry8hA_zfFjCk8e2fFDkxREc_cAVj1A-V5gWtZU-qPPQPVjIKu26OyhdJkUZsp8rgTrM95E7TAIeUuz4VKQQMqr6PbpA9a6G1UDwaW9H95rahFGTffYXeCuabwH3k2a6JYm75ZPIs9eirLkYxHOtO_HH_AWg87niqhE8RqP2IEUAPOI13CuQR4rrTHJnkeTOZ45eT_3Cs", "state"=>"690e07d10edf4c10702762e390157bb77c222b71ea811f68", "provider"=>"facebook"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`provider` = 'facebook' AND `users`.`uid` = '946856608730136'  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 42ms (ActiveRecord: 4.8ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 113ms (Views: 112.4ms | ActiveRecord: 0.0ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 116ms (Views: 115.1ms | ActiveRecord: 0.0ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 82ms (Views: 81.7ms | ActiveRecord: 0.0ms)
+(facebook) Request phase initiated.
+(facebook) Request phase initiated.
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQC87Tu43lBf5gmDCjhVCFNQxkHicx83uh6TD0d7pe1nrD1sUsjwng5aP84uf64LpWB6BUXe-NL65-qsdpJq3kVS7NU4cEIjqG5cXsWBj0wJLKpvW-Ig7rDUIv5WM_kGFngM9AcBRskqpP0u4ucn49pMzvLfN3i9ASvnkMkfOQGQOPKS6YfZVO_OJ4_JGptNXzo-QN1eU818mXrpESSFpM7nTtoTX6qBPivR-1agokeR7Q_zG5A8Fv90Bk8lTv4lUoC3jf7Aju-BeslLkzu_i9BYEQvF4zOGc5gF41ObaiF7C-8QtTG8NifTfcEj78RWWtpsBYxK0uElvEdam5OpEuS5", "state"=>"be2ff4c97e10998c7e6d4a4dab245d5de51e76eb24466d5b", "provider"=>"facebook"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`provider` = 'facebook' AND `users`.`uid` = '946856608730136'  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Redirected to http://localhost:3000/
+Completed 302 Found in 9ms (ActiveRecord: 0.9ms)
+(facebook) Request phase initiated.
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 123ms (Views: 122.2ms | ActiveRecord: 0.0ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 94ms (Views: 93.1ms | ActiveRecord: 0.0ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 112ms (Views: 111.2ms | ActiveRecord: 0.0ms)
+(facebook) Request phase initiated.
+(facebook) Request phase initiated.
+(facebook) Request phase initiated.
+(facebook) Callback phase initiated.
+(facebook) Authentication failure! csrf_detected: OmniAuth::Strategies::OAuth2::CallbackError, csrf_detected | CSRF detected
+(facebook) Authentication failure! invalid_credentials: OmniAuth::Strategies::OAuth2::CallbackError, csrf_detected | CSRF detected
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.6ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (26.1ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (46.3ms)
+(facebook) Request phase initiated.
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQBloYGmZmJgWjhtjWFv0dGGqS5qLi2mJIywKC4UtW3QGRUna9dk83geR-uIuxkoS_hB5M40pnaHazOpM7C81fj9_lWe-JJC_n_yTYFqH2Nb9B7zEn0jK3ugxRqUaCeTvFr7Nt2KQuNYoS_Aiy1HZZlxcBzbfMYZc-6lJtgXf_ZbI7fYmhUpf6oSaZMTYmmaHm8e1ertlMQV-_qcIRkeQbRFuI3LmlKJx_uiv7fJ6l4AHfDJkhDn3TkmULiIAT4LuA1OI1duPrS1v1fDOtQdfi2kTYs_JRfRj5ghl9K7CHM7G7ESR6i-6UwrDmlqm2qSotkDp3r_4yLAON9ZUdw4Wymb", "state"=>"df2b11f379c9f6146eda715ae7e88bbd4480368b4c0c8968", "provider"=>"facebook"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`provider` = 'facebook' AND `users`.`uid` = '946856608730136'  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 41ms (ActiveRecord: 3.3ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 114ms (Views: 113.3ms | ActiveRecord: 0.0ms)
+(facebook) Request phase initiated.
+(facebook) Request phase initiated.
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQCSQTg8ekp2X9qNZoa7pKh3ShG53-zLe2i_nRMPwRNhiMVofkYp1sDw57cfmYWf4F55zyQ2TyCI2KgeVVHTD9lFfgWyTuBL8D7naKiZ-6aYCMmU72cAIYvaNKHjp92OChc-XH-6GdPb8JieDvGLyOHecOygTsw0tyg2ULcS_OpHufANwyJHSzOK1SqOvf8mqZIoH75KnHVCj9z2aL_5L2alz-C9Q3R_7cC6oIH1GyeiL6XSqFpty4OGxssL2WUs4KYyQrknLgn9ujpKhUnZHbuE22Uy4NKnrYuHBekJgJ3d-OqbVmDW1osqz33pbWqAYmSZgljSD0dPPymjUJNShRNM", "state"=>"2ca0672c6ff0474756f4b43e6064dc28bd6f826759ede989", "provider"=>"facebook"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`provider` = 'facebook' AND `users`.`uid` = '946856608730136'  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+Redirected to http://localhost:3000/
+Completed 302 Found in 11ms (ActiveRecord: 1.4ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 103ms (Views: 103.0ms | ActiveRecord: 0.0ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.9ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (37.8ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (19.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (40.1ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 140ms (Views: 138.4ms | ActiveRecord: 0.0ms)
+(facebook) Request phase initiated.
+(facebook) Request phase initiated.
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQCusYPvbdrul8xitf27QQPqDNcLOZRajZm-0G0eYqUQXDJgN2r-89JLL4JExOhoWJyuf_GJASSp-Jz-vIfuZBiEB0P2PbYsNqLvlQ6V-48p_nzjPH_1eNL6LovZWCoFTqcR8d1EC4BG_ZKOm_n0cSCaA-O7m14pn3j4GRQ8tAzrl9rd9HQAecXFeK0X9i46FJxsTUr0_J9mzz6zZf_QfFirKENnmJZOJ5TsnXeqNosFb4n94LrxjJI8LafzUbBq6Y7FharYlreGVcZiijbDG0TMfawaXjDSFI-VepUIMaUk3_D3WHnzuBVhVLXHGNRjKt6YF8rB_GY5XzI-kcSBBM4G", "state"=>"c7083240fdb3bbee95e3e4e2b4643342fd59d227a8bb430d", "provider"=>"facebook"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`provider` = 'facebook' AND `users`.`uid` = '946856608730136'  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 36ms (ActiveRecord: 3.6ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 117ms (Views: 116.4ms | ActiveRecord: 0.0ms)
+(facebook) Request phase initiated.
+(facebook) Request phase initiated.
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQBe-P36_3Y3hY9gEbyoMLw1gD8cXN7VjQdEsG9jMk3ZHLZbZ_JDoDmFz5yQGFaScaxmUuBBbIbmrWqS19opY56ifV4292GQIHIhK8KuKZkc_iV4SEP3eNqhE_tT8u8hXMY5GCcrQZDfuLAmeW6_APFP-InTYqnURyBmBH4Mj5_oGMKjkbqtqkZNvJlCILpQ0Gvh8EEW5ruc4euAu37bYtbeQkM65Tj81RMI_KI10NlZmiaB7WAv8wUAVwcke4wapwDm1lzRiWMjtVxchLkPDuHaQZNWY1lk2aEnpWqHMDXLUp1Jupxp0O7fnL6vzmitO2nGSfN8suv_k4WkJYDOyM0a", "state"=>"82ee96189f18acdac2dd3f5263ec5f4cad6da03b52f50d68", "provider"=>"facebook"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`provider` = 'facebook' AND `users`.`uid` = '946856608730136'  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+Redirected to http://localhost:3000/
+Completed 302 Found in 16ms (ActiveRecord: 1.7ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 140ms (Views: 139.1ms | ActiveRecord: 0.0ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 91ms (Views: 90.5ms | ActiveRecord: 0.0ms)
+(facebook) Request phase initiated.
+(facebook) Request phase initiated.
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQCw2YVUwOzM6h54NYnmMKVibs-fXuJYqGRIJr5osRHG-8syOA81P-7yYkAJMSo2FFkoXH04uRaMJVuSAuNEmRLylCrlVsINV8eKktmGq7uwqs9jevBwQwzYYBBCTIyaEnEso7qbrQWK2Ot3VgOfcffcY50FpK5mzORv6QkO3ujFG7rBf_csMwCZL610hwqJRJ4MAGW-8b05w0Ssio68w3yo58zvxrfaYbaGvszjtcxIDOERhxq3U5DSggaREN2mVqGPd1OcwWldKrI9AGKR91OwM0Op9lYgMgt35nhbLjEPE2VAfdIc5i-6jseqKIWMlObgoTkgU0hdiIYgr2PeUxOh", "state"=>"9a8bc82a819530cc8508fa798a5c0ffbe696ef667acc396b", "provider"=>"facebook"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`provider` = 'facebook' AND `users`.`uid` = '946856608730136'  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 32ms (ActiveRecord: 3.5ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 0 LIMIT 1
+Completed 500 Internal Server Error in 123ms (ActiveRecord: 0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (16.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (34.8ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (27.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (17.9ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (35.9ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.7ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.1ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (36.9ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (18.8ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (38.9ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (3.5ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.6ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (26.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (16.9ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (34.0ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 0 LIMIT 1[0m
+Completed 500 Internal Server Error in 97ms (ActiveRecord: 2.6ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.6ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.6ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (17.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (33.4ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 0 LIMIT 1
+Completed 500 Internal Server Error in 115ms (ActiveRecord: 0.2ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.0ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.0ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (16.7ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (34.5ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 0 LIMIT 1[0m
+Completed 500 Internal Server Error in 89ms (ActiveRecord: 0.1ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.0ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (16.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (33.0ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 0 LIMIT 1
+Completed 500 Internal Server Error in 138ms (ActiveRecord: 0.2ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.8ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (17.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (34.3ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 0 LIMIT 1[0m
+Completed 500 Internal Server Error in 158ms (ActiveRecord: 0.1ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.9ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (17.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (34.4ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 0 LIMIT 1
+Completed 500 Internal Server Error in 402ms (ActiveRecord: 2.1ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.2ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (33.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (26.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (45.6ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 134ms (Views: 133.8ms | ActiveRecord: 0.0ms)
+(facebook) Request phase initiated.
+(facebook) Request phase initiated.
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQAjb8JnK-Ucxwk84xljw58m1nFvnLObob9IaYBV-t4Oi3j1F3omDYzH8_mUDrz1Haso4krKuxJqdV8lnlWrsereQYRtwWKWmUYdXyF0lylQ-b-UFC8kEfJRmyrOUXgu9itqe59UKcFkvlgHwOUuQsOAyEAsrquZxCdiBObQiBpe_U7pyWIzoX4TTE7aTDBxTroXylBt0A2FpEZTSfNfLFuPG5lsdKYVrX_OvtdrjYJkBSTBBcIqAUw59QPzmR9OGLVev4sWIqb0FMOWA0GVVG5R9ePewBYdKNcn9fauKGos4esAZ4cW1GOu2g_r6TbPWueov-Z0IunnNbjBzZoA-B7V", "state"=>"3b25c84d74c9981915f97965fe12f30716db384da248dd5b", "provider"=>"facebook"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`provider` = 'facebook' AND `users`.`uid` = '946856608730136'  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 94ms (ActiveRecord: 1.0ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 94ms (Views: 93.2ms | ActiveRecord: 0.0ms)
+(facebook) Request phase initiated.
+(facebook) Request phase initiated.
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQBVvJczvnpugsl9YJoldj4IHf3P55YZHTG2WAIRekWS6TJ0NcbgLrDegA-sZEw4M8XHWIvIJgj0KQ2mgqknhtlYzZ209qLYxqDNklbHk2gwxzU033-YZ_OsotPomgP6G_mlhxfW5vly89ml8p1t5R3W1-PCkp3r35QopEejcPLtxQF_kL6_AOBbo7GsN4sShU8bQ4bIWiXu_JTQNhPK5BPHdZR8JzZLqefLT7lWO5pJBBKSy8VZ-lY66zCIDsKxAw5FqT9oiCONpk0k97omkKCcN-J08D5LLYO9zPN0_w30yhNR1K6q0QuMoaCRv0_8f-SfFTDZ368PzscrrFoHF3T1", "state"=>"2d3483aab16758752bea9c1007a46163eb1bfb36f0f0d628", "provider"=>"facebook"}
+  [1m[35mUser Load (0.7ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`provider` = 'facebook' AND `users`.`uid` = '946856608730136'  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+Redirected to http://localhost:3000/
+Completed 302 Found in 12ms (ActiveRecord: 1.7ms)
+(facebook) Request phase initiated.
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 122ms (Views: 120.9ms | ActiveRecord: 0.0ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 85ms (Views: 84.1ms | ActiveRecord: 0.0ms)
+(facebook) Request phase initiated.
+(facebook) Request phase initiated.
+(facebook) Request phase initiated.
+(facebook) Callback phase initiated.
+(facebook) Authentication failure! csrf_detected: OmniAuth::Strategies::OAuth2::CallbackError, csrf_detected | CSRF detected
+(facebook) Authentication failure! invalid_credentials: OmniAuth::Strategies::OAuth2::CallbackError, csrf_detected | CSRF detected
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.1ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (16.7ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (35.7ms)
+(facebook) Request phase initiated.
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQA9isaCEAG4ZWC_7jTR19f36r4Qrx0xWvNT-fM5hVu5tnAiRMV5hN0J51zm3jq9XwKeQ3KfAZWeA3BpXEX7UI8tOaG5o2ic4yE3TNErG3m-wzQLqrhwJtTidTBT3_0Fv_tWYlaBCrss2WWyZVHmmJ3EapSaRtuUsgQTS3zbZcOeIm9hpBSnjOqM0EnyvjLX1kA2DTixKPZ7yO4IvyjdtP3MH0E8BXtCZg4p4ZDKSa2q3oxzlBsnpSe49fKTa11xB-Ym_lVHGMmijNWD1wdKcWPtxEMen9XTicuAhwuUqJJF2ZsGxbJOcglfIJfnkW1qK2Ae3HnY_XP-IoZsj1icoPyr", "state"=>"03a6c8803bd2413caa48f7ee7ccd054462b63f8f5774f47f", "provider"=>"facebook"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`provider` = 'facebook' AND `users`.`uid` = '946856608730136'  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 18ms (ActiveRecord: 1.5ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 146ms (Views: 145.2ms | ActiveRecord: 0.0ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 97ms (Views: 96.2ms | ActiveRecord: 0.0ms)
+(facebook) Request phase initiated.
+(facebook) Request phase initiated.
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQBj9iNJT4BJ4VH2ESTAASl7ng03SPDK3r-Lx76ykl77Z-qPzldZKDouSbXPB1YFpamvHm-K-hzGQYZMdGxnjgLbx5hYsyVE1_AcHWm0HdZeViYslavnWpXy3oGk8K_6MA9zKBvX72fvQHtITDQHdorEcaJvHOw0AMsfJhhtiw5hYs8xW25VuM9ts2kAPSEKI6h88wQZaxhNCN6IdonqcmcOh7LFdzk4kozbLoOF9m6R6AOL_02crSr8rvgp7RxEVzfeKmMX8dRCcdsJVFX8CylXrRVYbyQANJZldLZ2QKkLGr8RTFZmRQMxzcQMwa7wE9ZqzISsPMGT-bJfVbaGVOrx", "state"=>"3b1fa314632c39a5949b171df06981a1591b341198ff0bf0", "provider"=>"facebook"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`provider` = 'facebook' AND `users`.`uid` = '946856608730136'  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Redirected to http://localhost:3000/
+Completed 302 Found in 47ms (ActiveRecord: 3.8ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 131ms (Views: 130.1ms | ActiveRecord: 0.0ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 90ms (Views: 89.6ms | ActiveRecord: 0.0ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 90ms (Views: 89.4ms | ActiveRecord: 0.0ms)
+(facebook) Request phase initiated.
+(facebook) Request phase initiated.
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQBPg3MvToVwyKyANo1xsJinIM88kr0JBVxn8fNR6eRdKaGOCM9AGYnBw7nUf3AHa5duAi7cm0JU-Ic6ZxeoBN7cn62j3trewoA1KHYGlYlvq7xQA7kpMMaCFrrsjfwIF_AkM6Wnou30Jlnx5PByP1Jq70SJdt_G8IyOm-3xhvLZNig3U38enFiXTBtwZI-vqbqXNUab0x6UJRilEphZTjBkhBlpp9B8Sj6QLBjjfMgvBXIc4KXeluq9LZm1JsPptxFIak4G1qRWoFHKOkuuJwqkXd9uH3dTPnaPVgtu5BtrntBTRbdBGYOb8hlPP_m29EzVKixBPzkPuEsoDyRfexo8", "state"=>"61ed5bed08bbda151d416ee3cd64c6e44cfcf8a276aebf4b", "provider"=>"facebook"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`provider` = 'facebook' AND `users`.`uid` = '946856608730136'  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 38ms (ActiveRecord: 4.4ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 117ms (Views: 116.4ms | ActiveRecord: 0.0ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mUser Exists (156.2ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE (`users`.`email` = BINARY 'asd' AND `users`.`id` != 1) LIMIT 1[0m
+  [1m[35m (8.2ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.9ms)[0m  SELECT  1 AS one FROM `users` WHERE (`users`.`email` = BINARY 'nuno.rodrigues83@hotmail.com' AND `users`.`id` != 1) LIMIT 1
+  [1m[36mSQL (236.4ms)[0m  [1mUPDATE `users` SET `email` = 'nuno.rodrigues83@hotmail.com', `updated_at` = '2016-01-22 19:35:47' WHERE `users`.`id` = 1[0m
+  [1m[35m (50.2ms)[0m  COMMIT
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 85ms (Views: 84.4ms | ActiveRecord: 0.0ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 95ms (Views: 94.2ms | ActiveRecord: 0.0ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 92ms (Views: 91.2ms | ActiveRecord: 0.0ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 108ms (Views: 107.5ms | ActiveRecord: 0.0ms)
+(facebook) Request phase initiated.
+(facebook) Request phase initiated.
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQC7b1iG4uSHuokOU5FfFHmQFceLYMq5NcCIS9wmJdx6xSmTt1qd10fWUE9qEUGLMDor9hdv_rT2qy50r-AGlGybd1zybEEhmtShJLsnqIFsorHo770Afl2nu3zMIF5vxlgqAefsSiLd0mgniJOPz9x4akCoFD_mQHLxQWqotZsUSD-4VsPBDv0fl7pbBUJRgj6BsU63TREwFgCepmcLWhjCHmsz7yYpUNVpvRIU-UZIKQW_fSf8eRkKsqHXG7lC5eDPXl5shlXWIlY6ADrDFc9hRTrLpDuM4FRUuNAwiTkJiVRgK2XUc3ues56C7EdzsFPV_-vrD1Lt-EpJS0s28xPE", "state"=>"a6ea8fa1a02edbc9cd8a147d1657e5d59eb2ddd1087ca04e", "provider"=>"facebook"}
+  [1m[35mUser Load (0.6ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`provider` = 'facebook' AND `users`.`uid` = '946856608730136'  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Redirected to http://localhost:3000/
+Completed 302 Found in 10ms (ActiveRecord: 1.4ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 115ms (Views: 114.9ms | ActiveRecord: 0.0ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 88ms (Views: 87.4ms | ActiveRecord: 0.0ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 91ms (Views: 90.0ms | ActiveRecord: 0.0ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 151ms (Views: 149.1ms | ActiveRecord: 0.0ms)
+(facebook) Request phase initiated.
+(facebook) Request phase initiated.
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQAYW3HvobUT9XeASebMlc392V7Ic6lll2QaD-WnjFVU1vsRXkjUoihDigUUBu52PK3CRW-f8DjA-T6rWCM9s-DU0SNcYfd0EsHTDJMrO_RtmAZ4Orv_zuYSkgf_DBq8VnF1msIcIPN8LO1dSvDBmUOc1WOeb2B1hAICobhFBD8rEu3KPSqTx-M91Q4Rxi-NAA-JJrgiqAkh8AlkOk3t9ze2hYASuSfQOhuJN8yO3ta4f3QUgtviCW1GfWPJICQeBgw4-J8hhQt3DKhBUtD5TCEdokJEvWaGKDg1bvF_03EeTnnCQi_J38gTqVDindP3s5ZOr-gaBTzU3929wwqEw2Ar", "state"=>"d2f52d91a04d6cdc9b05553312d851e03678be347dd6ca47", "provider"=>"facebook"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`provider` = 'facebook' AND `users`.`uid` = '946856608730136'  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 43ms (ActiveRecord: 3.8ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 120ms (Views: 119.4ms | ActiveRecord: 0.0ms)
+(facebook) Request phase initiated.
+(facebook) Request phase initiated.
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQAvqVHPihiUkI4XqIHbzcqXKFwxvnja-b-LuG2V-J02Z2ce2eT6PR7Si0sWhN-gTR7Y3vzA0zK2u1H3sI4ug-d-E4quPf17NJptxyEEp6BcbFu1GC_1tq0d2Dy9BVSZ5hnyR2z4-4PxbV39WQGOxG52lHwq1mjJUu1TmuRFlpGzBmMPANxAjNXHRXmlMBQe5UlBF1A-btNgurRe9jH4TdhjXykS4ml8f2Erbemv1FNYOEh15IpS8SrKw6IogW7xpV_Rd6OxemodmwsDyyUYAi2p_wfdIV3_NUv8denKiftqyACv7IogJntAqdva2YxgieKcQgizu5l_5FW_f1nrp-ND", "state"=>"b7719a48f90d45c21b2198cbc5621cc8c692857cd7deb4a6", "provider"=>"facebook"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`provider` = 'facebook' AND `users`.`uid` = '946856608730136'  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+Redirected to http://localhost:3000/
+Completed 302 Found in 12ms (ActiveRecord: 1.3ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 148ms (Views: 147.1ms | ActiveRecord: 0.0ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 110ms (Views: 109.1ms | ActiveRecord: 0.0ms)
+(facebook) Request phase initiated.
+(facebook) Request phase initiated.
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQBFMUsffwIz_nZYpyFAqq5opQkaMI2BlJ_p0e1xpZqG9hoMbFLsFs64L5Bp9FgtkVdyaumzdyUn3JIeNoWp6vRTKPPG-MALeRmCuq-YkH0B2DpTEnoJT4qOhzNyt-xXT0uC2z4QpzvOqKPv6cqZKihoxvZAU_UF5tOT5hd0zeeNmQpGtM-als3CVvZq75mFMO65ZH4FXbUAb_-E_7tyD066RSRofv8CdsrNsQkS3eKUWfKdiW0RZMLTn_eiWxwYMAnxz3npPN4_q6FaVCSGhKm-XsKUsbVUvAfzDHGL62U14wdD8xMwTYJ-Fv4PS2JbsDfwe0B39vlIEbm8HNEshwtA", "state"=>"9ed2876033ddb93e51b96d2d52dfdc42cb3b4ea1ce4fa90d", "provider"=>"facebook"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`provider` = 'facebook' AND `users`.`uid` = '946856608730136'  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 13ms (ActiveRecord: 1.2ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 137ms (Views: 136.1ms | ActiveRecord: 0.0ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 92ms (Views: 91.6ms | ActiveRecord: 0.0ms)
+(facebook) Request phase initiated.
+(facebook) Request phase initiated.
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQAfcpBv4K3HkUCvavbBqcCzPr5WS7MwxM2NCz7XMeQYy26GrVAeB4ljx78OAsgmfoKkcZcxxXFmnt9LJ_QzqAUoBxTxVzJb-rElpawcqAInlp5wMZx4so_rcPNz3NvJbKN5x7Ie-8g12z5nBkaBeCbp4u0czUIy6kG9GSNISaKk5VJ2KKmFw8gwICONlcuflH6_qnydObr9tUMR2Wc_ZwW7hygfPRh_sJ-tur2TZaO-pcarOZRyDgfXczw7XI9rt80zgCibla1s1tpqxodQa3jURz3664faVmDjP7B85nvVB_Er2DNhLplwBtJFiKq55cA_s3u0xYrDWr5T6lFQKBjC", "state"=>"d494055feac3ca394eb8ce921da08c65d950ad745d5175df", "provider"=>"facebook"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`provider` = 'facebook' AND `users`.`uid` = '946856608730136'  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Redirected to http://localhost:3000/
+Completed 302 Found in 13ms (ActiveRecord: 1.3ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 131ms (Views: 130.8ms | ActiveRecord: 0.0ms)
+(facebook) Request phase initiated.
+(facebook) Request phase initiated.
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQDfXqfRvD36LC1-E_tk1mgE6ZCxtpmVMurx8gpW5ywhp1OYMZ7_5UOgH6DOfgBGdP7oz2-EZ55JxvE0Ht6KXKuQWBNGtOoMLgLFnLTDNlJKiZepO_y9IrQV7qYX1hF9m31nIjZT5FBaSNG0fVs1aAay3ABJg994W3xyAF4TCoOjySyvacAK2mR2xD_vpWdsK2dKJMjAeZgqx4bhfwRLQ8kx_5oRlX_epkMfax81mqaCWnLrF-wUeDQzjwCF_FjNkfD6IYGSPRa7cLN-E8dOV_wp1Wbfjx74fzvMZLwnyB7WY6ETBc_qfehm2P-TEM3UWs_Rur3BgAAjPVF2etv8TSNm", "state"=>"5d5b810532ecd5510b43565b931a082e9acf2b6a956000b0", "provider"=>"facebook"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`provider` = 'facebook' AND `users`.`uid` = '946856608730136'  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 14ms (ActiveRecord: 1.4ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 125ms (Views: 124.1ms | ActiveRecord: 0.0ms)
+(facebook) Request phase initiated.
+(facebook) Request phase initiated.
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQA-7cw2aVy1wxbPxPdsIxR1EblX2nkTF-AcNQl4mBjphTkxwVxU_Et3M4ntfjSJBPCdLlXboAWCiIwiBJJgTYoCgfXK0-GnI0LVBL-PAiIu4QeTw4wnXTEK9s7BRwSMIadN64mMCS7ZyRzZKJQmPFsBxtZ9K-BVPpsQVkn-uFzVbLxhbMSwtVXWl8Inlzh5ms-CFBRfMpFsNsEmtk3vLbYandB1-gs29cNrAlMAjpjwKI9jWSb-G5_WSjml3DRPG89W7CQYIJMnD-Hubi9gOVHOHQOtCMZ2FGrrPalRMEyQheYipB0g0xUJ4GS9sXspnRJ4k-9PXr9miKa5KL972_Gh", "state"=>"62efc189c0d77cd12aec261fd15537554d043d6b084a49c5", "provider"=>"facebook"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`provider` = 'facebook' AND `users`.`uid` = '946856608730136'  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Redirected to http://localhost:3000/
+Completed 302 Found in 27ms (ActiveRecord: 2.8ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 500 Internal Server Error in 102ms (ActiveRecord: 0.0ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.5ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.2ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (16.9ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/nuno/.rvm/gems/ruby-2.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (33.0ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 94ms (Views: 94.0ms | ActiveRecord: 0.0ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 92ms (Views: 91.4ms | ActiveRecord: 0.0ms)
+(facebook) Request phase initiated.
+(facebook) Request phase initiated.
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQDSPRC7zm3pCNHDaWnJWzHYwkehBz3rzacxyvP9OLnxNClgnL_A6wusYfkSOd1sAfnQLR9wxWg10810wb5VQ1BbX_GgghgXRHSRDuzdvR9tJMGyCEEH3LP0VG0uH7Qj9_MMoDVt_JdUP0hvPJ6AzzAQ8wmdpI8-gee_pm6AWZBFuhAk_s_EWlMwR--J_VhdRwf7j3oN542UX3xtEz-ED4pknyz2aMGWokOaGnnwz2zV42dx3ytGXnu2hB6_Jd29zDv2iIllbXhIwYwyNFrXOGQLDK3KubHm_o92Kx3IYet4iC1-NQx2_n_-jVHjuZafLx_buX090CbQbRiRYAoAHk8c", "state"=>"137f3465dcb86291e42db173bbae2168360802fbc88e7473", "provider"=>"facebook"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`provider` = 'facebook' AND `users`.`uid` = '946856608730136'  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 45ms (ActiveRecord: 4.6ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 126ms (Views: 125.2ms | ActiveRecord: 0.0ms)
