@@ -28895,3 +28895,67 @@ Processing by HomeController#show as HTML
   Rendered layouts/_header.html.erb (0.5ms)
   Rendered layouts/_footer.html.erb (0.1ms)
 Completed 200 OK in 126ms (Views: 125.2ms | ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (2.5ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 15010ms (Views: 14989.2ms | ActiveRecord: 0.0ms)
+Processing by HomeController#show as HTML
+  Rendered home/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 159ms (Views: 158.6ms | ActiveRecord: 0.0ms)
+Processing by GreenKubBoxesController#index as HTML
+  [1m[35mGreenKubBox Load (5.3ms)[0m  SELECT `green_kub_boxes`.* FROM `green_kub_boxes`
+  [1m[36mModel Load (0.5ms)[0m  [1mSELECT  `models`.* FROM `models` WHERE `models`.`id` = 1 LIMIT 1[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `models`.* FROM `models` WHERE `models`.`id` = 1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1  [["id", 1]]
+  Rendered green_kub_boxes/index.html.erb within layouts/application (113.2ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 280ms (Views: 255.5ms | ActiveRecord: 12.1ms)
+Processing by ActuatorsController#index as HTML
+  [1m[36mActuator Load (4.8ms)[0m  [1mSELECT `actuators`.* FROM `actuators`[0m
+  Rendered actuators/index.html.erb within layouts/application (16.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 165ms (Views: 156.6ms | ActiveRecord: 5.8ms)
+Processing by ActuatorsController#new as HTML
+  [1m[35mActuatorType Load (2.4ms)[0m  SELECT `actuator_types`.* FROM `actuator_types`
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `actuator_types`.* FROM `actuator_types`[0m
+  [1m[35mGreenKubBox Load (0.5ms)[0m  SELECT `green_kub_boxes`.* FROM `green_kub_boxes`
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `green_kub_boxes`.* FROM `green_kub_boxes`[0m
+  Rendered actuators/_form.html.erb (31.1ms)
+  Rendered actuators/new.html.erb within layouts/application (35.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 186ms (Views: 180.3ms | ActiveRecord: 3.6ms)
+Processing by ActuatorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ycqGmdchnrqBBmZ5haJM3F3EGTfRnxAm0U/FMM5uyV8YlgPQqnIaCZNUq3DOfBuRAL/0IzIlX6s3vha3nV4sTA==", "actuator"=>{"ref"=>"Desde", "state"=>"123", "actuator_type_id"=>"1", "green_kub_box_id"=>"1"}, "commit"=>"Create Actuator"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO `actuators` (`ref`, `state`, `actuator_type_id`, `green_kub_box_id`, `created_at`, `updated_at`) VALUES ('Desde', 0, 1, 1, '2016-02-05 20:28:04', '2016-02-05 20:28:04')[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+Redirected to http://0.0.0.0:3000/actuators/2
+Completed 302 Found in 6ms (ActiveRecord: 1.5ms)
+Processing by ActuatorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mActuator Load (0.4ms)[0m  [1mSELECT  `actuators`.* FROM `actuators` WHERE `actuators`.`id` = 2 LIMIT 1[0m
+  Rendered actuators/show.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 160ms (Views: 153.1ms | ActiveRecord: 0.4ms)
+Processing by ActuatorsController#index as HTML
+  [1m[35mActuator Load (0.4ms)[0m  SELECT `actuators`.* FROM `actuators`
+  Rendered actuators/index.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 154ms (Views: 152.9ms | ActiveRecord: 0.4ms)
