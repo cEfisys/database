@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: TEMP
+  caracteristics: temperature sensor
+  unit: C
+
+two:
+  name: HUM
+  caracteristics: humidity sensor
+  unit: PER
