@@ -1,17 +1,10 @@
 <h1>Home#show</h1>
 <p>Find me in app/views/home/show.html.erb</p>
-<%= debug session[:user_id] %>
 <p>
-  <b>Title:</b>
+  <b>user id:</b>
   <%= session[:user_id] if session[:user_id]%>
 </p>
-<%= debug session[:provider] %>
 <p>
-  <b>Title:</b>
-  <%= session[:provider] if session[:provider]%>
-</p>
-<%= debug session[:name] %>
-<p>
-  <b>Title:</b>
-  <%= session[:name] if session[:name]%>
+  <b>email:</b>
+  <%= session[:email] if session[:email]%>
 </p>

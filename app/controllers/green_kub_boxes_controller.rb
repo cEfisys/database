@@ -4,7 +4,8 @@
   # GET /green_kub_boxes
   # GET /green_kub_boxes.json
   def index
-    @green_kub_boxes = GreenKubBox.all
+    #faz o display de todos os utilizadores para o user em sessão
+    @green_kub_boxes = GreenKubBox.where(:user_id => session[:user_id])
   end
 
   # GET /green_kub_boxes/1
@@ -14,7 +15,9 @@
 
   # GET /green_kub_boxes/new
   def new
+    #cria uma greenbox para o utilizador em questão
     @green_kub_box = GreenKubBox.new
+    @green_kub_box.user_id = session[:user_id]
   end
 
   # GET /green_kub_boxes/1/edit

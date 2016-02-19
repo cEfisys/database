@@ -16,9 +16,19 @@ class User < ActiveRecord::Base
       user.provider = auth.provider
       user.uid      = auth.uid
       user.name     = auth.info.name
+      user.email    = auth.info.email
       user.save
     end
   end
+
+  def self.exists(email)
+      return User.find_by_email(email).present?
+  end
+
+  def self.getId(email)
+    return User.find_by_email(email).id
+  end
+
 
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
