@@ -25,5 +25,6 @@ class User < ActiveRecord::Base
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
 
-  has_many :green_kub_boxes
+  has_many :green_kub_boxes, foreign_key: 'green_kub_box_id', primary_key: 'green_kub_box_id'
+  self.primary_key = 'user_id'
 end

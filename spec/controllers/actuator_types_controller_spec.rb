@@ -37,17 +37,52 @@ describe 'GET #edit' do
 end
 
 describe 'GET #index' do
-  context 'with params[:letter]'do
-    it 'populates and array of actuator_types starting with the letter'
+it 'renders the :index view' do
+      get :index
+      expect(response).to render_template :index
+    end
+end
+
+describe 'DELETE #destroy' do
+    before :each do
+      @actuator_type = create(:actuator_type)
+    end
+    it 'deletes actuator_type from the database' do
+        expect{ delete :destroy, id: @actuator_type }.to change(ActuatorType,:count).by(-1)
+    end    
+    it 'redirects to users#index' do
+      delete :destroy, id: @actuator_type
+      expect(response).to redirect_to actuator_types_url
+    end
+  end
+end
+#TODO create a feature to search by a letter to produce  a fastest answer
+=begin 
+  context 'with params[:letter]' do
+    it 'populates and array of actuator_types starting with the letter' do
+        temp = create(:actuator_type, name: 'Temp') # actuator_type is the factory name, see factories/actuator_types.rb
+        ph = create(:actuator_type, name: 'PH')
+        get :index, letter: 'T'
+        expect(assigns(:actuator_types)).to match_array([temp])
+    end
     it 'renders the :index view'
   end
-
   context 'with params[:letter]'do
     it 'populates an array of all actuator_types'
     it 'renders the :index view'
 
   end
 
+context 'without params[:letter]'do
+    it 'populates an array of all actuator_types' do
+        temp = create(:actuator_type, name: 'Temp') # actuator_type is the factory name, see factories/actuator_types.rb
+        ph = create(:actuator_type, name: 'PH')
+        get :index
+        expect(assigns(:actuator_types)).to match_array([temp, ph])
+    end
+=end
+=begin
+# TODO - post request for the api
   describe 'POST #create' do
     context 'with valid attributes' do
       it 'saves the new actuator_type in the database'
@@ -73,52 +108,4 @@ describe 'GET #index' do
       it 're-renders the #edit template'
     end
   end
-
-  describe 'DELETE #destroy' do
-    it 'deletes actuator_type from the database'
-    it 'redirects to users#index'
-  end
-
-end
-  # it "should get index" do
-  #   get :index
-  #   assert_response :success
-  #   assert_not_nil assigns(:actuator_types)
-  # end
-
-  # it "should get new" do
-  #   get :new
-  #   assert_response :success
-  # end
-
-  # it "should create actuator_type" do
-  #   assert_difference('ActuatorType.count') do
-  #     post :create, actuator_type: { caracteristics: @actuator_type.caracteristics, name: @actuator_type.name }
-  #   end
-
-  #   assert_redirected_to actuator_type_path(assigns(:actuator_type))
-  # end
-
-  # it "should show actuator_type" do
-  #   get :show, id: @actuator_type
-  #   assert_response :success
-  # end
-
-  # it "should get edit" do
-  #   get :edit, id: @actuator_type
-  #   assert_response :success
-  # end
-
-  # it "should update actuator_type" do
-  #   patch :update, id: @actuator_type, actuator_type: { caracteristics: @actuator_type.caracteristics, name: @actuator_type.name }
-  #   assert_redirected_to actuator_type_path(assigns(:actuator_type))
-  # end
-
-  # it "should destroy actuator_type" do
-  #   assert_difference('ActuatorType.count', -1) do
-  #     delete :destroy, id: @actuator_type
-  #   end
-
-  #   assert_redirected_to actuator_types_path
-  # end
-end
+=end

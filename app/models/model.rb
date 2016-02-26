@@ -1,3 +1,3 @@
 class Model < ActiveRecord::Base
-  has_many :green_kub_boxes
+  self.primary_key = 'model_id'
 end
