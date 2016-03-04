@@ -1,5 +1,5 @@
 class User < ActiveRecord::Base
-
+has_many :green_kub_boxes, foreign_key: 'green_kub_box_id'
  # def self.from_omniauth(auth)
  #   where(auth.slice(:provider, :uid)).first_or_initialize.tap do |user|
   #    user.provider = auth.provider
@@ -24,7 +24,4 @@ class User < ActiveRecord::Base
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
-
-  has_many :green_kub_boxes, foreign_key: 'green_kub_box_id', primary_key: 'green_kub_box_id'
-  self.primary_key = 'user_id'
 end

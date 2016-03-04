@@ -17,7 +17,7 @@ describe 'GET #show' do
 describe 'GET #new' do
   it 'assigns a new green_kub_box to @green_kub_box' do
     get :new
-    expect(assigns(:green_kub_box)).to be_a_new (green_kub_box)
+    expect(assigns(:green_kub_box)).to be_a_new (GreenKubBox)
   end
   it 'renders the :new template' do
     get :new

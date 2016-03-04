@@ -31,8 +31,6 @@ ActiveRecord::Schema.define(version: 20160104221120) do
 
   add_index "actuators", ["actuator_type_id"], name: "index_actuators_on_actuator_type_id", using: :btree
   add_index "actuators", ["green_kub_box_id"], name: "index_actuators_on_green_kub_box_id", using: :btree
-  add_foreign_key "actuators", "actuator_types"
-  add_foreign_key "actuators", "green_kub_boxes"
 
   create_table "green_kub_boxes", force: :cascade do |t|
     t.string   "Serial_Number", limit: 255
@@ -44,8 +42,6 @@ ActiveRecord::Schema.define(version: 20160104221120) do
 
   add_index "green_kub_boxes", ["model_id"], name: "index_green_kub_boxes_on_model_id", using: :btree
   add_index "green_kub_boxes", ["user_id"], name: "index_green_kub_boxes_on_user_id", using: :btree
-  add_foreign_key "green_kub_boxes", "models"
-  add_foreign_key "green_kub_boxes", "users"
 
   create_table "models", force: :cascade do |t|
     t.string   "name",           limit: 255
@@ -107,8 +103,10 @@ ActiveRecord::Schema.define(version: 20160104221120) do
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
   add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
 
-  
-  
+  add_foreign_key "actuators", "actuator_types"
+  add_foreign_key "actuators", "green_kub_boxes"
+  add_foreign_key "green_kub_boxes", "models"
+  add_foreign_key "green_kub_boxes", "users"
   add_foreign_key "sensor_actuator_infos", "sensors"
   add_foreign_key "sensors", "green_kub_boxes"
   add_foreign_key "sensors", "sensor_types"
