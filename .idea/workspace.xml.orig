@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ac15be35-2eab-4431-a6d9-ee6c7971fc12" name="Default" comment="">
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/pids/server.pid" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
@@ -40,10 +38,21 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/spec__database.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/spec__database.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/test__database.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/test__database.xml" />
 >>>>>>> b712c87a018adb474470c2eb2f99d5aefb262792
->>>>>>> 6b573b4baf0ad789e5ec0716860c10837c31d941
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/actuator.rb" afterPath="$PROJECT_DIR$/app/models/actuator.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/test.log" afterPath="$PROJECT_DIR$/log/test.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/actuator_types_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/actuator_types_controller_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/actuator_types_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/actuator_types_controller_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/actuators_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/actuators_controller_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/actuator_types.yml" afterPath="$PROJECT_DIR$/test/fixtures/actuator_types.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/actuators.yml" afterPath="$PROJECT_DIR$/test/fixtures/actuators.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/green_kub_boxes.yml" afterPath="$PROJECT_DIR$/test/fixtures/green_kub_boxes.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/models.yml" afterPath="$PROJECT_DIR$/test/fixtures/models.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/users.yml" afterPath="$PROJECT_DIR$/test/fixtures/users.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_helper.rb" afterPath="$PROJECT_DIR$/test/test_helper.rb" />
     </list>
     <ignored path="database.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,7 +71,6 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="database" />
   </component>
@@ -119,32 +127,19 @@
       <file leaf-file-name="actuator_types_controller_spec.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/controllers/actuator_types_controller_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state vertical-scroll-proportion="0.11144131">
-              <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-=======
             <state vertical-scroll-proportion="0.7548291">
               <caret line="78" column="32" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
 >>>>>>> b712c87a018adb474470c2eb2f99d5aefb262792
->>>>>>> 6b573b4baf0ad789e5ec0716860c10837c31d941
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-      <file leaf-file-name="actuator_types_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/actuator_types_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-=======
       <file leaf-file-name="omniauth.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/initializers/omniauth.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
->>>>>>> 6b573b4baf0ad789e5ec0716860c10837c31d941
               <folding />
             </state>
           </provider>
@@ -154,9 +149,6 @@
         <entry file="file://$PROJECT_DIR$/db/schema.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-<<<<<<< HEAD
-              <caret line="16" column="20" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="20" />
-=======
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -168,7 +160,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
->>>>>>> 6b573b4baf0ad789e5ec0716860c10837c31d941
               <folding />
             </state>
           </provider>
@@ -239,11 +230,8 @@
 <<<<<<< HEAD
 =======
       <pane id="Scratches" />
-<<<<<<< HEAD
-=======
       <pane id="Scope" />
 >>>>>>> b712c87a018adb474470c2eb2f99d5aefb262792
->>>>>>> 6b573b4baf0ad789e5ec0716860c10837c31d941
       <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
@@ -483,20 +471,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -504,10 +478,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-<<<<<<< HEAD
-=======
       <pane id="Scratches" />
->>>>>>> 6b573b4baf0ad789e5ec0716860c10837c31d941
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -676,7 +647,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24921875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952926" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -745,8 +716,6 @@
   </component>
   <component name="editorHistoryManager">
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/views/home/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -797,7 +766,6 @@
         </state>
       </provider>
     </entry>
->>>>>>> 6b573b4baf0ad789e5ec0716860c10837c31d941
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1151,8 +1119,6 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-=======
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.022288261">
@@ -1162,11 +1128,11 @@
         </state>
       </provider>
     </entry>
->>>>>>> 6b573b4baf0ad789e5ec0716860c10837c31d941
     <entry file="file://$PROJECT_DIR$/test/controllers/actuators_controller_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7355126">
           <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1174,6 +1140,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.022288261">
           <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1192,11 +1159,8 @@
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
 =======
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-<<<<<<< HEAD
-=======
 >>>>>>> b712c87a018adb474470c2eb2f99d5aefb262792
           <folding />
->>>>>>> 6b573b4baf0ad789e5ec0716860c10837c31d941
         </state>
       </provider>
     </entry>
@@ -1204,6 +1168,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.022288261">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1211,6 +1176,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.044576522">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1221,11 +1187,8 @@
           <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
 =======
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-<<<<<<< HEAD
-=======
 >>>>>>> b712c87a018adb474470c2eb2f99d5aefb262792
           <folding />
->>>>>>> 6b573b4baf0ad789e5ec0716860c10837c31d941
         </state>
       </provider>
     </entry>
@@ -1239,25 +1202,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.044576522">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="17" />
-<<<<<<< HEAD
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/actuator_types_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="20" />
-=======
 >>>>>>> b712c87a018adb474470c2eb2f99d5aefb262792
->>>>>>> 6b573b4baf0ad789e5ec0716860c10837c31d941
           <folding />
         </state>
       </provider>
@@ -1270,14 +1215,9 @@
 =======
     <entry file="file://$PROJECT_DIR$/spec/controllers/actuator_types_controller_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state vertical-scroll-proportion="0.11144131">
-          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-=======
         <state vertical-scroll-proportion="0.7548291">
           <caret line="78" column="32" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
 >>>>>>> b712c87a018adb474470c2eb2f99d5aefb262792
->>>>>>> 6b573b4baf0ad789e5ec0716860c10837c31d941
           <folding />
         </state>
       </provider>
