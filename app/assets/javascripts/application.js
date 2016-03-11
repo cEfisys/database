@@ -14,8 +14,13 @@
 //= require jquery_ujs
 //= require twitter/bootstrap
 //= require turbolinks
+//= require bootstrap
 //= require bootstrap-select
 //= require bootstrap/alert
 //= require bootstrap/dropdown
 //= require_tree .
 
+$('#myTabs a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
