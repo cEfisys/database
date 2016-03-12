@@ -10,8 +10,7 @@
   <%= render 'layouts/shim' %>
 </head>
 <body>
-<!--<%= render 'layouts/header' %>-->
-<%= render 'layouts/navigation_bar' %>
+<%= render 'layouts/header' %>
 <div class="container-fluid">
 
   <% if current_user %>
@@ -22,7 +21,9 @@
       <%= link_to "Sign in with Google", "/auth/google_oauth2", id: "sign_in" %>
   <% end %>
 </div>
-
+<div clas="container">
+  <%= render 'layouts/content' %>
+</div>
 <div class="container">
 
 <%= yield %>
