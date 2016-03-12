@@ -42,7 +42,7 @@
         <!--<%= f.text_field :user_id, :class => 'form-control' %>
         <%= select_tag "user_id", options_from_collection_for_select(User.all, :id, :email), { class: "form-control selectpicker", "data-live-search" => "true"  } %>
         <%= f.select("user_id", User.all.collect {|p| [ p.email, p.id ] }, {}, {class: 'form-control selectpicker', 'data-live-search' => "true"})%>-->
-        <%= f.select("user_id", User.all.collect {|p| [ p.email, p.id ] }, {}, {class: 'form-control selectpicker')%>
+        <%= f.select("user_id", User.all.collect {|p| [ p.email, p.id ] }, {}, {class: 'form-control selectpicker', 'data-live-search' => "true"})%>
       </div>
       <%=f.error_span(:user_id) %>
     </div>
