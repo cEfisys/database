@@ -5,7 +5,7 @@
 
 
 body {
-  padding-top: 60px;
+  padding-top: 190px;
 }
 
 section {
@@ -59,16 +59,7 @@ footer ul li {
 
 /* header */
 
-#logo {
-  float: left;
-  margin-right: 10px;
-  font-size: 1.7em;
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: -1px;
-  padding-top: 9px;
-  font-weight: bold;
-}
+.navbar-brand {height: 130px;}
 
 #logo:hover {
   color: #fff;
@@ -87,4 +78,13 @@ footer ul li {
   margin: 0 auto;
   float: none;
 }
+.navbar-nav li a {
+    font-size: 1.3em;
+    font-family: "Helvetica Narrow", sans-serif;
+    padding-top: 60px;
+    padding-bottom: 50px;
+
+}
+
+
 

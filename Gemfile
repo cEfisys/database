@@ -31,6 +31,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'twitter-bootstrap-rails'
 #gem "less-rails"
 gem "therubyracer"
+gem 'autoprefixer-rails'
 
 #gem "therubyracer"
 #gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
