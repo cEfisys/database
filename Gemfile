@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'omniauth-facebook'
 gem "omniauth-google-oauth2"
+gem 'rb-inotify', '~> 0.9.7'
 gem 'log4r', '1.1.9'
 #gem 'rspec', '~> 3.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
