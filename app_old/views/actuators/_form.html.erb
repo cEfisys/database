@@ -1,0 +1,71 @@
+<%= form_for @actuator, :html => { :class => "form-horizontal actuator" } do |f| %>
+
+  <% if @actuator.errors.any? %>
+    <div id="error_expl" class="panel panel-danger">
+      <div class="panel-heading">
+        <h3 class="panel-title"><%= pluralize(@actuator.errors.count, "error") %> prohibited this actuator from being saved:</h3>
+      </div>
+      <div class="panel-body">
+        <ul>
+        <% @actuator.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+        </ul>
+      </div>
+    </div>
+  <% end %>
+
+  <div class="form-group">
+    <div class="col-lg-2"></div>
+    <%= f.label :ref, :class => 'control-label col-lg-2' %>
+    <div class="col-lg-5">
+      <%= f.text_field :ref, :class => 'form-control' %>
+    </div>
+    <%=f.error_span(:ref) %>
+  </div>
+  <div class="form-group">
+    <div class="col-lg-2"></div>
+    <%= f.label :state, :class => 'control-label col-lg-2' %>
+    <div class="col-lg-5">
+      <%= f.text_field :state, :class => 'form-control' %>
+    </div>
+    <%=f.error_span(:state) %>
+  </div>
+  <div class="form-group">
+    <div class="col-lg-2"></div>
+    <%= f.label :actuator_type_id, :class => 'control-label col-lg-2' %>
+    <div class="col-lg-5">
+      <!--<%= f.text_field :actuator_type_id, :class => 'form-control' %>-->
+      <!--<%= select_tag :actuator_type_id, options_from_collection_for_select(ActuatorType.all, :id, :name), { class: "form-control selectpicker", "data-live-search" => "true"  } %>-->
+      <%= f.select("actuator_type_id", ActuatorType.all.collect {|p| [ p.name, p.id ] }, {}, {class: 'form-control selectpicker'})%>
+      
+
+    </div>
+    <%=f.error_span(:actuator_type_id) %>
+  </div>
+  <div class="form-group">
+    <div class="col-lg-2"></div>
+    <%= f.label :green_kub_box_id, :class => 'control-label col-lg-2' %>
+    <div class="col-lg-5">
+      <!--<%= f.text_field :green_kub_box_id, :class => 'form-control' %>-->
+
+      <!--<%= select_tag :green_kub_box_id, options_from_collection_for_select(GreenKubBox.all, :model_id, :id), { class: "form-control selectpicker", "data-live-search" => "true"  } %>-->
+
+      <%= f.select("green_kub_box_id", GreenKubBox.all.collect {|p| [ p.model_id, p.id ] }, {}, {class: 'form-control selectpicker'})%>
+
+    </div>
+    <%=f.error_span(:green_kub_box_id) %>
+  </div>
+
+
+
+  <div class="form-group">
+    <div class="col-lg-2"></div>
+    <div class="col-lg-offset-2 col-lg-5">
+      <%= f.submit nil, :class => 'btn btn-primary' %>
+      <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                actuators_path, :class => 'btn btn-default' %>
+    </div>
+  </div>
+
+<% end %>

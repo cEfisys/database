@@ -1,0 +1,52 @@
+<%= form_for @sensor_actuator_info, :html => { :class => "form-horizontal sensor_actuator_info" } do |f| %>
+
+  <% if @sensor_actuator_info.errors.any? %>
+    <div id="error_expl" class="panel panel-danger">
+      <div class="panel-heading">
+        <h3 class="panel-title"><%= pluralize(@sensor_actuator_info.errors.count, "error") %> prohibited this sensor_actuator_info from being saved:</h3>
+      </div>
+      <div class="panel-body">
+        <ul>
+        <% @sensor_actuator_info.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+        </ul>
+      </div>
+    </div>
+  <% end %>
+
+  <div class="form-group">
+    <div class="col-lg-2"></div>
+    <%= f.label :value, :class => 'control-label col-lg-2' %>
+    <div class="col-lg-5">
+      <%= f.text_field :value, :class => 'form-control' %>
+    </div>
+    <%=f.error_span(:value) %>
+  </div>
+  <div class="form-group">
+    <div class="col-lg-2"></div>
+    <%= f.label :date, :class => 'control-label col-lg-2' %>
+    <div class="col-lg-5">
+      <%= f.text_field :date, :class => 'form-control' %>
+    </div>
+    <%=f.error_span(:date) %>
+  </div>
+  <div class="form-group">
+    <div class="col-lg-2"></div>
+    <%= f.label :sensor_id, :class => 'control-label col-lg-2' %>
+    <div class="col-lg-5">
+      <%= select_tag :sensor_id, options_from_collection_for_select(Sensor.all, :id, :name), { class: "form-control selectpicker", "data-live-search" => "true"  } %>
+    </div>
+    <%=f.error_span(:sensor_id) %>
+  </div>
+
+  <div class="form-group">
+    <div class="col-lg-2"></div>
+    <div class="col-lg-offset-2 col-lg-5">
+      <%= f.submit nil, :class => 'btn btn-primary' %>
+      <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                sensor_actuator_infos_path, :class => 'btn btn-default' %>
+    </div>
+  </div>
+
+<% end %>

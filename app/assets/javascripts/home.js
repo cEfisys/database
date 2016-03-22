@@ -1,8 +1,14 @@
-# Place all the behaviors and hooks related to the matching controller here.
-# All this logic will automatically be available in application.js.
-# You can use CoffeeScript in this file: http://coffeescript.org/
-
-$('#myTabs a').click(function (e) {
-  e.preventDefault()
-  $(this).tab('sensors')
-})
+//$(document).ready(function(){
+//    setBindings();
+//});
+//function setBindings(){
+//
+//    $("nav a").click(function(e){
+//        e.preventDefault(); // Prevent tags session from working. Stops the anchors texts
+//        var sessionID =e.currentTarget.id+ "Section";
+//        $("html body").animate({
+//            scrollTop: $('#' + sessionID).offset().top
+//        },5000)
+//    })
+//}
+$('body').scrollspy({ target: '#navbar-example' })

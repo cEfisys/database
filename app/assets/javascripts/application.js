@@ -18,9 +18,11 @@
 //= require bootstrap-select
 //= require bootstrap/alert
 //= require bootstrap/dropdown
+//=require jquery.nav
 //= require_tree .
-
-$('#myTabs a').click(function (e) {
-  e.preventDefault()
-  $(this).tab('show')
-})
+//$('#top-nav').onePageNav({
+//	currentClass: 'active',
+//	changeHash: true,
+//	scrollSpeed: 750
+//
+//});
