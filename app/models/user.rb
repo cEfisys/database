@@ -21,15 +21,6 @@ has_many :green_kub_boxes, foreign_key: 'green_kub_box_id'
     end
   end
 
-  def self.exists(email)
-      return User.find_by_email(email).present?
-  end
-
-  def self.getId(email)
-    return User.find_by_email(email).id
-  end
-
-
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,

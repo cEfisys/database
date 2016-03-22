@@ -38673,3 +38673,1513 @@ Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
 Processing by SessionsController#destroy as HTML
 Redirected to http://test.host/
 Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (263.8ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (47.0ms)[0m  [1mINSERT INTO `actuator_types` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Ronaldo', 'Small Rubber Plate', '2016-03-15 20:28:03', '2016-03-15 20:28:03')[0m
+  [1m[35m (54.3ms)[0m  COMMIT
+Processing by ActuatorTypesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mActuatorType Load (54.2ms)[0m  [1mSELECT  `actuator_types`.* FROM `actuator_types` WHERE `actuator_types`.`id` = 1 LIMIT 1[0m
+  Rendered actuator_types/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 157ms (Views: 63.5ms | ActiveRecord: 54.2ms)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (25.7ms)[0m  [1mINSERT INTO `actuator_types` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Darius', 'Practical Wool Shoes', '2016-03-15 20:28:03', '2016-03-15 20:28:03')[0m
+  [1m[35m (59.6ms)[0m  COMMIT
+Processing by ActuatorTypesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mActuatorType Load (0.6ms)[0m  [1mSELECT  `actuator_types`.* FROM `actuator_types` WHERE `actuator_types`.`id` = 2 LIMIT 1[0m
+  Rendered actuator_types/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.6ms)
+Processing by ActuatorTypesController#new as HTML
+  Rendered actuator_types/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 19ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+Processing by ActuatorTypesController#new as HTML
+  Rendered actuator_types/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (30.3ms)[0m  [1mINSERT INTO `actuator_types` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Myron', 'Ergonomic Copper Plate', '2016-03-15 20:28:03', '2016-03-15 20:28:03')[0m
+  [1m[35m (62.7ms)[0m  COMMIT
+Processing by ActuatorTypesController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mActuatorType Load (0.4ms)[0m  [1mSELECT  `actuator_types`.* FROM `actuator_types` WHERE `actuator_types`.`id` = 3 LIMIT 1[0m
+  Rendered actuator_types/edit.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `actuator_types` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Delilah', 'Heavy Duty Iron Keyboard', '2016-03-15 20:28:03', '2016-03-15 20:28:03')[0m
+  [1m[35m (46.2ms)[0m  COMMIT
+Processing by ActuatorTypesController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mActuatorType Load (0.4ms)[0m  [1mSELECT  `actuator_types`.* FROM `actuator_types` WHERE `actuator_types`.`id` = 4 LIMIT 1[0m
+  Rendered actuator_types/edit.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.4ms)
+Processing by ActuatorTypesController#index as HTML
+  Rendered actuator_types/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (26.5ms)[0m  [1mINSERT INTO `actuator_types` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Kennedy', 'Synergistic Rubber Bench', '2016-03-15 20:28:03', '2016-03-15 20:28:03')[0m
+  [1m[35m (59.7ms)[0m  COMMIT
+  [1m[36m (27.2ms)[0m  [1mSELECT COUNT(*) FROM `actuator_types`[0m
+Processing by ActuatorTypesController#destroy as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mActuatorType Load (0.3ms)[0m  SELECT  `actuator_types`.* FROM `actuator_types` WHERE `actuator_types`.`id` = 5 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (37.8ms)[0m  DELETE FROM `actuator_types` WHERE `actuator_types`.`id` = 5
+  [1m[36m (64.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://test.host/actuator_types
+Completed 302 Found in 108ms (ActiveRecord: 103.1ms)
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `actuator_types`
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (25.5ms)[0m  INSERT INTO `actuator_types` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Macie', 'Gorgeous Steel Shirt', '2016-03-15 20:28:04', '2016-03-15 20:28:04')
+  [1m[36m (65.4ms)[0m  [1mCOMMIT[0m
+Processing by ActuatorTypesController#destroy as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mActuatorType Load (0.4ms)[0m  SELECT  `actuator_types`.* FROM `actuator_types` WHERE `actuator_types`.`id` = 6 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  DELETE FROM `actuator_types` WHERE `actuator_types`.`id` = 6
+  [1m[36m (50.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://test.host/actuator_types
+Completed 302 Found in 54ms (ActiveRecord: 51.8ms)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (2.9ms)[0m  [1mINSERT INTO `actuator_types` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Isabel', 'Sleek Copper Coat', '2016-03-15 20:28:04', '2016-03-15 20:28:04')[0m
+  [1m[35m (63.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Mac', 'Incredible Plastic Keyboard', '2016-03-15 20:28:04', '2016-03-15 20:28:04')
+  [1m[36m (62.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (81.9ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'nona@hermanveum.net' LIMIT 1[0m
+  [1m[35mSQL (6.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('nona@hermanveum.net', '$2a$04$nkuG00Y2nQXC.NDF8hIwbOf.muW0eUtYcIgRLGoVrSKNKIGePTYJa', '2016-03-15 20:28:04', '2016-03-15 20:28:04')
+  [1m[36m (72.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (29.1ms)[0m  [1mINSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Chris', 1, 1, '2016-03-15 20:28:04', '2016-03-15 20:28:04')[0m
+  [1m[35m (65.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (19.5ms)[0m  INSERT INTO `actuators` (`ref`, `actuator_type_id`, `green_kub_box_id`, `created_at`, `updated_at`) VALUES ('Marc', 7, 1, '2016-03-15 20:28:04', '2016-03-15 20:28:04')
+  [1m[36m (44.1ms)[0m  [1mCOMMIT[0m
+Processing by ActuatorsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mActuator Load (0.7ms)[0m  SELECT  `actuators`.* FROM `actuators` WHERE `actuators`.`id` = 1 LIMIT 1
+  Rendered actuators/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 7ms (Views: 5.1ms | ActiveRecord: 0.7ms)
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (33.0ms)[0m  INSERT INTO `actuator_types` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Bonnie', 'Fantastic Steel Car', '2016-03-15 20:28:05', '2016-03-15 20:28:05')
+  [1m[36m (97.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Lowell', 'Small Marble Bench', '2016-03-15 20:28:05', '2016-03-15 20:28:05')[0m
+  [1m[35m (30.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (27.3ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'juliet.bode@lind.biz' LIMIT 1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('juliet.bode@lind.biz', '$2a$04$f2eavLcfLVlwnDcsk2yuBOByxemGJUEMMvI7UT/piY6hkabB0dUWq', '2016-03-15 20:28:05', '2016-03-15 20:28:05')[0m
+  [1m[35m (63.0ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (24.9ms)[0m  INSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Edmond', 2, 2, '2016-03-15 20:28:05', '2016-03-15 20:28:05')
+  [1m[36m (47.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO `actuators` (`ref`, `actuator_type_id`, `green_kub_box_id`, `created_at`, `updated_at`) VALUES ('Darrion', 8, 2, '2016-03-15 20:28:05', '2016-03-15 20:28:05')[0m
+  [1m[35m (28.1ms)[0m  COMMIT
+Processing by ActuatorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mActuator Load (0.8ms)[0m  [1mSELECT  `actuators`.* FROM `actuators` WHERE `actuators`.`id` = 2 LIMIT 1[0m
+  Rendered actuators/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.8ms)
+Processing by ActuatorsController#new as HTML
+  Rendered actuators/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 21ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+Processing by ActuatorsController#new as HTML
+  Rendered actuators/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (32.2ms)[0m  [1mINSERT INTO `actuator_types` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Kiana', 'Practical Wool Watch', '2016-03-15 20:28:05', '2016-03-15 20:28:05')[0m
+  [1m[35m (46.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (29.4ms)[0m  INSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Otto', 'Fantastic Aluminum Pants', '2016-03-15 20:28:05', '2016-03-15 20:28:05')
+  [1m[36m (66.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (1.1ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'coty.hickle@ratkemcglynn.name' LIMIT 1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('coty.hickle@ratkemcglynn.name', '$2a$04$Km0zsZORxZ/I7SM8AZKPneV041CV7gZn9rtCSM7jQpDIwpeL3lEj6', '2016-03-15 20:28:05', '2016-03-15 20:28:05')
+  [1m[36m (51.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (22.5ms)[0m  [1mINSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Maria', 3, 3, '2016-03-15 20:28:05', '2016-03-15 20:28:05')[0m
+  [1m[35m (63.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (25.1ms)[0m  INSERT INTO `actuators` (`ref`, `actuator_type_id`, `green_kub_box_id`, `created_at`, `updated_at`) VALUES ('Kaia', 9, 3, '2016-03-15 20:28:05', '2016-03-15 20:28:05')
+  [1m[36m (49.3ms)[0m  [1mCOMMIT[0m
+Processing by ActuatorsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mActuator Load (0.6ms)[0m  SELECT  `actuators`.* FROM `actuators` WHERE `actuators`.`id` = 3 LIMIT 1
+  Rendered actuators/edit.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 0.6ms)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (21.3ms)[0m  INSERT INTO `actuator_types` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Mekhi', 'Fantastic Copper Plate', '2016-03-15 20:28:05', '2016-03-15 20:28:05')
+  [1m[36m (48.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (25.4ms)[0m  [1mINSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Dorcas', 'Synergistic Cotton Keyboard', '2016-03-15 20:28:05', '2016-03-15 20:28:05')[0m
+  [1m[35m (47.7ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.5ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'renee@hartmannmante.co' LIMIT 1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('renee@hartmannmante.co', '$2a$04$RsLRupa5v7v2X6xFdBnoWuGR8xWI7QbjmiJWAuA/2kdfhViE.459a', '2016-03-15 20:28:06', '2016-03-15 20:28:06')[0m
+  [1m[35m (43.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (28.1ms)[0m  INSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Hildegard', 4, 4, '2016-03-15 20:28:06', '2016-03-15 20:28:06')
+  [1m[36m (56.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO `actuators` (`ref`, `actuator_type_id`, `green_kub_box_id`, `created_at`, `updated_at`) VALUES ('Colin', 10, 4, '2016-03-15 20:28:06', '2016-03-15 20:28:06')[0m
+  [1m[35m (39.0ms)[0m  COMMIT
+Processing by ActuatorsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mActuator Load (0.4ms)[0m  [1mSELECT  `actuators`.* FROM `actuators` WHERE `actuators`.`id` = 4 LIMIT 1[0m
+  Rendered actuators/edit.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.4ms)
+Processing by ActuatorsController#index as HTML
+  Rendered actuators/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 25ms (Views: 24.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (26.0ms)[0m  [1mINSERT INTO `actuator_types` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Michale', 'Durable Paper Shoes', '2016-03-15 20:28:06', '2016-03-15 20:28:06')[0m
+  [1m[35m (66.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Bailey', 'Rustic Marble Car', '2016-03-15 20:28:06', '2016-03-15 20:28:06')
+  [1m[36m (51.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'angelica_bruen@pagacromaguera.info' LIMIT 1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('angelica_bruen@pagacromaguera.info', '$2a$04$oauupSRshB8Gj4zgwHRjj.J4EeFa/Utd7W.DN.aJl6GtkgXQ/B/Qq', '2016-03-15 20:28:06', '2016-03-15 20:28:06')
+  [1m[36m (41.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (20.8ms)[0m  [1mINSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Estrella', 5, 5, '2016-03-15 20:28:06', '2016-03-15 20:28:06')[0m
+  [1m[35m (64.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO `actuators` (`ref`, `actuator_type_id`, `green_kub_box_id`, `created_at`, `updated_at`) VALUES ('Ernest', 11, 5, '2016-03-15 20:28:06', '2016-03-15 20:28:06')
+  [1m[36m (39.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `actuators`
+Processing by ActuatorsController#destroy as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mActuator Load (0.4ms)[0m  [1mSELECT  `actuators`.* FROM `actuators` WHERE `actuators`.`id` = 5 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (24.0ms)[0m  [1mDELETE FROM `actuators` WHERE `actuators`.`id` = 5[0m
+  [1m[35m (48.7ms)[0m  COMMIT
+Redirected to http://test.host/actuators
+Completed 302 Found in 77ms (ActiveRecord: 73.3ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `actuators`[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (23.5ms)[0m  [1mINSERT INTO `actuator_types` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Kellen', 'Intelligent Linen Plate', '2016-03-15 20:28:06', '2016-03-15 20:28:06')[0m
+  [1m[35m (57.9ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Cesar', 'Enormous Silk Pants', '2016-03-15 20:28:06', '2016-03-15 20:28:06')
+  [1m[36m (40.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'jett@denesik.org' LIMIT 1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('jett@denesik.org', '$2a$04$iGrQjRiJ6zwNiU5BZ7to4.XQPkkUtQj6oZjeEF6gi0iXfpneuh/6i', '2016-03-15 20:28:06', '2016-03-15 20:28:06')
+  [1m[36m (35.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (18.9ms)[0m  [1mINSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Jamarcus', 6, 6, '2016-03-15 20:28:06', '2016-03-15 20:28:06')[0m
+  [1m[35m (57.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `actuators` (`ref`, `actuator_type_id`, `green_kub_box_id`, `created_at`, `updated_at`) VALUES ('Nathanael', 12, 6, '2016-03-15 20:28:06', '2016-03-15 20:28:06')
+  [1m[36m (41.1ms)[0m  [1mCOMMIT[0m
+Processing by ActuatorsController#destroy as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mActuator Load (0.4ms)[0m  SELECT  `actuators`.* FROM `actuators` WHERE `actuators`.`id` = 6 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (29.6ms)[0m  DELETE FROM `actuators` WHERE `actuators`.`id` = 6
+  [1m[36m (54.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://test.host/actuators
+Completed 302 Found in 88ms (ActiveRecord: 84.5ms)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Susan', 'Intelligent Paper Chair', '2016-03-15 20:28:07', '2016-03-15 20:28:07')[0m
+  [1m[35m (37.8ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.5ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'camden.schaden@kilback.co' LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('camden.schaden@kilback.co', '$2a$04$yMMgYXkGBw9re6X3R7Xo3uf1NJ7uDIWSaoTffJUobJ8ApvxcWwSx.', '2016-03-15 20:28:07', '2016-03-15 20:28:07')[0m
+  [1m[35m (36.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (23.9ms)[0m  INSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Destany', 7, 7, '2016-03-15 20:28:07', '2016-03-15 20:28:07')
+  [1m[36m (60.6ms)[0m  [1mCOMMIT[0m
+Processing by GreenKubBoxesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mGreenKubBox Load (0.4ms)[0m  SELECT  `green_kub_boxes`.* FROM `green_kub_boxes` WHERE `green_kub_boxes`.`id` = 7 LIMIT 1
+  Rendered green_kub_boxes/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 10ms (Views: 7.5ms | ActiveRecord: 0.4ms)
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (20.7ms)[0m  INSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Elvera', 'Enormous Copper Keyboard', '2016-03-15 20:28:07', '2016-03-15 20:28:07')
+  [1m[36m (59.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'fred_crona@kuvalis.com' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('fred_crona@kuvalis.com', '$2a$04$La9zOldggS.s5zQp848gYOfvANSbPVz99yy7e9b1L63K/WvSlOLny', '2016-03-15 20:28:07', '2016-03-15 20:28:07')
+  [1m[36m (35.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (27.2ms)[0m  [1mINSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Hans', 8, 8, '2016-03-15 20:28:07', '2016-03-15 20:28:07')[0m
+  [1m[35m (68.9ms)[0m  COMMIT
+Processing by GreenKubBoxesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mGreenKubBox Load (0.6ms)[0m  [1mSELECT  `green_kub_boxes`.* FROM `green_kub_boxes` WHERE `green_kub_boxes`.`id` = 8 LIMIT 1[0m
+  Rendered green_kub_boxes/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 4ms (Views: 1.7ms | ActiveRecord: 0.6ms)
+Processing by GreenKubBoxesController#new as HTML
+  Rendered green_kub_boxes/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+Processing by GreenKubBoxesController#new as HTML
+  Rendered green_kub_boxes/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (22.4ms)[0m  [1mINSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Randal', 'Synergistic Copper Bottle', '2016-03-15 20:28:07', '2016-03-15 20:28:07')[0m
+  [1m[35m (74.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.5ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'lily@emmerichrutherford.co' LIMIT 1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('lily@emmerichrutherford.co', '$2a$04$EFyVasu2K/7SPyCJOnP9W.vvfdf0.eU3qCrfr1fFQJrVjzjcQa3OW', '2016-03-15 20:28:07', '2016-03-15 20:28:07')[0m
+  [1m[35m (40.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Stuart', 9, 9, '2016-03-15 20:28:07', '2016-03-15 20:28:07')
+  [1m[36m (39.8ms)[0m  [1mCOMMIT[0m
+Processing by GreenKubBoxesController#edit as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mGreenKubBox Load (0.5ms)[0m  SELECT  `green_kub_boxes`.* FROM `green_kub_boxes` WHERE `green_kub_boxes`.`id` = 9 LIMIT 1
+  Rendered green_kub_boxes/edit.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.5ms)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (27.1ms)[0m  INSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Brian', 'Practical Wool Knife', '2016-03-15 20:28:07', '2016-03-15 20:28:07')
+  [1m[36m (60.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.7ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'adriel@mueller.co' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('adriel@mueller.co', '$2a$04$JibfB74yl3Y/L0bDHfPiF.5XNzk9j4YbxtwVqUwXSGfOrU387jKhS', '2016-03-15 20:28:07', '2016-03-15 20:28:07')
+  [1m[36m (43.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (24.5ms)[0m  [1mINSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Heber', 10, 10, '2016-03-15 20:28:07', '2016-03-15 20:28:07')[0m
+  [1m[35m (58.6ms)[0m  COMMIT
+Processing by GreenKubBoxesController#edit as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mGreenKubBox Load (0.5ms)[0m  [1mSELECT  `green_kub_boxes`.* FROM `green_kub_boxes` WHERE `green_kub_boxes`.`id` = 10 LIMIT 1[0m
+  Rendered green_kub_boxes/edit.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.5ms)
+Processing by GreenKubBoxesController#index as HTML
+  Rendered green_kub_boxes/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Katlynn', 'Aerodynamic Marble Chair', '2016-03-15 20:28:07', '2016-03-15 20:28:07')[0m
+  [1m[35m (43.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.5ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'rudolph@klocko.io' LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('rudolph@klocko.io', '$2a$04$qIvj75YSIC2pPoloGoFqae70eUzprWqnNVVuyIMaZBw7aJyBivcx6', '2016-03-15 20:28:08', '2016-03-15 20:28:08')[0m
+  [1m[35m (45.5ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (28.8ms)[0m  INSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Ricky', 11, 11, '2016-03-15 20:28:08', '2016-03-15 20:28:08')
+  [1m[36m (66.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `green_kub_boxes`
+Processing by GreenKubBoxesController#destroy as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mGreenKubBox Load (0.4ms)[0m  [1mSELECT  `green_kub_boxes`.* FROM `green_kub_boxes` WHERE `green_kub_boxes`.`id` = 11 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (31.2ms)[0m  [1mDELETE FROM `green_kub_boxes` WHERE `green_kub_boxes`.`id` = 11[0m
+  [1m[35m (74.4ms)[0m  COMMIT
+Redirected to http://test.host/green_kub_boxes
+Completed 302 Found in 109ms (ActiveRecord: 106.1ms)
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM `green_kub_boxes`[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (27.0ms)[0m  [1mINSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Duane', 'Ergonomic Cotton Computer', '2016-03-15 20:28:08', '2016-03-15 20:28:08')[0m
+  [1m[35m (61.9ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.6ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'claudie.mitchell@ziemann.biz' LIMIT 1
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('claudie.mitchell@ziemann.biz', '$2a$04$.Tc8PjgqQNr57w7QEzfLweskeQm32NzTBRTFw0GyN2/e2rJuNsJ4e', '2016-03-15 20:28:08', '2016-03-15 20:28:08')[0m
+  [1m[35m (42.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Dale', 12, 12, '2016-03-15 20:28:08', '2016-03-15 20:28:08')
+  [1m[36m (40.6ms)[0m  [1mCOMMIT[0m
+Processing by GreenKubBoxesController#destroy as HTML
+  Parameters: {"id"=>"12"}
+  [1m[35mGreenKubBox Load (0.7ms)[0m  SELECT  `green_kub_boxes`.* FROM `green_kub_boxes` WHERE `green_kub_boxes`.`id` = 12 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (24.5ms)[0m  DELETE FROM `green_kub_boxes` WHERE `green_kub_boxes`.`id` = 12
+  [1m[36m (59.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://test.host/green_kub_boxes
+Completed 302 Found in 88ms (ActiveRecord: 85.0ms)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Macey', 'Durable Silk Gloves', '2016-03-15 20:28:08', '2016-03-15 20:28:08')[0m
+  [1m[35m (37.8ms)[0m  COMMIT
+Processing by ModelsController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mModel Load (23.4ms)[0m  [1mSELECT  `models`.* FROM `models` WHERE `models`.`id` = 13 LIMIT 1[0m
+  Rendered models/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 54ms (Views: 28.7ms | ActiveRecord: 23.4ms)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (24.1ms)[0m  [1mINSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Brady', 'Incredible Wool Bag', '2016-03-15 20:28:08', '2016-03-15 20:28:08')[0m
+  [1m[35m (68.3ms)[0m  COMMIT
+Processing by ModelsController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mModel Load (0.4ms)[0m  [1mSELECT  `models`.* FROM `models` WHERE `models`.`id` = 14 LIMIT 1[0m
+  Rendered models/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.4ms)
+Processing by ModelsController#new as HTML
+  Rendered models/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 14ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+Processing by ModelsController#new as HTML
+  Rendered models/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (31.1ms)[0m  [1mINSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Lou', 'Small Plastic Plate', '2016-03-15 20:28:08', '2016-03-15 20:28:08')[0m
+  [1m[35m (62.7ms)[0m  COMMIT
+Processing by ModelsController#edit as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mModel Load (0.4ms)[0m  [1mSELECT  `models`.* FROM `models` WHERE `models`.`id` = 15 LIMIT 1[0m
+  Rendered models/edit.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (22.9ms)[0m  [1mINSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Tressa', 'Awesome Linen Pants', '2016-03-15 20:28:08', '2016-03-15 20:28:08')[0m
+  [1m[35m (55.6ms)[0m  COMMIT
+Processing by ModelsController#edit as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mModel Load (0.3ms)[0m  [1mSELECT  `models`.* FROM `models` WHERE `models`.`id` = 16 LIMIT 1[0m
+  Rendered models/edit.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+Processing by ModelsController#index as HTML
+  Rendered models/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (24.5ms)[0m  [1mINSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Wayne', 'Durable Silk Watch', '2016-03-15 20:28:09', '2016-03-15 20:28:09')[0m
+  [1m[35m (49.4ms)[0m  COMMIT
+  [1m[36m (23.6ms)[0m  [1mSELECT COUNT(*) FROM `models`[0m
+Processing by ModelsController#destroy as HTML
+  Parameters: {"id"=>"17"}
+  [1m[35mModel Load (0.6ms)[0m  SELECT  `models`.* FROM `models` WHERE `models`.`id` = 17 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (28.4ms)[0m  DELETE FROM `models` WHERE `models`.`id` = 17
+  [1m[36m (52.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://test.host/models
+Completed 302 Found in 85ms (ActiveRecord: 81.2ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `models`
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (23.1ms)[0m  INSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Franco', 'Heavy Duty Paper Clock', '2016-03-15 20:28:09', '2016-03-15 20:28:09')
+  [1m[36m (44.9ms)[0m  [1mCOMMIT[0m
+Processing by ModelsController#destroy as HTML
+  Parameters: {"id"=>"18"}
+  [1m[35mModel Load (0.4ms)[0m  SELECT  `models`.* FROM `models` WHERE `models`.`id` = 18 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (28.9ms)[0m  DELETE FROM `models` WHERE `models`.`id` = 18
+  [1m[36m (65.7ms)[0m  [1mCOMMIT[0m
+Redirected to http://test.host/models
+Completed 302 Found in 99ms (ActiveRecord: 95.3ms)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (12.7ms)[0m  [1mINSERT INTO `sensor_types` (`name`, `caracteristics`, `unit`, `created_at`, `updated_at`) VALUES ('Jennifer', 'Heavy Duty Steel Computer', 'BN', '2016-03-15 20:28:09', '2016-03-15 20:28:09')[0m
+  [1m[35m (66.4ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (19.3ms)[0m  INSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Oscar', 'Intelligent Cotton Bag', '2016-03-15 20:28:09', '2016-03-15 20:28:09')
+  [1m[36m (51.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.7ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'dillan@lefflermarvin.name' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('dillan@lefflermarvin.name', '$2a$04$3yfW77yni8n3rfmAa4Ho/Ow71kOb8fjWEvlBCPGNNFjDb0qMnpzTm', '2016-03-15 20:28:09', '2016-03-15 20:28:09')
+  [1m[36m (43.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (24.8ms)[0m  [1mINSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Letha', 19, 13, '2016-03-15 20:28:09', '2016-03-15 20:28:09')[0m
+  [1m[35m (49.7ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (28.4ms)[0m  INSERT INTO `sensors` (`ref`, `sensor_type_id`, `green_kub_box_id`, `created_at`, `updated_at`) VALUES ('Danyka', 1, 13, '2016-03-15 20:28:09', '2016-03-15 20:28:09')
+  [1m[36m (53.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (27.5ms)[0m  [1mINSERT INTO `sensor_actuator_infos` (`value`, `date`, `sensor_id`, `created_at`, `updated_at`) VALUES (583559, '2016-03-13', 1, '2016-03-15 20:28:09', '2016-03-15 20:28:09')[0m
+  [1m[35m (46.5ms)[0m  COMMIT
+Processing by SensorActuatorInfosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSensorActuatorInfo Load (28.0ms)[0m  [1mSELECT  `sensor_actuator_infos`.* FROM `sensor_actuator_infos` WHERE `sensor_actuator_infos`.`id` = 1 LIMIT 1[0m
+  Rendered sensor_actuator_infos/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 69ms (Views: 37.9ms | ActiveRecord: 28.0ms)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (28.5ms)[0m  [1mINSERT INTO `sensor_types` (`name`, `caracteristics`, `unit`, `created_at`, `updated_at`) VALUES ('Tracey', 'Aerodynamic Copper Knife', 'SK', '2016-03-15 20:28:10', '2016-03-15 20:28:10')[0m
+  [1m[35m (66.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Modesto', 'Sleek Copper Bench', '2016-03-15 20:28:10', '2016-03-15 20:28:10')
+  [1m[36m (39.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'sydnie@swiftratke.name' LIMIT 1[0m
+  [1m[35mSQL (26.3ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('sydnie@swiftratke.name', '$2a$04$ThcWlDIdS9GrRJd4fk38zuiE1sktGjGOrcStSf5mLcVNKo2QDbyQ.', '2016-03-15 20:28:10', '2016-03-15 20:28:10')
+  [1m[36m (53.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Eduardo', 20, 14, '2016-03-15 20:28:10', '2016-03-15 20:28:10')[0m
+  [1m[35m (40.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `sensors` (`ref`, `sensor_type_id`, `green_kub_box_id`, `created_at`, `updated_at`) VALUES ('Douglas', 2, 14, '2016-03-15 20:28:10', '2016-03-15 20:28:10')
+  [1m[36m (40.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (34.5ms)[0m  [1mINSERT INTO `sensor_actuator_infos` (`value`, `date`, `sensor_id`, `created_at`, `updated_at`) VALUES (583559, '2016-03-13', 2, '2016-03-15 20:28:10', '2016-03-15 20:28:10')[0m
+  [1m[35m (63.0ms)[0m  COMMIT
+Processing by SensorActuatorInfosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mSensorActuatorInfo Load (0.4ms)[0m  [1mSELECT  `sensor_actuator_infos`.* FROM `sensor_actuator_infos` WHERE `sensor_actuator_infos`.`id` = 2 LIMIT 1[0m
+  Rendered sensor_actuator_infos/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.4ms)
+Processing by SensorActuatorInfosController#new as HTML
+  Rendered sensor_actuator_infos/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+Processing by SensorActuatorInfosController#new as HTML
+  Rendered sensor_actuator_infos/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `sensor_types` (`name`, `caracteristics`, `unit`, `created_at`, `updated_at`) VALUES ('Danyka', 'Aerodynamic Copper Keyboard', 'MK', '2016-03-15 20:28:10', '2016-03-15 20:28:10')[0m
+  [1m[35m (42.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (38.2ms)[0m  INSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Tiara', 'Intelligent Steel Shirt', '2016-03-15 20:28:10', '2016-03-15 20:28:10')
+  [1m[36m (58.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.8ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'antonia@zboncakbuckridge.org' LIMIT 1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('antonia@zboncakbuckridge.org', '$2a$04$S6Mr6m7pz.0xXlEfRC4XbucgxIN4k1pvnY3cCw.llN2arCgAgLuSa', '2016-03-15 20:28:10', '2016-03-15 20:28:10')
+  [1m[36m (43.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (23.3ms)[0m  [1mINSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Naomie', 21, 15, '2016-03-15 20:28:10', '2016-03-15 20:28:10')[0m
+  [1m[35m (61.9ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (28.4ms)[0m  INSERT INTO `sensors` (`ref`, `sensor_type_id`, `green_kub_box_id`, `created_at`, `updated_at`) VALUES ('Vernice', 3, 15, '2016-03-15 20:28:10', '2016-03-15 20:28:10')
+  [1m[36m (56.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `sensor_actuator_infos` (`value`, `date`, `sensor_id`, `created_at`, `updated_at`) VALUES (583559, '2016-03-13', 3, '2016-03-15 20:28:10', '2016-03-15 20:28:10')[0m
+  [1m[35m (41.2ms)[0m  COMMIT
+Processing by SensorActuatorInfosController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mSensorActuatorInfo Load (0.5ms)[0m  [1mSELECT  `sensor_actuator_infos`.* FROM `sensor_actuator_infos` WHERE `sensor_actuator_infos`.`id` = 3 LIMIT 1[0m
+  Rendered sensor_actuator_infos/edit.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 27ms (Views: 24.8ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (21.3ms)[0m  [1mINSERT INTO `sensor_types` (`name`, `caracteristics`, `unit`, `created_at`, `updated_at`) VALUES ('Sadie', 'Sleek Marble Watch', 'VG', '2016-03-15 20:28:10', '2016-03-15 20:28:10')[0m
+  [1m[35m (54.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Hellen', 'Durable Copper Table', '2016-03-15 20:28:11', '2016-03-15 20:28:11')
+  [1m[36m (40.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'clint@schiller.co' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('clint@schiller.co', '$2a$04$MzGHQttp5j/koAntU1UB5uuD/5Q7UwvMBiy9neoyixoOu4GHmsAPa', '2016-03-15 20:28:11', '2016-03-15 20:28:11')
+  [1m[36m (46.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (21.5ms)[0m  [1mINSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Alisa', 22, 16, '2016-03-15 20:28:11', '2016-03-15 20:28:11')[0m
+  [1m[35m (63.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (29.2ms)[0m  INSERT INTO `sensors` (`ref`, `sensor_type_id`, `green_kub_box_id`, `created_at`, `updated_at`) VALUES ('Wilhelm', 4, 16, '2016-03-15 20:28:11', '2016-03-15 20:28:11')
+  [1m[36m (56.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `sensor_actuator_infos` (`value`, `date`, `sensor_id`, `created_at`, `updated_at`) VALUES (583559, '2016-03-13', 4, '2016-03-15 20:28:11', '2016-03-15 20:28:11')[0m
+  [1m[35m (42.0ms)[0m  COMMIT
+Processing by SensorActuatorInfosController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mSensorActuatorInfo Load (0.5ms)[0m  [1mSELECT  `sensor_actuator_infos`.* FROM `sensor_actuator_infos` WHERE `sensor_actuator_infos`.`id` = 4 LIMIT 1[0m
+  Rendered sensor_actuator_infos/edit.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 0.5ms)
+Processing by SensorActuatorInfosController#index as HTML
+  Rendered sensor_actuator_infos/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (21.6ms)[0m  [1mINSERT INTO `sensor_types` (`name`, `caracteristics`, `unit`, `created_at`, `updated_at`) VALUES ('Grace', 'Durable Bronze Clock', 'DM', '2016-03-15 20:28:11', '2016-03-15 20:28:11')[0m
+  [1m[35m (58.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Betsy', 'Heavy Duty Concrete Pants', '2016-03-15 20:28:11', '2016-03-15 20:28:11')
+  [1m[36m (41.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'don.hane@koelpindonnelly.com' LIMIT 1[0m
+  [1m[35mSQL (23.8ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('don.hane@koelpindonnelly.com', '$2a$04$hvef8MvHNMJfj4ysPiJmMOsOaEX3q3zCA/ktry0mLIDkuL2Ticika', '2016-03-15 20:28:11', '2016-03-15 20:28:11')
+  [1m[36m (56.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Selena', 23, 17, '2016-03-15 20:28:11', '2016-03-15 20:28:11')[0m
+  [1m[35m (36.5ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO `sensors` (`ref`, `sensor_type_id`, `green_kub_box_id`, `created_at`, `updated_at`) VALUES ('Noemie', 5, 17, '2016-03-15 20:28:11', '2016-03-15 20:28:11')
+  [1m[36m (38.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `sensor_actuator_infos` (`value`, `date`, `sensor_id`, `created_at`, `updated_at`) VALUES (583559, '2016-03-13', 5, '2016-03-15 20:28:11', '2016-03-15 20:28:11')[0m
+  [1m[35m (40.4ms)[0m  COMMIT
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM `sensor_actuator_infos`[0m
+Processing by SensorActuatorInfosController#destroy as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mSensorActuatorInfo Load (0.5ms)[0m  SELECT  `sensor_actuator_infos`.* FROM `sensor_actuator_infos` WHERE `sensor_actuator_infos`.`id` = 5 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (25.6ms)[0m  DELETE FROM `sensor_actuator_infos` WHERE `sensor_actuator_infos`.`id` = 5
+  [1m[36m (74.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://test.host/sensor_actuator_infos
+Completed 302 Found in 106ms (ActiveRecord: 100.9ms)
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM `sensor_actuator_infos`
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (28.5ms)[0m  INSERT INTO `sensor_types` (`name`, `caracteristics`, `unit`, `created_at`, `updated_at`) VALUES ('Giovani', 'Enormous Silk Shoes', 'KG', '2016-03-15 20:28:11', '2016-03-15 20:28:11')
+  [1m[36m (59.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Winfield', 'Practical Silk Keyboard', '2016-03-15 20:28:11', '2016-03-15 20:28:11')[0m
+  [1m[35m (40.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.5ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'shane@monahanpowlowski.com' LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('shane@monahanpowlowski.com', '$2a$04$a1Ags5ejJ9PLP.Y/1GYavOQDExLLuRrgmYr40gbNdx5.6DFPabpSC', '2016-03-15 20:28:12', '2016-03-15 20:28:12')[0m
+  [1m[35m (32.9ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (28.3ms)[0m  INSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Reagan', 24, 18, '2016-03-15 20:28:12', '2016-03-15 20:28:12')
+  [1m[36m (46.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `sensors` (`ref`, `sensor_type_id`, `green_kub_box_id`, `created_at`, `updated_at`) VALUES ('Abby', 6, 18, '2016-03-15 20:28:12', '2016-03-15 20:28:12')[0m
+  [1m[35m (29.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `sensor_actuator_infos` (`value`, `date`, `sensor_id`, `created_at`, `updated_at`) VALUES (583559, '2016-03-13', 6, '2016-03-15 20:28:12', '2016-03-15 20:28:12')
+  [1m[36m (30.5ms)[0m  [1mCOMMIT[0m
+Processing by SensorActuatorInfosController#destroy as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mSensorActuatorInfo Load (0.3ms)[0m  SELECT  `sensor_actuator_infos`.* FROM `sensor_actuator_infos` WHERE `sensor_actuator_infos`.`id` = 6 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (19.0ms)[0m  DELETE FROM `sensor_actuator_infos` WHERE `sensor_actuator_infos`.`id` = 6
+  [1m[36m (55.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://test.host/sensor_actuator_infos
+Completed 302 Found in 77ms (ActiveRecord: 74.9ms)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `sensor_types` (`name`, `caracteristics`, `unit`, `created_at`, `updated_at`) VALUES ('Stanley', 'Ergonomic Aluminum Gloves', 'HK', '2016-03-15 20:28:12', '2016-03-15 20:28:12')[0m
+  [1m[35m (38.7ms)[0m  COMMIT
+Processing by SensorTypesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mSensorType Load (19.3ms)[0m  [1mSELECT  `sensor_types`.* FROM `sensor_types` WHERE `sensor_types`.`id` = 7 LIMIT 1[0m
+  Rendered sensor_types/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 57ms (Views: 35.8ms | ActiveRecord: 19.3ms)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (26.1ms)[0m  [1mINSERT INTO `sensor_types` (`name`, `caracteristics`, `unit`, `created_at`, `updated_at`) VALUES ('Kameron', 'Fantastic Aluminum Knife', 'AM', '2016-03-15 20:28:12', '2016-03-15 20:28:12')[0m
+  [1m[35m (41.9ms)[0m  COMMIT
+Processing by SensorTypesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mSensorType Load (0.3ms)[0m  [1mSELECT  `sensor_types`.* FROM `sensor_types` WHERE `sensor_types`.`id` = 8 LIMIT 1[0m
+  Rendered sensor_types/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.3ms)
+Processing by SensorTypesController#new as HTML
+  Rendered sensor_types/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+Processing by SensorTypesController#new as HTML
+  Rendered sensor_types/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `sensor_types` (`name`, `caracteristics`, `unit`, `created_at`, `updated_at`) VALUES ('Ronny', 'Durable Rubber Bottle', 'SL', '2016-03-15 20:28:12', '2016-03-15 20:28:12')[0m
+  [1m[35m (36.8ms)[0m  COMMIT
+Processing by SensorTypesController#edit as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mSensorType Load (0.4ms)[0m  [1mSELECT  `sensor_types`.* FROM `sensor_types` WHERE `sensor_types`.`id` = 9 LIMIT 1[0m
+  Rendered sensor_types/edit.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `sensor_types` (`name`, `caracteristics`, `unit`, `created_at`, `updated_at`) VALUES ('Missouri', 'Enormous Cotton Car', 'BZ', '2016-03-15 20:28:12', '2016-03-15 20:28:12')[0m
+  [1m[35m (34.9ms)[0m  COMMIT
+Processing by SensorTypesController#edit as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mSensorType Load (0.4ms)[0m  [1mSELECT  `sensor_types`.* FROM `sensor_types` WHERE `sensor_types`.`id` = 10 LIMIT 1[0m
+  Rendered sensor_types/edit.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.4ms)
+Processing by SensorTypesController#index as HTML
+  Rendered sensor_types/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `sensor_types` (`name`, `caracteristics`, `unit`, `created_at`, `updated_at`) VALUES ('Vada', 'Practical Wool Pants', 'MU', '2016-03-15 20:28:12', '2016-03-15 20:28:12')[0m
+  [1m[35m (43.9ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM `sensor_types`[0m
+Processing by SensorTypesController#destroy as HTML
+  Parameters: {"id"=>"11"}
+  [1m[35mSensorType Load (0.5ms)[0m  SELECT  `sensor_types`.* FROM `sensor_types` WHERE `sensor_types`.`id` = 11 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  DELETE FROM `sensor_types` WHERE `sensor_types`.`id` = 11
+  [1m[36m (83.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://test.host/sensor_types
+Completed 302 Found in 87ms (ActiveRecord: 84.7ms)
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `sensor_types`
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `sensor_types` (`name`, `caracteristics`, `unit`, `created_at`, `updated_at`) VALUES ('Estella', 'Enormous Wool Car', 'UA', '2016-03-15 20:28:12', '2016-03-15 20:28:12')
+  [1m[36m (38.5ms)[0m  [1mCOMMIT[0m
+Processing by SensorTypesController#destroy as HTML
+  Parameters: {"id"=>"12"}
+  [1m[35mSensorType Load (0.3ms)[0m  SELECT  `sensor_types`.* FROM `sensor_types` WHERE `sensor_types`.`id` = 12 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (25.1ms)[0m  DELETE FROM `sensor_types` WHERE `sensor_types`.`id` = 12
+  [1m[36m (60.7ms)[0m  [1mCOMMIT[0m
+Redirected to http://test.host/sensor_types
+Completed 302 Found in 88ms (ActiveRecord: 86.2ms)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `sensor_types` (`name`, `caracteristics`, `unit`, `created_at`, `updated_at`) VALUES ('Shayna', 'Practical Bronze Hat', 'AE', '2016-03-15 20:28:12', '2016-03-15 20:28:12')[0m
+  [1m[35m (38.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Lela', 'Incredible Marble Table', '2016-03-15 20:28:12', '2016-03-15 20:28:12')
+  [1m[36m (41.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'armand@feil.com' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('armand@feil.com', '$2a$04$Gv3HSx41iPsf5VNaYQRWlO00W7OSmthFn8uxSpXursaEdDfUBVHmK', '2016-03-15 20:28:12', '2016-03-15 20:28:12')
+  [1m[36m (36.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Ansel', 25, 19, '2016-03-15 20:28:12', '2016-03-15 20:28:12')[0m
+  [1m[35m (39.4ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (27.0ms)[0m  INSERT INTO `sensors` (`ref`, `sensor_type_id`, `green_kub_box_id`, `created_at`, `updated_at`) VALUES ('Darwin', 13, 19, '2016-03-15 20:28:13', '2016-03-15 20:28:13')
+  [1m[36m (57.0ms)[0m  [1mCOMMIT[0m
+Processing by SensorsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mSensor Load (27.3ms)[0m  SELECT  `sensors`.* FROM `sensors` WHERE `sensors`.`id` = 7 LIMIT 1
+  Rendered sensors/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 39ms (Views: 8.8ms | ActiveRecord: 27.3ms)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `sensor_types` (`name`, `caracteristics`, `unit`, `created_at`, `updated_at`) VALUES ('Lulu', 'Rustic Granite Shoes', 'WF', '2016-03-15 20:28:13', '2016-03-15 20:28:13')
+  [1m[36m (61.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Bernard', 'Incredible Plastic Pants', '2016-03-15 20:28:13', '2016-03-15 20:28:13')[0m
+  [1m[35m (40.8ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.5ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'hailie.schoen@daughertyschulist.com' LIMIT 1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('hailie.schoen@daughertyschulist.com', '$2a$04$WVt5vUuzJK3h1.IbVTf76.bOu3cSRFwzt0tXKMLEQmbQbIMy1KUsW', '2016-03-15 20:28:13', '2016-03-15 20:28:13')[0m
+  [1m[35m (42.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Luisa', 26, 20, '2016-03-15 20:28:13', '2016-03-15 20:28:13')
+  [1m[36m (41.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (34.7ms)[0m  [1mINSERT INTO `sensors` (`ref`, `sensor_type_id`, `green_kub_box_id`, `created_at`, `updated_at`) VALUES ('Broderick', 14, 20, '2016-03-15 20:28:13', '2016-03-15 20:28:13')[0m
+  [1m[35m (50.1ms)[0m  COMMIT
+Processing by SensorsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mSensor Load (0.4ms)[0m  [1mSELECT  `sensors`.* FROM `sensors` WHERE `sensors`.`id` = 8 LIMIT 1[0m
+  Rendered sensors/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.4ms)
+Processing by SensorsController#new as HTML
+  Rendered sensors/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 20ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+Processing by SensorsController#new as HTML
+  Rendered sensors/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (5.6ms)[0m  [1mINSERT INTO `sensor_types` (`name`, `caracteristics`, `unit`, `created_at`, `updated_at`) VALUES ('Rosalia', 'Synergistic Rubber Watch', 'IQ', '2016-03-15 20:28:13', '2016-03-15 20:28:13')[0m
+  [1m[35m (65.7ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (869.7ms)[0m  INSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Clyde', 'Lightweight Wool Wallet', '2016-03-15 20:28:13', '2016-03-15 20:28:13')
+  [1m[36m (181.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (26.3ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'sam@kris.org' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('sam@kris.org', '$2a$04$JhHOImwEWebz3ncFOpE9VOGO4dO9OLa8ZV4ArF/hNNL8DEdMdKDbe', '2016-03-15 20:28:14', '2016-03-15 20:28:14')
+  [1m[36m (66.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Casper', 27, 21, '2016-03-15 20:28:14', '2016-03-15 20:28:14')[0m
+  [1m[35m (108.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `sensors` (`ref`, `sensor_type_id`, `green_kub_box_id`, `created_at`, `updated_at`) VALUES ('Mckenzie', 15, 21, '2016-03-15 20:28:14', '2016-03-15 20:28:14')
+  [1m[36m (151.2ms)[0m  [1mCOMMIT[0m
+Processing by SensorsController#edit as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mSensor Load (0.5ms)[0m  SELECT  `sensors`.* FROM `sensors` WHERE `sensors`.`id` = 9 LIMIT 1
+  Rendered sensors/edit.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 27ms (Views: 25.4ms | ActiveRecord: 0.5ms)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `sensor_types` (`name`, `caracteristics`, `unit`, `created_at`, `updated_at`) VALUES ('Dewayne', 'Ergonomic Granite Plate', 'NC', '2016-03-15 20:28:15', '2016-03-15 20:28:15')
+  [1m[36m (129.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (50.4ms)[0m  [1mINSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Vita', 'Small Wool Table', '2016-03-15 20:28:15', '2016-03-15 20:28:15')[0m
+  [1m[35m (67.5ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.6ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'deven.christiansen@rueckerlarkin.com' LIMIT 1
+  [1m[36mSQL (48.1ms)[0m  [1mINSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('deven.christiansen@rueckerlarkin.com', '$2a$04$HPajh2Au4ZPM1xlwv.b4e.82.NFtPKKm5eg8tp2zo94jgLcR5YfEO', '2016-03-15 20:28:15', '2016-03-15 20:28:15')[0m
+  [1m[35m (89.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('German', 28, 22, '2016-03-15 20:28:15', '2016-03-15 20:28:15')
+  [1m[36m (79.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `sensors` (`ref`, `sensor_type_id`, `green_kub_box_id`, `created_at`, `updated_at`) VALUES ('Brandy', 16, 22, '2016-03-15 20:28:15', '2016-03-15 20:28:15')[0m
+  [1m[35m (37.3ms)[0m  COMMIT
+Processing by SensorsController#edit as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mSensor Load (0.3ms)[0m  [1mSELECT  `sensors`.* FROM `sensors` WHERE `sensors`.`id` = 10 LIMIT 1[0m
+  Rendered sensors/edit.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.3ms)
+Processing by SensorsController#index as HTML
+  Rendered sensors/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (26.3ms)[0m  [1mINSERT INTO `sensor_types` (`name`, `caracteristics`, `unit`, `created_at`, `updated_at`) VALUES ('Jose', 'Awesome Bronze Clock', 'LS', '2016-03-15 20:28:15', '2016-03-15 20:28:15')[0m
+  [1m[35m (60.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Bianka', 'Practical Bronze Clock', '2016-03-15 20:28:15', '2016-03-15 20:28:15')
+  [1m[36m (41.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'eryn_bednar@ryansmitham.name' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('eryn_bednar@ryansmitham.name', '$2a$04$tGWug.2/Pbt8EOM6wpR5/ewFz6eQbWaXoTxMfpA5SB3omI.gmmEOa', '2016-03-15 20:28:15', '2016-03-15 20:28:15')
+  [1m[36m (260.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Oma', 29, 23, '2016-03-15 20:28:15', '2016-03-15 20:28:15')[0m
+  [1m[35m (59.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (28.2ms)[0m  INSERT INTO `sensors` (`ref`, `sensor_type_id`, `green_kub_box_id`, `created_at`, `updated_at`) VALUES ('Perry', 17, 23, '2016-03-15 20:28:16', '2016-03-15 20:28:16')
+  [1m[36m (58.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `sensors`
+Processing by SensorsController#destroy as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mSensor Load (0.4ms)[0m  [1mSELECT  `sensors`.* FROM `sensors` WHERE `sensors`.`id` = 11 LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (23.8ms)[0m  [1mDELETE FROM `sensors` WHERE `sensors`.`id` = 11[0m
+  [1m[35m (58.1ms)[0m  COMMIT
+Redirected to http://test.host/sensors
+Completed 302 Found in 86ms (ActiveRecord: 82.6ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `sensors`[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `sensor_types` (`name`, `caracteristics`, `unit`, `created_at`, `updated_at`) VALUES ('Nelle', 'Heavy Duty Copper Bench', 'WF', '2016-03-15 20:28:16', '2016-03-15 20:28:16')[0m
+  [1m[35m (36.9ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Annabel', 'Durable Iron Hat', '2016-03-15 20:28:16', '2016-03-15 20:28:16')
+  [1m[36m (39.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (1.2ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'hildegard.pfannerstill@mitchell.biz' LIMIT 1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('hildegard.pfannerstill@mitchell.biz', '$2a$04$veiLMC2wvzKorqNbLECBi.wGE5YyRkXfYkgeQW.k47kN6QnUtEzyi', '2016-03-15 20:28:16', '2016-03-15 20:28:16')
+  [1m[36m (40.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (25.9ms)[0m  [1mINSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Paul', 30, 24, '2016-03-15 20:28:16', '2016-03-15 20:28:16')[0m
+  [1m[35m (70.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `sensors` (`ref`, `sensor_type_id`, `green_kub_box_id`, `created_at`, `updated_at`) VALUES ('Preston', 18, 24, '2016-03-15 20:28:16', '2016-03-15 20:28:16')
+  [1m[36m (41.8ms)[0m  [1mCOMMIT[0m
+Processing by SensorsController#destroy as HTML
+  Parameters: {"id"=>"12"}
+  [1m[35mSensor Load (0.5ms)[0m  SELECT  `sensors`.* FROM `sensors` WHERE `sensors`.`id` = 12 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (26.1ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 12
+  [1m[36m (69.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://test.host/sensors
+Completed 302 Found in 98ms (ActiveRecord: 95.7ms)
+Processing by SessionsController#create as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+Processing by SessionsController#destroy as HTML
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (45.0ms)[0m  [1mINSERT INTO `actuator_types` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Jace', 'Incredible Leather Gloves', '2016-03-15 20:29:11', '2016-03-15 20:29:11')[0m
+  [1m[35m (114.7ms)[0m  COMMIT
+Processing by ActuatorTypesController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mActuatorType Load (0.4ms)[0m  [1mSELECT  `actuator_types`.* FROM `actuator_types` WHERE `actuator_types`.`id` = 13 LIMIT 1[0m
+  Rendered actuator_types/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 28ms (Views: 15.6ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `actuator_types` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Sonya', 'Awesome Cotton Bench', '2016-03-15 20:29:11', '2016-03-15 20:29:11')[0m
+  [1m[35m (37.5ms)[0m  COMMIT
+Processing by ActuatorTypesController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mActuatorType Load (0.4ms)[0m  [1mSELECT  `actuator_types`.* FROM `actuator_types` WHERE `actuator_types`.`id` = 14 LIMIT 1[0m
+  Rendered actuator_types/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.4ms)
+Processing by ActuatorTypesController#new as HTML
+  Rendered actuator_types/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+Processing by ActuatorTypesController#new as HTML
+  Rendered actuator_types/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (26.8ms)[0m  [1mINSERT INTO `actuator_types` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Linwood', 'Aerodynamic Cotton Lamp', '2016-03-15 20:29:11', '2016-03-15 20:29:11')[0m
+  [1m[35m (88.7ms)[0m  COMMIT
+Processing by ActuatorTypesController#edit as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mActuatorType Load (0.5ms)[0m  [1mSELECT  `actuator_types`.* FROM `actuator_types` WHERE `actuator_types`.`id` = 15 LIMIT 1[0m
+  Rendered actuator_types/edit.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `actuator_types` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Daisy', 'Gorgeous Steel Watch', '2016-03-15 20:29:11', '2016-03-15 20:29:11')[0m
+  [1m[35m (45.5ms)[0m  COMMIT
+Processing by ActuatorTypesController#edit as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mActuatorType Load (0.4ms)[0m  [1mSELECT  `actuator_types`.* FROM `actuator_types` WHERE `actuator_types`.`id` = 16 LIMIT 1[0m
+  Rendered actuator_types/edit.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.4ms)
+Processing by ActuatorTypesController#index as HTML
+  Rendered actuator_types/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `actuator_types` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Nora', 'Fantastic Marble Bag', '2016-03-15 20:29:12', '2016-03-15 20:29:12')[0m
+  [1m[35m (72.7ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM `actuator_types`[0m
+Processing by ActuatorTypesController#destroy as HTML
+  Parameters: {"id"=>"17"}
+  [1m[35mActuatorType Load (0.6ms)[0m  SELECT  `actuator_types`.* FROM `actuator_types` WHERE `actuator_types`.`id` = 17 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  DELETE FROM `actuator_types` WHERE `actuator_types`.`id` = 17
+  [1m[36m (108.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://test.host/actuator_types
+Completed 302 Found in 117ms (ActiveRecord: 109.6ms)
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM `actuator_types`
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `actuator_types` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Miles', 'Ergonomic Wool Coat', '2016-03-15 20:29:12', '2016-03-15 20:29:12')
+  [1m[36m (42.9ms)[0m  [1mCOMMIT[0m
+Processing by ActuatorTypesController#destroy as HTML
+  Parameters: {"id"=>"18"}
+  [1m[35mActuatorType Load (0.6ms)[0m  SELECT  `actuator_types`.* FROM `actuator_types` WHERE `actuator_types`.`id` = 18 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  DELETE FROM `actuator_types` WHERE `actuator_types`.`id` = 18
+  [1m[36m (106.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://test.host/actuator_types
+Completed 302 Found in 111ms (ActiveRecord: 107.5ms)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (27.4ms)[0m  [1mINSERT INTO `actuator_types` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Lester', 'Intelligent Rubber Wallet', '2016-03-15 20:29:12', '2016-03-15 20:29:12')[0m
+  [1m[35m (76.8ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Albin', 'Ergonomic Iron Shirt', '2016-03-15 20:29:12', '2016-03-15 20:29:12')
+  [1m[36m (44.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'harry@hackett.name' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('harry@hackett.name', '$2a$04$6LA/Hw1g5vbwk1UsikKTFuOnPmFoaG6X4qW3XBX47ugjytphPDMx.', '2016-03-15 20:29:12', '2016-03-15 20:29:12')
+  [1m[36m (36.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (29.0ms)[0m  [1mINSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Torrey', 31, 25, '2016-03-15 20:29:12', '2016-03-15 20:29:12')[0m
+  [1m[35m (97.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `actuators` (`ref`, `actuator_type_id`, `green_kub_box_id`, `created_at`, `updated_at`) VALUES ('Anna', 19, 25, '2016-03-15 20:29:12', '2016-03-15 20:29:12')
+  [1m[36m (38.9ms)[0m  [1mCOMMIT[0m
+Processing by ActuatorsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mActuator Load (0.3ms)[0m  SELECT  `actuators`.* FROM `actuators` WHERE `actuators`.`id` = 7 LIMIT 1
+  Rendered actuators/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 10ms (Views: 7.4ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `actuator_types` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Eduardo', 'Mediocre Linen Pants', '2016-03-15 20:29:12', '2016-03-15 20:29:12')
+  [1m[36m (46.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (23.3ms)[0m  [1mINSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Luella', 'Sleek Silk Watch', '2016-03-15 20:29:12', '2016-03-15 20:29:12')[0m
+  [1m[35m (83.8ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.6ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'joey@beierhilll.info' LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('joey@beierhilll.info', '$2a$04$XUzKT64BBp67bg1EG7BDsuQMH3lo5PfouFVa.1roYPvYBhS4DQjK6', '2016-03-15 20:29:13', '2016-03-15 20:29:13')[0m
+  [1m[35m (43.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Webster', 32, 26, '2016-03-15 20:29:13', '2016-03-15 20:29:13')
+  [1m[36m (73.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `actuators` (`ref`, `actuator_type_id`, `green_kub_box_id`, `created_at`, `updated_at`) VALUES ('Armani', 20, 26, '2016-03-15 20:29:13', '2016-03-15 20:29:13')[0m
+  [1m[35m (52.1ms)[0m  COMMIT
+Processing by ActuatorsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mActuator Load (0.5ms)[0m  [1mSELECT  `actuators`.* FROM `actuators` WHERE `actuators`.`id` = 8 LIMIT 1[0m
+  Rendered actuators/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.5ms)
+Processing by ActuatorsController#new as HTML
+  Rendered actuators/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+Processing by ActuatorsController#new as HTML
+  Rendered actuators/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO `actuator_types` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Elfrieda', 'Practical Wooden Bag', '2016-03-15 20:29:13', '2016-03-15 20:29:13')[0m
+  [1m[35m (69.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Daren', 'Sleek Wooden Pants', '2016-03-15 20:29:13', '2016-03-15 20:29:13')
+  [1m[36m (50.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.6ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'joshua.dietrich@torpbeahan.net' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('joshua.dietrich@torpbeahan.net', '$2a$04$t6konVZ8gPD.vklE.ZVQR.6K4CABdcr673Jj6IIf.klPJUncMZ6Aa', '2016-03-15 20:29:13', '2016-03-15 20:29:13')
+  [1m[36m (64.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (22.7ms)[0m  [1mINSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Arnold', 33, 27, '2016-03-15 20:29:13', '2016-03-15 20:29:13')[0m
+  [1m[35m (62.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `actuators` (`ref`, `actuator_type_id`, `green_kub_box_id`, `created_at`, `updated_at`) VALUES ('Hailee', 21, 27, '2016-03-15 20:29:13', '2016-03-15 20:29:13')
+  [1m[36m (41.2ms)[0m  [1mCOMMIT[0m
+Processing by ActuatorsController#edit as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mActuator Load (0.4ms)[0m  SELECT  `actuators`.* FROM `actuators` WHERE `actuators`.`id` = 9 LIMIT 1
+  Rendered actuators/edit.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 2.2ms | ActiveRecord: 0.4ms)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `actuator_types` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Mikayla', 'Mediocre Aluminum Car', '2016-03-15 20:29:13', '2016-03-15 20:29:13')
+  [1m[36m (42.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Ansley', 'Synergistic Concrete Plate', '2016-03-15 20:29:13', '2016-03-15 20:29:13')[0m
+  [1m[35m (41.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.6ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'wade.barton@johnston.co' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('wade.barton@johnston.co', '$2a$04$VEttLouj0FOQmmPgNXUQ1uYSGQQKOaCYSxmnIyd1HOd3VRNTM0tVm', '2016-03-15 20:29:13', '2016-03-15 20:29:13')[0m
+  [1m[35m (44.9ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Clair', 34, 28, '2016-03-15 20:29:13', '2016-03-15 20:29:13')
+  [1m[36m (40.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (29.4ms)[0m  [1mINSERT INTO `actuators` (`ref`, `actuator_type_id`, `green_kub_box_id`, `created_at`, `updated_at`) VALUES ('Alisha', 22, 28, '2016-03-15 20:29:13', '2016-03-15 20:29:13')[0m
+  [1m[35m (100.9ms)[0m  COMMIT
+Processing by ActuatorsController#edit as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mActuator Load (0.8ms)[0m  [1mSELECT  `actuators`.* FROM `actuators` WHERE `actuators`.`id` = 10 LIMIT 1[0m
+  Rendered actuators/edit.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 1.2ms | ActiveRecord: 0.8ms)
+Processing by ActuatorsController#index as HTML
+  Rendered actuators/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `actuator_types` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Geoffrey', 'Lightweight Linen Bench', '2016-03-15 20:29:13', '2016-03-15 20:29:13')[0m
+  [1m[35m (57.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Lillie', 'Mediocre Linen Shoes', '2016-03-15 20:29:13', '2016-03-15 20:29:13')
+  [1m[36m (63.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.6ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'andrew.wehner@walter.io' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('andrew.wehner@walter.io', '$2a$04$nsMZMeCZBkz2YP9UplWxpuXaCLiiCgo63MwWvz39Lv.02lE..l2eO', '2016-03-15 20:29:14', '2016-03-15 20:29:14')
+  [1m[36m (45.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Sven', 35, 29, '2016-03-15 20:29:14', '2016-03-15 20:29:14')[0m
+  [1m[35m (41.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `actuators` (`ref`, `actuator_type_id`, `green_kub_box_id`, `created_at`, `updated_at`) VALUES ('Rebeka', 23, 29, '2016-03-15 20:29:14', '2016-03-15 20:29:14')
+  [1m[36m (40.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `actuators`
+Processing by ActuatorsController#destroy as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mActuator Load (0.4ms)[0m  [1mSELECT  `actuators`.* FROM `actuators` WHERE `actuators`.`id` = 11 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (22.4ms)[0m  [1mDELETE FROM `actuators` WHERE `actuators`.`id` = 11[0m
+  [1m[35m (81.8ms)[0m  COMMIT
+Redirected to http://test.host/actuators
+Completed 302 Found in 108ms (ActiveRecord: 104.8ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `actuators`[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `actuator_types` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Janie', 'Enormous Wooden Keyboard', '2016-03-15 20:29:14', '2016-03-15 20:29:14')[0m
+  [1m[35m (45.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Marcia', 'Lightweight Concrete Bench', '2016-03-15 20:29:14', '2016-03-15 20:29:14')
+  [1m[36m (73.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'juliana@gusikowski.org' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('juliana@gusikowski.org', '$2a$04$NDAv7.8egBvxeiBxFnaGhuwdwZMlr/s5vk4AgLEiJj5wB/ULdQBIm', '2016-03-15 20:29:14', '2016-03-15 20:29:14')
+  [1m[36m (55.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Domenic', 36, 30, '2016-03-15 20:29:14', '2016-03-15 20:29:14')[0m
+  [1m[35m (71.9ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `actuators` (`ref`, `actuator_type_id`, `green_kub_box_id`, `created_at`, `updated_at`) VALUES ('Mozelle', 24, 30, '2016-03-15 20:29:14', '2016-03-15 20:29:14')
+  [1m[36m (39.6ms)[0m  [1mCOMMIT[0m
+Processing by ActuatorsController#destroy as HTML
+  Parameters: {"id"=>"12"}
+  [1m[35mActuator Load (0.5ms)[0m  SELECT  `actuators`.* FROM `actuators` WHERE `actuators`.`id` = 12 LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (24.8ms)[0m  DELETE FROM `actuators` WHERE `actuators`.`id` = 12
+  [1m[36m (91.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://test.host/actuators
+Completed 302 Found in 123ms (ActiveRecord: 117.2ms)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Virginie', 'Intelligent Iron Pants', '2016-03-15 20:29:14', '2016-03-15 20:29:14')[0m
+  [1m[35m (31.9ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.5ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'wilson_rodriguez@heller.org' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('wilson_rodriguez@heller.org', '$2a$04$rRPdsC0R4WMW0iLviEYnWefGzDzMey5L6NWBM7evyBOheyWRhxZLm', '2016-03-15 20:29:14', '2016-03-15 20:29:14')[0m
+  [1m[35m (67.0ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Hazle', 37, 31, '2016-03-15 20:29:14', '2016-03-15 20:29:14')
+  [1m[36m (26.2ms)[0m  [1mCOMMIT[0m
+Processing by GreenKubBoxesController#show as HTML
+  Parameters: {"id"=>"31"}
+  [1m[35mGreenKubBox Load (0.6ms)[0m  SELECT  `green_kub_boxes`.* FROM `green_kub_boxes` WHERE `green_kub_boxes`.`id` = 31 LIMIT 1
+  Rendered green_kub_boxes/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 14ms (Views: 10.2ms | ActiveRecord: 0.6ms)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Emil', 'Incredible Bronze Car', '2016-03-15 20:29:14', '2016-03-15 20:29:14')
+  [1m[36m (39.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'rosa@klockotreutel.com' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('rosa@klockotreutel.com', '$2a$04$PNnQz419ZvJwrTlzNgLIAON3WlCYY5bAncMMr20uFvUBM5fIxQ56u', '2016-03-15 20:29:14', '2016-03-15 20:29:14')
+  [1m[36m (47.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (23.9ms)[0m  [1mINSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Micaela', 38, 32, '2016-03-15 20:29:15', '2016-03-15 20:29:15')[0m
+  [1m[35m (73.1ms)[0m  COMMIT
+Processing by GreenKubBoxesController#show as HTML
+  Parameters: {"id"=>"32"}
+  [1m[36mGreenKubBox Load (0.4ms)[0m  [1mSELECT  `green_kub_boxes`.* FROM `green_kub_boxes` WHERE `green_kub_boxes`.`id` = 32 LIMIT 1[0m
+  Rendered green_kub_boxes/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.4ms)
+Processing by GreenKubBoxesController#new as HTML
+  Rendered green_kub_boxes/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+Processing by GreenKubBoxesController#new as HTML
+  Rendered green_kub_boxes/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Nova', 'Sleek Wooden Lamp', '2016-03-15 20:29:15', '2016-03-15 20:29:15')[0m
+  [1m[35m (37.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.4ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'marilie_cummings@vonruedenhamill.name' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('marilie_cummings@vonruedenhamill.name', '$2a$04$BllEnuJZRNCc8S.0wIt0PuhYA7/oZywuYxIxEBfKBoTZkQbKsVwwm', '2016-03-15 20:29:15', '2016-03-15 20:29:15')[0m
+  [1m[35m (36.8ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Ervin', 39, 33, '2016-03-15 20:29:15', '2016-03-15 20:29:15')
+  [1m[36m (30.9ms)[0m  [1mCOMMIT[0m
+Processing by GreenKubBoxesController#edit as HTML
+  Parameters: {"id"=>"33"}
+  [1m[35mGreenKubBox Load (0.4ms)[0m  SELECT  `green_kub_boxes`.* FROM `green_kub_boxes` WHERE `green_kub_boxes`.`id` = 33 LIMIT 1
+  Rendered green_kub_boxes/edit.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.4ms)
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Sharon', 'Lightweight Marble Clock', '2016-03-15 20:29:15', '2016-03-15 20:29:15')
+  [1m[36m (44.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.6ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'adaline@schambergergrimes.org' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('adaline@schambergergrimes.org', '$2a$04$LnTy4dEzczqEJ1n9k4PvQeTYX2iYKnk4E9UzLs/6C6xR6vHTPQGI.', '2016-03-15 20:29:15', '2016-03-15 20:29:15')
+  [1m[36m (49.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Trevor', 40, 34, '2016-03-15 20:29:15', '2016-03-15 20:29:15')[0m
+  [1m[35m (39.0ms)[0m  COMMIT
+Processing by GreenKubBoxesController#edit as HTML
+  Parameters: {"id"=>"34"}
+  [1m[36mGreenKubBox Load (0.8ms)[0m  [1mSELECT  `green_kub_boxes`.* FROM `green_kub_boxes` WHERE `green_kub_boxes`.`id` = 34 LIMIT 1[0m
+  Rendered green_kub_boxes/edit.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 4ms (Views: 1.5ms | ActiveRecord: 0.8ms)
+Processing by GreenKubBoxesController#index as HTML
+  Rendered green_kub_boxes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Dahlia', 'Incredible Silk Chair', '2016-03-15 20:29:15', '2016-03-15 20:29:15')[0m
+  [1m[35m (43.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.5ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'charlie.herman@veumhammes.com' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('charlie.herman@veumhammes.com', '$2a$04$qbOcRDj50LaNbTkurTt7he1lnshsqJ87epyKuHVMTy4ICH2.Rk32i', '2016-03-15 20:29:15', '2016-03-15 20:29:15')[0m
+  [1m[35m (35.7ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Theodora', 41, 35, '2016-03-15 20:29:15', '2016-03-15 20:29:15')
+  [1m[36m (41.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM `green_kub_boxes`
+Processing by GreenKubBoxesController#destroy as HTML
+  Parameters: {"id"=>"35"}
+  [1m[36mGreenKubBox Load (0.6ms)[0m  [1mSELECT  `green_kub_boxes`.* FROM `green_kub_boxes` WHERE `green_kub_boxes`.`id` = 35 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM `green_kub_boxes` WHERE `green_kub_boxes`.`id` = 35[0m
+  [1m[35m (38.9ms)[0m  COMMIT
+Redirected to http://test.host/green_kub_boxes
+Completed 302 Found in 42ms (ActiveRecord: 40.1ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `green_kub_boxes`[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Garnet', 'Awesome Concrete Table', '2016-03-15 20:29:15', '2016-03-15 20:29:15')[0m
+  [1m[35m (38.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.4ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'summer.christiansen@schoenwolff.name' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('summer.christiansen@schoenwolff.name', '$2a$04$9Latgh1bixl9XAqMZsxd5eceO3Ri3HIMh8lKFfOb1TIXmtD2HeLDG', '2016-03-15 20:29:15', '2016-03-15 20:29:15')[0m
+  [1m[35m (37.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Mercedes', 42, 36, '2016-03-15 20:29:15', '2016-03-15 20:29:15')
+  [1m[36m (75.2ms)[0m  [1mCOMMIT[0m
+Processing by GreenKubBoxesController#destroy as HTML
+  Parameters: {"id"=>"36"}
+  [1m[35mGreenKubBox Load (0.5ms)[0m  SELECT  `green_kub_boxes`.* FROM `green_kub_boxes` WHERE `green_kub_boxes`.`id` = 36 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM `green_kub_boxes` WHERE `green_kub_boxes`.`id` = 36
+  [1m[36m (40.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://test.host/green_kub_boxes
+Completed 302 Found in 44ms (ActiveRecord: 41.7ms)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Fernando', 'Rustic Cotton Bench', '2016-03-15 20:29:15', '2016-03-15 20:29:15')[0m
+  [1m[35m (36.5ms)[0m  COMMIT
+Processing by ModelsController#show as HTML
+  Parameters: {"id"=>"43"}
+  [1m[36mModel Load (0.5ms)[0m  [1mSELECT  `models`.* FROM `models` WHERE `models`.`id` = 43 LIMIT 1[0m
+  Rendered models/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Keanu', 'Enormous Leather Table', '2016-03-15 20:29:15', '2016-03-15 20:29:15')[0m
+  [1m[35m (38.0ms)[0m  COMMIT
+Processing by ModelsController#show as HTML
+  Parameters: {"id"=>"44"}
+  [1m[36mModel Load (0.4ms)[0m  [1mSELECT  `models`.* FROM `models` WHERE `models`.`id` = 44 LIMIT 1[0m
+  Rendered models/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.4ms)
+Processing by ModelsController#new as HTML
+  Rendered models/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+Processing by ModelsController#new as HTML
+  Rendered models/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Marshall', 'Mediocre Leather Table', '2016-03-15 20:29:15', '2016-03-15 20:29:15')[0m
+  [1m[35m (61.7ms)[0m  COMMIT
+Processing by ModelsController#edit as HTML
+  Parameters: {"id"=>"45"}
+  [1m[36mModel Load (0.6ms)[0m  [1mSELECT  `models`.* FROM `models` WHERE `models`.`id` = 45 LIMIT 1[0m
+  Rendered models/edit.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 0.6ms)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Estel', 'Synergistic Linen Coat', '2016-03-15 20:29:16', '2016-03-15 20:29:16')[0m
+  [1m[35m (43.0ms)[0m  COMMIT
+Processing by ModelsController#edit as HTML
+  Parameters: {"id"=>"46"}
+  [1m[36mModel Load (0.4ms)[0m  [1mSELECT  `models`.* FROM `models` WHERE `models`.`id` = 46 LIMIT 1[0m
+  Rendered models/edit.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.4ms)
+Processing by ModelsController#index as HTML
+  Rendered models/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Sister', 'Gorgeous Steel Hat', '2016-03-15 20:29:16', '2016-03-15 20:29:16')[0m
+  [1m[35m (76.1ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `models`[0m
+Processing by ModelsController#destroy as HTML
+  Parameters: {"id"=>"47"}
+  [1m[35mModel Load (0.5ms)[0m  SELECT  `models`.* FROM `models` WHERE `models`.`id` = 47 LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  DELETE FROM `models` WHERE `models`.`id` = 47
+  [1m[36m (80.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://test.host/models
+Completed 302 Found in 85ms (ActiveRecord: 81.8ms)
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM `models`
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Keyshawn', 'Ergonomic Linen Watch', '2016-03-15 20:29:16', '2016-03-15 20:29:16')
+  [1m[36m (37.2ms)[0m  [1mCOMMIT[0m
+Processing by ModelsController#destroy as HTML
+  Parameters: {"id"=>"48"}
+  [1m[35mModel Load (0.6ms)[0m  SELECT  `models`.* FROM `models` WHERE `models`.`id` = 48 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  DELETE FROM `models` WHERE `models`.`id` = 48
+  [1m[36m (39.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://test.host/models
+Completed 302 Found in 43ms (ActiveRecord: 40.2ms)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `sensor_types` (`name`, `caracteristics`, `unit`, `created_at`, `updated_at`) VALUES ('Ola', 'Fantastic Marble Keyboard', 'AX', '2016-03-15 20:29:16', '2016-03-15 20:29:16')[0m
+  [1m[35m (46.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Aliza', 'Awesome Copper Clock', '2016-03-15 20:29:16', '2016-03-15 20:29:16')
+  [1m[36m (61.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'valerie_koelpin@abernathykunde.biz' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('valerie_koelpin@abernathykunde.biz', '$2a$04$fUYRYRBxLlnclRWUWgBehuberGXqh2BcNFpwdlj376WVnGpSLAaNC', '2016-03-15 20:29:16', '2016-03-15 20:29:16')
+  [1m[36m (35.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Sean', 49, 37, '2016-03-15 20:29:16', '2016-03-15 20:29:16')[0m
+  [1m[35m (40.9ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `sensors` (`ref`, `sensor_type_id`, `green_kub_box_id`, `created_at`, `updated_at`) VALUES ('Howard', 19, 37, '2016-03-15 20:29:16', '2016-03-15 20:29:16')
+  [1m[36m (41.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `sensor_actuator_infos` (`value`, `date`, `sensor_id`, `created_at`, `updated_at`) VALUES (927254, '2016-03-14', 13, '2016-03-15 20:29:16', '2016-03-15 20:29:16')[0m
+  [1m[35m (38.8ms)[0m  COMMIT
+Processing by SensorActuatorInfosController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mSensorActuatorInfo Load (0.4ms)[0m  [1mSELECT  `sensor_actuator_infos`.* FROM `sensor_actuator_infos` WHERE `sensor_actuator_infos`.`id` = 7 LIMIT 1[0m
+  Rendered sensor_actuator_infos/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 11ms (Views: 7.8ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `sensor_types` (`name`, `caracteristics`, `unit`, `created_at`, `updated_at`) VALUES ('Gretchen', 'Fantastic Bronze Watch', 'BW', '2016-03-15 20:29:16', '2016-03-15 20:29:16')[0m
+  [1m[35m (46.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Arnold', 'Aerodynamic Wool Table', '2016-03-15 20:29:16', '2016-03-15 20:29:16')
+  [1m[36m (40.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'kameron_koepp@feestschamberger.org' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('kameron_koepp@feestschamberger.org', '$2a$04$Dr5wwEJAcqo/oL69g7TPRu1aqwAA4/IhBG80m490PilSt16cKiuRu', '2016-03-15 20:29:16', '2016-03-15 20:29:16')
+  [1m[36m (46.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Missouri', 50, 38, '2016-03-15 20:29:16', '2016-03-15 20:29:16')[0m
+  [1m[35m (41.8ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `sensors` (`ref`, `sensor_type_id`, `green_kub_box_id`, `created_at`, `updated_at`) VALUES ('Damaris', 20, 38, '2016-03-15 20:29:16', '2016-03-15 20:29:16')
+  [1m[36m (40.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `sensor_actuator_infos` (`value`, `date`, `sensor_id`, `created_at`, `updated_at`) VALUES (927254, '2016-03-14', 14, '2016-03-15 20:29:16', '2016-03-15 20:29:16')[0m
+  [1m[35m (106.1ms)[0m  COMMIT
+Processing by SensorActuatorInfosController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mSensorActuatorInfo Load (0.5ms)[0m  [1mSELECT  `sensor_actuator_infos`.* FROM `sensor_actuator_infos` WHERE `sensor_actuator_infos`.`id` = 8 LIMIT 1[0m
+  Rendered sensor_actuator_infos/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 12.1ms | ActiveRecord: 0.5ms)
+Processing by SensorActuatorInfosController#new as HTML
+  Rendered sensor_actuator_infos/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+Processing by SensorActuatorInfosController#new as HTML
+  Rendered sensor_actuator_infos/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `sensor_types` (`name`, `caracteristics`, `unit`, `created_at`, `updated_at`) VALUES ('Jamel', 'Intelligent Marble Coat', 'LU', '2016-03-15 20:29:17', '2016-03-15 20:29:17')[0m
+  [1m[35m (58.0ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Kelly', 'Practical Marble Lamp', '2016-03-15 20:29:17', '2016-03-15 20:29:17')
+  [1m[36m (40.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mUser Exists (0.7ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'fay.kuphal@moore.com' LIMIT 1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('fay.kuphal@moore.com', '$2a$04$dAkuK4E9CAEfE3ThJqTYxOehPSfPKd0Bno2EfsQPLbbV3JNcs84Ny', '2016-03-15 20:29:17', '2016-03-15 20:29:17')
+  [1m[36m (29.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Clementina', 51, 39, '2016-03-15 20:29:17', '2016-03-15 20:29:17')[0m
+  [1m[35m (62.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `sensors` (`ref`, `sensor_type_id`, `green_kub_box_id`, `created_at`, `updated_at`) VALUES ('Gretchen', 21, 39, '2016-03-15 20:29:17', '2016-03-15 20:29:17')
+  [1m[36m (28.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (21.0ms)[0m  [1mINSERT INTO `sensor_actuator_infos` (`value`, `date`, `sensor_id`, `created_at`, `updated_at`) VALUES (927254, '2016-03-14', 15, '2016-03-15 20:29:17', '2016-03-15 20:29:17')[0m
+  [1m[35m (42.3ms)[0m  COMMIT
+Processing by SensorActuatorInfosController#edit as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mSensorActuatorInfo Load (0.5ms)[0m  [1mSELECT  `sensor_actuator_infos`.* FROM `sensor_actuator_infos` WHERE `sensor_actuator_infos`.`id` = 9 LIMIT 1[0m
+  Rendered sensor_actuator_infos/edit.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `sensor_types` (`name`, `caracteristics`, `unit`, `created_at`, `updated_at`) VALUES ('Layla', 'Heavy Duty Aluminum Table', 'CD', '2016-03-15 20:29:17', '2016-03-15 20:29:17')[0m
+  [1m[35m (30.0ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Ellsworth', 'Synergistic Marble Keyboard', '2016-03-15 20:29:17', '2016-03-15 20:29:17')
+  [1m[36m (30.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'tristian.wiza@stanton.info' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('tristian.wiza@stanton.info', '$2a$04$R8i6DXYuEA7NZUWP2rZ4j.r2VSrceSS9Tby.GrhgYhKf14G6A5di2', '2016-03-15 20:29:17', '2016-03-15 20:29:17')
+  [1m[36m (90.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Sienna', 52, 40, '2016-03-15 20:29:17', '2016-03-15 20:29:17')[0m
+  [1m[35m (40.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `sensors` (`ref`, `sensor_type_id`, `green_kub_box_id`, `created_at`, `updated_at`) VALUES ('Bradley', 22, 40, '2016-03-15 20:29:17', '2016-03-15 20:29:17')
+  [1m[36m (40.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `sensor_actuator_infos` (`value`, `date`, `sensor_id`, `created_at`, `updated_at`) VALUES (927254, '2016-03-14', 16, '2016-03-15 20:29:17', '2016-03-15 20:29:17')[0m
+  [1m[35m (29.2ms)[0m  COMMIT
+Processing by SensorActuatorInfosController#edit as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mSensorActuatorInfo Load (0.5ms)[0m  [1mSELECT  `sensor_actuator_infos`.* FROM `sensor_actuator_infos` WHERE `sensor_actuator_infos`.`id` = 10 LIMIT 1[0m
+  Rendered sensor_actuator_infos/edit.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.5ms)
+Processing by SensorActuatorInfosController#index as HTML
+  Rendered sensor_actuator_infos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (22.6ms)[0m  [1mINSERT INTO `sensor_types` (`name`, `caracteristics`, `unit`, `created_at`, `updated_at`) VALUES ('Berta', 'Mediocre Granite Computer', 'EE', '2016-03-15 20:29:17', '2016-03-15 20:29:17')[0m
+  [1m[35m (78.7ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Kenya', 'Rustic Leather Shoes', '2016-03-15 20:29:17', '2016-03-15 20:29:17')
+  [1m[36m (40.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'macie@gislason.info' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('macie@gislason.info', '$2a$04$L9f74nvvQmlqhLjikdHOEOr9X6enXIXGhXEcEJ.gg/i2UbbtbaGx.', '2016-03-15 20:29:17', '2016-03-15 20:29:17')
+  [1m[36m (35.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Casimir', 53, 41, '2016-03-15 20:29:17', '2016-03-15 20:29:17')[0m
+  [1m[35m (41.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `sensors` (`ref`, `sensor_type_id`, `green_kub_box_id`, `created_at`, `updated_at`) VALUES ('Emmalee', 23, 41, '2016-03-15 20:29:17', '2016-03-15 20:29:17')
+  [1m[36m (41.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `sensor_actuator_infos` (`value`, `date`, `sensor_id`, `created_at`, `updated_at`) VALUES (927254, '2016-03-14', 17, '2016-03-15 20:29:17', '2016-03-15 20:29:17')[0m
+  [1m[35m (130.2ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `sensor_actuator_infos`[0m
+Processing by SensorActuatorInfosController#destroy as HTML
+  Parameters: {"id"=>"11"}
+  [1m[35mSensorActuatorInfo Load (0.4ms)[0m  SELECT  `sensor_actuator_infos`.* FROM `sensor_actuator_infos` WHERE `sensor_actuator_infos`.`id` = 11 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM `sensor_actuator_infos` WHERE `sensor_actuator_infos`.`id` = 11
+  [1m[36m (37.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://test.host/sensor_actuator_infos
+Completed 302 Found in 41ms (ActiveRecord: 38.2ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `sensor_actuator_infos`
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `sensor_types` (`name`, `caracteristics`, `unit`, `created_at`, `updated_at`) VALUES ('Isabel', 'Incredible Concrete Clock', 'MD', '2016-03-15 20:29:18', '2016-03-15 20:29:18')
+  [1m[36m (125.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (25.2ms)[0m  [1mINSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Julio', 'Ergonomic Leather Hat', '2016-03-15 20:29:18', '2016-03-15 20:29:18')[0m
+  [1m[35m (48.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.4ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'opal_walter@deckow.net' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('opal_walter@deckow.net', '$2a$04$X91Kn28/P8ijh5XRNtTsveDWf694fG8vefNiEnlg1W8Wv3F5a4OyO', '2016-03-15 20:29:18', '2016-03-15 20:29:18')[0m
+  [1m[35m (46.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Melyna', 54, 42, '2016-03-15 20:29:18', '2016-03-15 20:29:18')
+  [1m[36m (41.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `sensors` (`ref`, `sensor_type_id`, `green_kub_box_id`, `created_at`, `updated_at`) VALUES ('Giovanna', 24, 42, '2016-03-15 20:29:18', '2016-03-15 20:29:18')[0m
+  [1m[35m (40.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `sensor_actuator_infos` (`value`, `date`, `sensor_id`, `created_at`, `updated_at`) VALUES (927254, '2016-03-14', 18, '2016-03-15 20:29:18', '2016-03-15 20:29:18')
+  [1m[36m (41.2ms)[0m  [1mCOMMIT[0m
+Processing by SensorActuatorInfosController#destroy as HTML
+  Parameters: {"id"=>"12"}
+  [1m[35mSensorActuatorInfo Load (0.4ms)[0m  SELECT  `sensor_actuator_infos`.* FROM `sensor_actuator_infos` WHERE `sensor_actuator_infos`.`id` = 12 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  DELETE FROM `sensor_actuator_infos` WHERE `sensor_actuator_infos`.`id` = 12
+  [1m[36m (53.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://test.host/sensor_actuator_infos
+Completed 302 Found in 57ms (ActiveRecord: 54.5ms)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `sensor_types` (`name`, `caracteristics`, `unit`, `created_at`, `updated_at`) VALUES ('Robin', 'Mediocre Bronze Chair', 'SJ', '2016-03-15 20:29:18', '2016-03-15 20:29:18')[0m
+  [1m[35m (46.7ms)[0m  COMMIT
+Processing by SensorTypesController#show as HTML
+  Parameters: {"id"=>"25"}
+  [1m[36mSensorType Load (0.4ms)[0m  [1mSELECT  `sensor_types`.* FROM `sensor_types` WHERE `sensor_types`.`id` = 25 LIMIT 1[0m
+  Rendered sensor_types/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 8ms (Views: 6.1ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `sensor_types` (`name`, `caracteristics`, `unit`, `created_at`, `updated_at`) VALUES ('Delaney', 'Small Iron Lamp', 'VN', '2016-03-15 20:29:18', '2016-03-15 20:29:18')[0m
+  [1m[35m (39.1ms)[0m  COMMIT
+Processing by SensorTypesController#show as HTML
+  Parameters: {"id"=>"26"}
+  [1m[36mSensorType Load (0.4ms)[0m  [1mSELECT  `sensor_types`.* FROM `sensor_types` WHERE `sensor_types`.`id` = 26 LIMIT 1[0m
+  Rendered sensor_types/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.4ms)
+Processing by SensorTypesController#new as HTML
+  Rendered sensor_types/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+Processing by SensorTypesController#new as HTML
+  Rendered sensor_types/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `sensor_types` (`name`, `caracteristics`, `unit`, `created_at`, `updated_at`) VALUES ('Oceane', 'Ergonomic Granite Pants', 'BD', '2016-03-15 20:29:18', '2016-03-15 20:29:18')[0m
+  [1m[35m (36.4ms)[0m  COMMIT
+Processing by SensorTypesController#edit as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mSensorType Load (0.4ms)[0m  [1mSELECT  `sensor_types`.* FROM `sensor_types` WHERE `sensor_types`.`id` = 27 LIMIT 1[0m
+  Rendered sensor_types/edit.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 2.1ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `sensor_types` (`name`, `caracteristics`, `unit`, `created_at`, `updated_at`) VALUES ('Tina', 'Awesome Bronze Pants', 'GL', '2016-03-15 20:29:18', '2016-03-15 20:29:18')[0m
+  [1m[35m (46.3ms)[0m  COMMIT
+Processing by SensorTypesController#edit as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mSensorType Load (0.3ms)[0m  [1mSELECT  `sensor_types`.* FROM `sensor_types` WHERE `sensor_types`.`id` = 28 LIMIT 1[0m
+  Rendered sensor_types/edit.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.3ms)
+Processing by SensorTypesController#index as HTML
+  Rendered sensor_types/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `sensor_types` (`name`, `caracteristics`, `unit`, `created_at`, `updated_at`) VALUES ('Ladarius', 'Durable Linen Knife', 'SZ', '2016-03-15 20:29:18', '2016-03-15 20:29:18')[0m
+  [1m[35m (45.4ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `sensor_types`[0m
+Processing by SensorTypesController#destroy as HTML
+  Parameters: {"id"=>"29"}
+  [1m[35mSensorType Load (0.2ms)[0m  SELECT  `sensor_types`.* FROM `sensor_types` WHERE `sensor_types`.`id` = 29 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  DELETE FROM `sensor_types` WHERE `sensor_types`.`id` = 29
+  [1m[36m (73.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://test.host/sensor_types
+Completed 302 Found in 76ms (ActiveRecord: 74.2ms)
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `sensor_types`
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `sensor_types` (`name`, `caracteristics`, `unit`, `created_at`, `updated_at`) VALUES ('Barney', 'Mediocre Marble Lamp', 'LC', '2016-03-15 20:29:18', '2016-03-15 20:29:18')
+  [1m[36m (36.3ms)[0m  [1mCOMMIT[0m
+Processing by SensorTypesController#destroy as HTML
+  Parameters: {"id"=>"30"}
+  [1m[35mSensorType Load (0.4ms)[0m  SELECT  `sensor_types`.* FROM `sensor_types` WHERE `sensor_types`.`id` = 30 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (26.0ms)[0m  DELETE FROM `sensor_types` WHERE `sensor_types`.`id` = 30
+  [1m[36m (69.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://test.host/sensor_types
+Completed 302 Found in 99ms (ActiveRecord: 96.2ms)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `sensor_types` (`name`, `caracteristics`, `unit`, `created_at`, `updated_at`) VALUES ('Shemar', 'Small Granite Table', 'NI', '2016-03-15 20:29:19', '2016-03-15 20:29:19')[0m
+  [1m[35m (38.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Kamron', 'Synergistic Concrete Shoes', '2016-03-15 20:29:19', '2016-03-15 20:29:19')
+  [1m[36m (39.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'otha@osinskimurphy.info' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('otha@osinskimurphy.info', '$2a$04$clgv//aJt/kVk5wd8qRqw.y2YbfLG1/rRYlMg9doUsLw2kiTPoyBi', '2016-03-15 20:29:19', '2016-03-15 20:29:19')
+  [1m[36m (36.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Junius', 55, 43, '2016-03-15 20:29:19', '2016-03-15 20:29:19')[0m
+  [1m[35m (41.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `sensors` (`ref`, `sensor_type_id`, `green_kub_box_id`, `created_at`, `updated_at`) VALUES ('Einar', 31, 43, '2016-03-15 20:29:19', '2016-03-15 20:29:19')
+  [1m[36m (42.1ms)[0m  [1mCOMMIT[0m
+Processing by SensorsController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[35mSensor Load (0.4ms)[0m  SELECT  `sensors`.* FROM `sensors` WHERE `sensors`.`id` = 19 LIMIT 1
+  Rendered sensors/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.4ms)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `sensor_types` (`name`, `caracteristics`, `unit`, `created_at`, `updated_at`) VALUES ('Ernestine', 'Gorgeous Steel Knife', 'KN', '2016-03-15 20:29:19', '2016-03-15 20:29:19')
+  [1m[36m (36.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Kelly', 'Durable Steel Watch', '2016-03-15 20:29:19', '2016-03-15 20:29:19')[0m
+  [1m[35m (40.8ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'sigmund@turner.io' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('sigmund@turner.io', '$2a$04$3neBy1y7/eZwzTwPMVGrjOzfMg/6hE/wtADDF3DkrAnHhYLtibi0i', '2016-03-15 20:29:19', '2016-03-15 20:29:19')[0m
+  [1m[35m (42.1ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Rubie', 56, 44, '2016-03-15 20:29:19', '2016-03-15 20:29:19')
+  [1m[36m (42.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `sensors` (`ref`, `sensor_type_id`, `green_kub_box_id`, `created_at`, `updated_at`) VALUES ('Kenton', 32, 44, '2016-03-15 20:29:19', '2016-03-15 20:29:19')[0m
+  [1m[35m (42.1ms)[0m  COMMIT
+Processing by SensorsController#show as HTML
+  Parameters: {"id"=>"20"}
+  [1m[36mSensor Load (0.5ms)[0m  [1mSELECT  `sensors`.* FROM `sensors` WHERE `sensors`.`id` = 20 LIMIT 1[0m
+  Rendered sensors/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.5ms)
+Processing by SensorsController#new as HTML
+  Rendered sensors/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+Processing by SensorsController#new as HTML
+  Rendered sensors/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `sensor_types` (`name`, `caracteristics`, `unit`, `created_at`, `updated_at`) VALUES ('Jed', 'Practical Bronze Bottle', 'LT', '2016-03-15 20:29:19', '2016-03-15 20:29:19')[0m
+  [1m[35m (35.8ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Minerva', 'Fantastic Linen Keyboard', '2016-03-15 20:29:19', '2016-03-15 20:29:19')
+  [1m[36m (41.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'cedrick@jast.io' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('cedrick@jast.io', '$2a$04$wOvMqVEYidKxRqa/wVV/B.K0I/vgq./Wetz4QtZIXEFBQomLrhcAm', '2016-03-15 20:29:19', '2016-03-15 20:29:19')
+  [1m[36m (45.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Hubert', 57, 45, '2016-03-15 20:29:19', '2016-03-15 20:29:19')[0m
+  [1m[35m (42.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `sensors` (`ref`, `sensor_type_id`, `green_kub_box_id`, `created_at`, `updated_at`) VALUES ('Dagmar', 33, 45, '2016-03-15 20:29:19', '2016-03-15 20:29:19')
+  [1m[36m (41.9ms)[0m  [1mCOMMIT[0m
+Processing by SensorsController#edit as HTML
+  Parameters: {"id"=>"21"}
+  [1m[35mSensor Load (0.3ms)[0m  SELECT  `sensors`.* FROM `sensors` WHERE `sensors`.`id` = 21 LIMIT 1
+  Rendered sensors/edit.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `sensor_types` (`name`, `caracteristics`, `unit`, `created_at`, `updated_at`) VALUES ('Calista', 'Durable Paper Hat', 'AW', '2016-03-15 20:29:19', '2016-03-15 20:29:19')
+  [1m[36m (45.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Mayra', 'Rustic Wool Wallet', '2016-03-15 20:29:19', '2016-03-15 20:29:19')[0m
+  [1m[35m (41.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.6ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'marcelo.hauck@kuhic.name' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('marcelo.hauck@kuhic.name', '$2a$04$F9B4qExZhQ7MuwHsql7zNOHSpSuFC4IDSD4zZ/QzaIVfebU0BN7Ee', '2016-03-15 20:29:19', '2016-03-15 20:29:19')[0m
+  [1m[35m (35.5ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Genesis', 58, 46, '2016-03-15 20:29:19', '2016-03-15 20:29:19')
+  [1m[36m (30.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `sensors` (`ref`, `sensor_type_id`, `green_kub_box_id`, `created_at`, `updated_at`) VALUES ('Heber', 34, 46, '2016-03-15 20:29:20', '2016-03-15 20:29:20')[0m
+  [1m[35m (30.8ms)[0m  COMMIT
+Processing by SensorsController#edit as HTML
+  Parameters: {"id"=>"22"}
+  [1m[36mSensor Load (0.4ms)[0m  [1mSELECT  `sensors`.* FROM `sensors` WHERE `sensors`.`id` = 22 LIMIT 1[0m
+  Rendered sensors/edit.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.4ms)
+Processing by SensorsController#index as HTML
+  Rendered sensors/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (20.8ms)[0m  [1mINSERT INTO `sensor_types` (`name`, `caracteristics`, `unit`, `created_at`, `updated_at`) VALUES ('Christine', 'Rustic Wool Plate', 'SE', '2016-03-15 20:29:20', '2016-03-15 20:29:20')[0m
+  [1m[35m (54.9ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Catalina', 'Practical Paper Computer', '2016-03-15 20:29:20', '2016-03-15 20:29:20')
+  [1m[36m (40.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'isabel@satterfield.net' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('isabel@satterfield.net', '$2a$04$frNR5I.MRC.pBuEump8MReIgMn48ShuWJefsOhyEawdYDcJQtHgYy', '2016-03-15 20:29:20', '2016-03-15 20:29:20')
+  [1m[36m (26.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Rachael', 59, 47, '2016-03-15 20:29:20', '2016-03-15 20:29:20')[0m
+  [1m[35m (31.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `sensors` (`ref`, `sensor_type_id`, `green_kub_box_id`, `created_at`, `updated_at`) VALUES ('Lonzo', 35, 47, '2016-03-15 20:29:20', '2016-03-15 20:29:20')
+  [1m[36m (27.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `sensors`
+Processing by SensorsController#destroy as HTML
+  Parameters: {"id"=>"23"}
+  [1m[36mSensor Load (0.3ms)[0m  [1mSELECT  `sensors`.* FROM `sensors` WHERE `sensors`.`id` = 23 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM `sensors` WHERE `sensors`.`id` = 23[0m
+  [1m[35m (73.3ms)[0m  COMMIT
+Redirected to http://test.host/sensors
+Completed 302 Found in 76ms (ActiveRecord: 73.9ms)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `sensors`[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `sensor_types` (`name`, `caracteristics`, `unit`, `created_at`, `updated_at`) VALUES ('Trent', 'Rustic Granite Shoes', 'SH', '2016-03-15 20:29:20', '2016-03-15 20:29:20')[0m
+  [1m[35m (36.3ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `models` (`name`, `caracteristics`, `created_at`, `updated_at`) VALUES ('Arely', 'Durable Bronze Knife', '2016-03-15 20:29:20', '2016-03-15 20:29:20')
+  [1m[36m (30.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'cooper@cormier.io' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `users` (`email`, `encrypted_password`, `created_at`, `updated_at`) VALUES ('cooper@cormier.io', '$2a$04$7yrPWarBedAeu6dDgem68ePoONzDPz2nFr.o4QrGXrHLPQbs5XIuK', '2016-03-15 20:29:20', '2016-03-15 20:29:20')
+  [1m[36m (35.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `green_kub_boxes` (`Serial_Number`, `model_id`, `user_id`, `created_at`, `updated_at`) VALUES ('Velva', 60, 48, '2016-03-15 20:29:20', '2016-03-15 20:29:20')[0m
+  [1m[35m (41.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `sensors` (`ref`, `sensor_type_id`, `green_kub_box_id`, `created_at`, `updated_at`) VALUES ('Hilario', 36, 48, '2016-03-15 20:29:20', '2016-03-15 20:29:20')
+  [1m[36m (41.9ms)[0m  [1mCOMMIT[0m
+Processing by SensorsController#destroy as HTML
+  Parameters: {"id"=>"24"}
+  [1m[35mSensor Load (0.4ms)[0m  SELECT  `sensors`.* FROM `sensors` WHERE `sensors`.`id` = 24 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  DELETE FROM `sensors` WHERE `sensors`.`id` = 24
+  [1m[36m (83.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://test.host/sensors
+Completed 302 Found in 87ms (ActiveRecord: 83.9ms)
+Processing by SessionsController#create as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+Processing by SessionsController#destroy as HTML
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)

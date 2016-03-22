@@ -5,7 +5,11 @@
   # GET /green_kub_boxes.json
   def index
     #faz o display de todos os utilizadores para o user em sessão
-    @green_kub_boxes = GreenKubBox.where(:user_id => session[:user_id])
+    if(session[:isAdmin])
+      @green_kub_boxes = GreenKubBox.all
+    else
+      @green_kub_boxes = GreenKubBox.where(:user_id => session[:user_id])
+    end
   end
 
   # GET /green_kub_boxes/1
