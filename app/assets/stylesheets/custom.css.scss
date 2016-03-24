@@ -83,8 +83,14 @@ footer ul li {
     font-family: "Helvetica Narrow", sans-serif;
     padding-top: 60px;
     padding-bottom: 50px;
-
+    float: right;
+    margin-right: 18px; /*set margin this way in your custom styesheet*/
 }
-
+.dropdown-menu li a {
+  font-size: 1.3em;
+  font-family: "Helvetica Narrow", sans-serif;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
 
 
