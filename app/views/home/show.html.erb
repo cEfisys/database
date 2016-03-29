@@ -1,3 +1,10 @@
+<div class="container-full">
+  <div class="row">
+    <%=image_tag("1920-x-1250.jpg", alt: "Edit Entry", :class=> "image-size")%>
+
+  </div>
+</div>
+<div class="page-header">
 <h1>Home#show</h1>
 <p>Find me in app/views/home/show.html.erb</p>
 <p>
@@ -8,16 +15,32 @@
   <b>email:</b>
   <%= session[:email] if session[:email]%>
 </p>
+
+  </div>
 <div class="page-header", id="homeSection">
   <h1>Home</h1>
-<%= render 'layouts/content' %>
+<%= render 'home/content' %>
   </div>
-
 <div class="page-header", id="aboutSection">
   <h1>About</h1>
-<%= render 'layouts/content1' %>
+<%= render 'home/content1' %>
 </div>
 <div class="page-header", id="teamSection">
   <h1>Team</h1>
-<%= render 'layouts/content2' %>
+<%= render 'home/content2' %>
  </div>
+<div class="container-fluid"> <!-- Adds 15px left/right padding -->
+  <div class="row"> <!-- Adds -15px left/right margins -->
+    <div>
+      <!-- Full-width content -->
+      <h1>Section 1</h1>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+      <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+
+
+    </div>
+  </div>
+</div>
+<button type="button" id="gototop" data-loading-text="Loading..." class="btn btn-primary" autocomplete="off">
+  Loading state
+</button>

@@ -12,17 +12,11 @@
 //
 //= require jquery
 //= require jquery_ujs
+//=require jquery.nav
 //= require twitter/bootstrap
 //= require turbolinks
 //= require bootstrap
 //= require bootstrap-select
 //= require bootstrap/alert
 //= require bootstrap/dropdown
-//=require jquery.nav
 //= require_tree .
-//$('#top-nav').onePageNav({
-//	currentClass: 'active',
-//	changeHash: true,
-//	scrollSpeed: 750
-//
-//});
