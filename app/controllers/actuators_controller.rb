@@ -4,7 +4,12 @@ class ActuatorsController < ApplicationController
   # GET /actuators
   # GET /actuators.json
   def index
-    @actuators = Actuator.all
+    if(session[:isAdmin])
+      @actuators = Actuator.all
+    else
+      @actuators = Actuator.green_kub_box.where(:user_id => current_user)
+    end
+
   end
 
   # GET /actuators/1

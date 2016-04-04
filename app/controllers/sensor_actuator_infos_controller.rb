@@ -4,7 +4,12 @@ class SensorActuatorInfosController < ApplicationController
   # GET /sensor_actuator_infos
   # GET /sensor_actuator_infos.json
   def index
-    @sensor_actuator_infos = SensorActuatorInfo.all
+    if(session[:isAdmin])
+      @sensor_actuator_infos = SensorActuatorInfo.all
+    else
+      @sensor_actuator_infos = SensorActuatorInfo.sensor.green_kub_box.where(:user_id => current_user)
+    end
+
   end
 
   # GET /sensor_actuator_infos/1

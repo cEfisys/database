@@ -4,7 +4,11 @@ class SensorsController < ApplicationController
   # GET /sensors
   # GET /sensors.json
   def index
-    @sensors = Sensor.all
+    if(session[:isAdmin])
+      @sensors = Sensor.all
+    else
+      @sensors = Sensor.green_kub_box.where(:user_id => current_user)
+    end
   end
 
   # GET /sensors/1

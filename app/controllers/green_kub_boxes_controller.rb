@@ -8,7 +8,7 @@
     if(session[:isAdmin])
       @green_kub_boxes = GreenKubBox.all
     else
-      @green_kub_boxes = GreenKubBox.where(:user_id => session[:user_id])
+      @green_kub_boxes = GreenKubBox.where(:user_id => current_user)
     end
   end
 
@@ -21,7 +21,6 @@
   def new
     #cria uma greenbox para o utilizador em questão
     @green_kub_box = GreenKubBox.new
-    @green_kub_box.user_id = session[:user_id]
   end
 
   # GET /green_kub_boxes/1/edit
@@ -32,6 +31,9 @@
   # POST /green_kub_boxes.json
   def create
     @green_kub_box = GreenKubBox.new(green_kub_box_params)
+    if @green_kub_box.user_id.nil?
+      @green_kub_box.user_id = current_user.id
+    end
 
     respond_to do |format|
       if @green_kub_box.save
