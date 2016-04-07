@@ -1,5 +1,6 @@
 class ActuatorTypesController < ApplicationController
   before_action :set_actuator_type, only: [:show, :edit, :update, :destroy]
+  before_action :logged_in_user
 
   # GET /actuator_types
   # GET /actuator_types.json

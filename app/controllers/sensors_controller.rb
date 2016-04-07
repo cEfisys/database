@@ -1,10 +1,11 @@
 class SensorsController < ApplicationController
   before_action :set_sensor, only: [:show, :edit, :update, :destroy]
+  before_action :logged_in_user
 
   # GET /sensors
   # GET /sensors.json
   def index
-    if(session[:isAdmin])
+    if(current_user.isAdmin)
       @sensors = Sensor.all
     else
       @sensors = Sensor.green_kub_box.where(:user_id => current_user)

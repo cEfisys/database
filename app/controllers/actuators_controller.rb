@@ -1,10 +1,11 @@
 class ActuatorsController < ApplicationController
   before_action :set_actuator, only: [:show, :edit, :update, :destroy]
+  before_action :logged_in_user
 
   # GET /actuators
   # GET /actuators.json
   def index
-    if(session[:isAdmin])
+    if(current_user.isAdmin)
       @actuators = Actuator.all
     else
       @actuators = Actuator.green_kub_box.where(:user_id => current_user)

@@ -1,5 +1,6 @@
 class SensorTypesController < ApplicationController
   before_action :set_sensor_type, only: [:show, :edit, :update, :destroy]
+  before_action :logged_in_user
 
   # GET /sensor_types
   # GET /sensor_types.json

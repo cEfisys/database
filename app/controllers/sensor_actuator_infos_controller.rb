@@ -1,10 +1,11 @@
 class SensorActuatorInfosController < ApplicationController
   before_action :set_sensor_actuator_info, only: [:show, :edit, :update, :destroy]
+  before_action :logged_in_user
 
   # GET /sensor_actuator_infos
   # GET /sensor_actuator_infos.json
   def index
-    if(session[:isAdmin])
+    if(current_user.isAdmin)
       @sensor_actuator_infos = SensorActuatorInfo.all
     else
       @sensor_actuator_infos = SensorActuatorInfo.sensor.green_kub_box.where(:user_id => current_user)
