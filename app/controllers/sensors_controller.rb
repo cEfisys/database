@@ -8,7 +8,8 @@ class SensorsController < ApplicationController
     if(current_user.isAdmin)
       @sensors = Sensor.all
     else
-      @sensors = Sensor.green_kub_box.where(:user_id => current_user)
+      green_kubs =
+      @sensors = Sensor.where(:green_kub_box_id => GreenKubBox.where(:user_id => current_user))
     end
   end
 
