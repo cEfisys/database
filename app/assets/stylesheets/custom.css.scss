@@ -3,14 +3,14 @@
 
 /* universal */
 
-
+/*
 body {
-  padding-top: 130px;
+  padding-top: 10px;
 }
 
 section {
   overflow: auto;
-}
+}*/
 
 textarea {
   resize: vertical;
@@ -24,7 +24,12 @@ textarea {
   margin-bottom: 10px;
 }
 
-
+/*
+to remove the background when scrolling down
+.navbar {
+  background: none;
+}
+*/
 
 /* footer */
 
@@ -57,9 +62,9 @@ footer ul li {
   margin-left: 15px;
 }
 
-/* header */
+/* header*/
 
-.navbar-brand {height: 130px;}
+.navbar-brand {height: 10px;}
 
 #logo:hover {
   color: #fff;
@@ -84,7 +89,7 @@ footer ul li {
     padding-top: 60px;
     padding-bottom: 50px;
     float: right;
-    margin-right: 18px; /*set margin this way in your custom styesheet*/
+    margin-right: 18px; /*set margin this way in your custom styesheet)*/
 }
 .dropdown-menu li a {
   font-size: 1.3em;
@@ -92,5 +97,7 @@ footer ul li {
   padding-top: 30px;
   padding-bottom: 10px;
 }
+
+
 
 

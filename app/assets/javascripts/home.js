@@ -11,16 +11,45 @@
 //        },5000)
 //    })
 //}
-$('body').scrollspy({ target: '#navbar-example',duration:1000 })
-/* my "Go To Top" link element */
-var link = document.id('gototop');
-/* scrollspy instance */
-var ss = new ScrollSpy({
-    min: 300,
-    onEnter: function() {
-        link.fade('in'); //show the "Go To Top" link
-    },
-    onLeave: function() {
-        link.fade('out'); //hide the "Go To Top" link
+//$('body').scrollspy({ target: '#navbar-example',duration:10 })
+/*$('[data-spy="scroll"]').each(function () {
+    var $spy = $(this).scrollspy('refresh')
+})*/
+/*$('#nav').onePageNav({
+    currentClass: 'current',
+    changeHash: false,
+    scrollSpeed: 750
+ });
+
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 50) {
+    $('nav').addClass('shrink');
+  } else {
+    $('nav').removeClass('shrink');
+  }
+});
+
+ /*
+  **********************************************************
+  * OPAQUE NAVBAR SCRIPT
+  **********************************************************
+  */
+
+  // Toggle tranparent navbar when the user scrolls the page
+
+  /*
+  **********************************************************
+  * OPAQUE NAVBAR SCRIPT
+  **********************************************************
+  */
+
+  // Toggle tranparent navbar when the user scrolls the page
+
+  $(window).scroll(function() {
+    if($(this).scrollTop() > 50)  /*height in pixels when the navbar becomes non opaque*/ 
+    {
+        $('.opaque-navbar').addClass('opaque');
+    } else {
+        $('.opaque-navbar').removeClass('opaque');
     }
 });

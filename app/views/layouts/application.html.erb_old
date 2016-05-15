@@ -12,12 +12,12 @@
 <!--<body>
 
 <body data-spy="scroll" data-target="#navbar-example">-->
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<!--<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">-->
 <!--</body>-->
+<!--<%= render 'layouts/header' %>-->
 
 
-
-
+<div class="container">
 
 <%= yield %>
   <div class="container-fluid">
@@ -32,6 +32,7 @@
   </div>
   <%= render 'layouts/footer' %>
 
+</div>
 
 </body>
 </html>

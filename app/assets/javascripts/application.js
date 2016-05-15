@@ -12,11 +12,20 @@
 //
 //= require jquery
 //= require jquery_ujs
-//=require jquery.nav
+//= require jquery.nav
 //= require twitter/bootstrap
 //= require turbolinks
 //= require bootstrap
 //= require bootstrap-select
 //= require bootstrap/alert
 //= require bootstrap/dropdown
+//= require jquery.easing.min.js
+//= require jquery.nav.js
 //= require_tree .
+/*$('body').scrollspy({ target: '#navbar-example',duration:10 })
+$('#navbar-example').onePageNav({
+    currentClass: 'current',
+    changeHash: false,
+    scrollSpeed: 750
+ });*/
+
