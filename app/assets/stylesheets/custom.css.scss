@@ -66,11 +66,18 @@ footer ul li {
 
 .navbar-brand {height: 10px;}
 
+.navbar-default{
+background-color: transparent;
+border-color: none;
+}
 #logo:hover {
   color: #fff;
   text-decoration: none;
 }
-
+.navbar{
+  border:transparent;
+  
+}
 
 /* Align form center*/
 .form-group {
@@ -86,8 +93,9 @@ footer ul li {
 .navbar-nav li a {
     font-size: 1.3em;
     font-family: "Helvetica Narrow", sans-serif;
-    padding-top: 60px;
+    padding-top: 50px;
     padding-bottom: 50px;
+    margin-top: -60px;
     float: right;
     margin-right: 18px; /*set margin this way in your custom styesheet)*/
 }
@@ -97,7 +105,6 @@ footer ul li {
   padding-top: 30px;
   padding-bottom: 10px;
 }
-
 
 
 
