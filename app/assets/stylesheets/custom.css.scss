@@ -24,12 +24,11 @@ textarea {
   margin-bottom: 10px;
 }
 
-/*
-to remove the background when scrolling down
+
 .navbar {
-  background: none;
+  min-height: 14%;
+  padding: 2.5% 0;
 }
-*/
 
 /* footer */
 
@@ -93,9 +92,9 @@ border-color: none;
 .navbar-nav li a {
     font-size: 1.3em;
     font-family: "Helvetica Narrow", sans-serif;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-top: -60px;
+    padding-top: 30%;
+    padding-bottom: 20%;
+    margin-top: -40%;
     float: right;
     margin-right: 18px; /*set margin this way in your custom styesheet)*/
 }
