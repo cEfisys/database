@@ -17,7 +17,7 @@ html {
 @media(min-width:767px) {
     
 .navbar {
-        padding: 30% 0;
+        padding: 60% 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -40,7 +40,9 @@ html {
   margin-top:50px;
 }
 
-
+.navbar-nav active a{
+    background-color: none;
+}
 
 /***********************************************************************
 *  OPAQUE NAVBAR SECTION
@@ -48,15 +50,19 @@ html {
 .opaque-navbar {
     background-color: rgba(0,0,0,0.5);
   
-    height: 15%;
+    height: 5%;
     border-bottom: 0px;
     transition: background-color .5s ease 0s;
 }
 
 .opaque-navbar.opaque {
-    background-color: #eee;
-    height: 10%;
+/*    background-color: transparent;
+    height: 10%;*/
     transition: background-color .5s ease 0s;
+        height: 3rem;
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    box-shadow: 0 0.05rem 1rem rgba(0, 0, 0, 0.15) !important;
+
 }
 
 ul.dropdown-menu {

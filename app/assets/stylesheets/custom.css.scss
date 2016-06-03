@@ -26,7 +26,7 @@ textarea {
 
 
 .navbar {
-  min-height: 14%;
+  min-height: 10%;
   padding: 2.5% 0;
 }
 
@@ -77,6 +77,9 @@ border-color: none;
   border:transparent;
   
 }
+.navbar li a {
+  padding: 2% 5%;
+}
 
 /* Align form center*/
 .form-group {
@@ -93,7 +96,7 @@ border-color: none;
     font-size: 1.3em;
     font-family: "Helvetica Narrow", sans-serif;
     padding-top: 30%;
-    padding-bottom: 20%;
+    padding-bottom: 23.2%;
     margin-top: -40%;
     float: right;
     margin-right: 18px; /*set margin this way in your custom styesheet)*/
